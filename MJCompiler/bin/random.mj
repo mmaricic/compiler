@@ -1,0 +1,100 @@
+program Program
+	int iA;
+	const int icB = 2;
+
+	class O
+	{
+		bool b1;
+		int i1;
+		{
+			void setB1(bool b)
+			{
+				b1 = b;
+			}
+			O add(O o)
+			{
+				i1 = this.i1 + o.i1;
+				return this;
+			}
+			char mul(int i1, char i2)
+			{
+				this.i1 = i1*ord(i2);
+				i1 = 10;
+				return chr(this.i1);
+			}
+		}
+	}
+
+	class I1 extends O
+	{
+		int i2;
+		{
+			// does the same thing
+			I1 add(I1 i)
+			{
+				i1 = this.i1 + i.i1;
+				return this;
+			}
+		}
+	}
+
+	class I2 extends I1
+	{
+		int i3;
+		{
+			// does the same thing
+			I2 add(I2 i)
+			{
+				i1 = this.i1 + i.i1;
+				return this;
+			}
+		}
+	}
+
+	class B
+	{
+		char x;
+	}
+
+	class BB
+	{
+		B b[];
+	}
+
+	class BBB
+	{
+		BB bb;
+	}
+
+	BBB objB;
+
+	char x;
+
+	{
+		void main() O objO, objI1, objI2, oT; 
+		{
+			// nested fields
+			objB = new BBB;
+			objB.bb = new BB;
+			objB.bb.b = new B[2];
+			objB.bb.b[0] = new B;
+			x = 'N';
+			objB.bb.b[0].x = x;
+			print(objB.bb.b[0].x);
+
+			// extends
+			objO = new O;
+			oT = new O;
+			oT.i1 = 5;
+			objI1 = new I1;
+			objI2 = new I2;
+			oT = objO.add(oT);
+			print(oT.i1);
+			oT = objI1.add(oT);
+			print(oT.i1);
+			oT = objI2.add(oT);
+			print(oT.i1);
+			print(objI2.mul(1, 'T'));
+			print(objI2.i1);
+		}
+	}

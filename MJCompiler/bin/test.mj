@@ -1,0 +1,56 @@
+program Program
+class A{ int x[],y[]; 
+{
+int metoda(A a){ return 5;}
+}
+}
+const int pi = 3, e = 2;
+class B extends A {
+ int i;
+ int b;
+ B gsh;
+ {
+int getValue(int a) int b; bool c; A proba;
+{
+if(a == 0)
+	getValue(5);
+this.i = a;
+i = b;
+b = 5;
+c = true;
+this.b = 5;
+
+return this.i + x[0] + this.b + b + i; 
+}
+ }
+}
+class C extends B { A theA; int a; }
+{
+void proba(int s){
+	if(s == 5)
+		return;
+}
+void main() A a; C c; int i; int x[]; char g;{
+
+a = new C;
+a.x = new int[5];
+a.y = new int[5];
+c = new C;
+c.theA = a;
+c.x = new int[5];
+x = new int[3];
+i=0;
+read(c.i);
+do {
+read(c.x[i]);
+read(c.theA.x[i]);
+i++;
+} while (i<5);
+print(c.getValue(c.theA.x[0]));
+g = 'c';
+print(g);
+proba(0);
+proba(5);
+c.getValue(0);
+}
+}

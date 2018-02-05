@@ -1,0 +1,52 @@
+program Program
+int a;
+bool a;
+const int c = 5;
+bool +,s;
+char dsfg;
+int asf;
+const bool bl = true;
+const int dfgew = true;
+class A extends 123{ int x[],y[]; int +, s; 
+{
+int metoda(a){ return 5;}
+}
+}
+{
+	int proba(int nov) int s[];
+	{
+		a = 5;
+		nov = a;
+		nov++;
+		if(a < 6)
+			s = new int[a];
+		else
+			s = new int[10];
+			
+			s = new char[bl];
+		do{
+			nov = -a + 4- a*c + (a - 3);
+			s = -bl;
+			s = 5 + 4- a*c + (a - 3);
+		if(bl)
+			break;
+		}
+		while(s == new char[7]);
+		break;
+		return nov;
+	}
+	
+	bool s(int m) int e[];
+	{
+		e = 5;
+		return true;
+	}
+	void main() {
+		if(c == 5)
+			proba(-1);
+		else
+			proba();
+			continue;
+		neradim();
+	}
+}
