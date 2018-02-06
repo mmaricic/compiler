@@ -52,7 +52,7 @@ public class Compiler {
 		        Tab.init(); // Universe scope
 				SemanticAnalyzer semanticCheck = new SemanticAnalyzer();
 				prog.traverseBottomUp(semanticCheck);
-				Tab.dump(new CustomTableDumpVisitor());
+				//tsdump();
 	       
 	        if (!p.errorDetected && semanticCheck.passed()) {
 	        	File objFile = new File(args[1]);
@@ -72,6 +72,10 @@ public class Compiler {
 		}finally{
 			if(br != null) br.close();
 		}
+	}
+	
+	private static void  tsdump() {
+		Tab.dump(new CustomTableDumpVisitor());
 	}
 	
 }

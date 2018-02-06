@@ -1,0 +1,130 @@
+INFO  16:53:32,188 - #39 program
+INFO  16:53:32,188 - #43 LekserTest
+INFO  16:53:32,188 - #43 int
+INFO  16:53:32,188 - #43 a
+INFO  16:53:32,188 - #25 ;
+INFO  16:53:32,188 - #43 bool
+INFO  16:53:32,188 - #43 b
+INFO  16:53:32,188 - #25 ;
+INFO  16:53:32,188 - #40 const
+INFO  16:53:32,204 - #43 int
+INFO  16:53:32,204 - #43 c
+INFO  16:53:32,204 - #22 =
+INFO  16:53:32,204 - #42 5
+INFO  16:53:32,204 - #25 ;
+INFO  16:53:32,204 - #40 const
+INFO  16:53:32,204 - #43 bool
+INFO  16:53:32,204 - #43 valBool
+INFO  16:53:32,204 - #22 =
+INFO  16:53:32,204 - #44 true
+INFO  16:53:32,204 - #25 ;
+INFO  16:53:32,204 - #38 class
+INFO  16:53:32,204 - #43 C
+INFO  16:53:32,204 - #26 {
+INFO  16:53:32,204 - #43 int
+INFO  16:53:32,204 - #43 a
+INFO  16:53:32,219 - #25 ;
+INFO  16:53:32,219 - #43 C
+INFO  16:53:32,219 - #43 proba
+INFO  16:53:32,219 - #25 ;
+INFO  16:53:32,219 - #26 {
+INFO  16:53:32,219 - #37 void
+INFO  16:53:32,219 - #43 metoda
+INFO  16:53:32,219 - #16 (
+INFO  16:53:32,219 - #43 bool
+INFO  16:53:32,219 - #43 b
+INFO  16:53:32,219 - #17 )
+INFO  16:53:32,235 - #26 {
+INFO  16:53:32,235 - #29 do
+INFO  16:53:32,235 - #26 {
+INFO  16:53:32,235 - #43 a
+INFO  16:53:32,235 - #22 =
+INFO  16:53:32,235 - #42 5
+INFO  16:53:32,235 - #5 +
+INFO  16:53:32,235 - #43 c
+INFO  16:53:32,235 - #6 -
+INFO  16:53:32,251 - #16 (
+INFO  16:53:32,251 - #42 2
+INFO  16:53:32,251 - #2 *
+INFO  16:53:32,251 - #43 c
+INFO  16:53:32,251 - #17 )
+INFO  16:53:32,251 - #3 /
+INFO  16:53:32,251 - #42 3
+INFO  16:53:32,251 - #25 ;
+INFO  16:53:32,251 - #28 if
+INFO  16:53:32,251 - #16 (
+INFO  16:53:32,266 - #43 b
+INFO  16:53:32,266 - #17 )
+INFO  16:53:32,266 - #43 proba
+INFO  16:53:32,266 - #22 =
+INFO  16:53:32,266 - #18 new
+INFO  16:53:32,282 - #43 C
+INFO  16:53:32,282 - #25 ;
+INFO  16:53:32,282 - #27 }
+INFO  16:53:32,282 - #30 while
+INFO  16:53:32,282 - #16 (
+INFO  16:53:32,282 - #43 b
+INFO  16:53:32,282 - #19 &&
+INFO  16:53:32,282 - #43 a
+INFO  16:53:32,282 - #11 <
+INFO  16:53:32,282 - #42 50
+INFO  16:53:32,282 - #17 )
+INFO  16:53:32,282 - #25 ;
+INFO  16:53:32,282 - #27 }
+INFO  16:53:32,282 - #27 }
+INFO  16:53:32,282 - #27 }
+INFO  16:53:32,282 - #43 C
+INFO  16:53:32,282 - #43 mojArg
+INFO  16:53:32,282 - #25 ;
+INFO  16:53:32,282 - #26 {
+INFO  16:53:32,282 - #37 void
+INFO  16:53:32,282 - #43 main
+INFO  16:53:32,282 - #16 (
+INFO  16:53:32,282 - #17 )
+INFO  16:53:32,297 - #26 {
+INFO  16:53:32,297 - #43 mojArg
+INFO  16:53:32,297 - #22 =
+INFO  16:53:32,297 - #43 null
+INFO  16:53:32,297 - #25 ;
+INFO  16:53:32,297 - #28 if
+INFO  16:53:32,297 - #16 (
+INFO  16:53:32,297 - #43 mojArg
+INFO  16:53:32,297 - #7 ==
+INFO  16:53:32,297 - #43 null
+INFO  16:53:32,297 - #17 )
+INFO  16:53:32,297 - #43 mojArg
+INFO  16:53:32,297 - #22 =
+INFO  16:53:32,297 - #18 new
+INFO  16:53:32,297 - #43 C
+INFO  16:53:32,297 - #25 ;
+INFO  16:53:32,297 - #43 mojArg
+INFO  16:53:32,297 - #13 .
+INFO  16:53:32,297 - #43 a
+INFO  16:53:32,297 - #22 =
+INFO  16:53:32,297 - #42 6
+INFO  16:53:32,297 - #25 ;
+INFO  16:53:32,297 - #43 mojArg
+INFO  16:53:32,297 - #13 .
+INFO  16:53:32,297 - #43 metoda
+INFO  16:53:32,297 - #16 (
+INFO  16:53:32,297 - #44 true
+INFO  16:53:32,297 - #17 )
+INFO  16:53:32,297 - #25 ;
+INFO  16:53:32,297 - #27 }
+INFO  16:53:32,297 - #27 }
+INFO  16:53:32,329 - Detektovana upotreba globalne konstante c na liniji 14: Con c: Int , 5, 0 
+INFO  16:53:32,329 - Detektovana upotreba globalne konstante c na liniji 14: Con c: Int , 5, 0 
+INFO  16:53:32,329 - Detektovana upotreba formalnog parametra b metode metoda na liniji 15: Var b: Bool , 1, 1 
+INFO  16:53:32,329 - Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 15: Type C: Class [], 0, 0 
+INFO  16:53:32,329 - Detektovana upotreba formalnog parametra b metode metoda na liniji 16: Var b: Bool , 1, 1 
+INFO  16:53:32,329 - Detektovana upotreba globalne promenljive mojArg na liniji 23: Var mojArg: Class , 2, 0 
+INFO  16:53:32,329 - Detektovana upotreba globalne konstante null na liniji 23: Con null: Class , 0, 0 
+INFO  16:53:32,329 - Detektovana upotreba globalne promenljive mojArg na liniji 24: Var mojArg: Class , 2, 0 
+INFO  16:53:32,329 - Detektovana upotreba globalne konstante null na liniji 24: Con null: Class , 0, 0 
+INFO  16:53:32,329 - Detektovana upotreba globalne promenljive mojArg na liniji 25: Var mojArg: Class , 2, 0 
+INFO  16:53:32,329 - Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 25: Type C: Class [], 0, 0 
+INFO  16:53:32,329 - Detektovana upotreba globalne promenljive mojArg na liniji 27: Var mojArg: Class , 2, 0 
+INFO  16:53:32,329 - Detektovan pristup polju a unutrasnje klase na liniji 27: Fld a: Int , 1, 1 
+INFO  16:53:32,329 - Detektovana upotreba globalne promenljive mojArg na liniji 28: Var mojArg: Class , 2, 0 
+INFO  16:53:32,329 - Detektovan poziv metode metoda unutrasnje klase  na liniji 28: Meth metoda: NoType , 0, 2 
+INFO  16:53:32,329 - Generating bytecode file: D:\Faks\4. godina\PP1\pp1dz_template\workspace\MJCompiler\test\lekserTestIspravno.obj

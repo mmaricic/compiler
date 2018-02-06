@@ -54,17 +54,18 @@ public class CodeGenerator extends VisitorAdaptor {
 	public void visit(ClassName ClassName) {
 		if(insideOfClass == null)
 			insideOfClass = ClassName.struct;
+		Collection<Obj> obj = ClassName.struct.getMembers();
+		vtadressMap.put(ClassName.getClassName(), Code.dataSize);
+		for(Obj o: obj)
+			if(o.getKind() == Obj.Meth) 
+				vtg.addFunctionEntry (o.getName(), o.getAdr());
+		vtg.addTableTerminator();
 	}
 	
 	@Override
 	public void visit(ClassDecl classDecl) {
 		insideOfClass = null;
-		Collection<Obj> obj = classDecl.getClassName().struct.getMembers();
-		vtadressMap.put(classDecl.getClassName().getClassName(), Code.dataSize);
-		for(Obj o: obj)
-			if(o.getKind() == Obj.Meth) 
-				vtg.addFunctionEntry (o.getName(), o.getAdr());
-		vtg.addTableTerminator();
+		
 	}
 
 	@Override

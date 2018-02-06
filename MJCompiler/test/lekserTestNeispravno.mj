@@ -1,0 +1,32 @@
+//komentar
+
+program LekserTest
+	int a;
+	bool b;
+	int !;
+
+	const int c= 5;
+	const bool valBool = true;
+	class C {
+		int a;
+		C proba;
+		{
+			void metoda(#){
+				do{
+				a = a + 5 + c - (2*c)/3;
+				if(b) proba = new C;
+				proba.a = a;
+				}while(b && a < 50);
+			}
+		}
+	}
+	C mojArg;
+	{
+		void main(){
+		
+			mojArg = new C;
+			mojArg.a = 6;
+			mojArg.metoda(true);
+			print(mojArg.c.proba.a);
+		}
+	}

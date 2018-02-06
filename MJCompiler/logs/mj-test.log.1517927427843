@@ -1,0 +1,437 @@
+INFO  15:30:19,440 - #39 program
+INFO  15:30:19,442 - #43 test302
+INFO  15:30:19,443 - #43 int
+INFO  15:30:19,446 - #5 +
+INFO  15:30:19,448 - #25 ;
+INFO  15:30:19,448 - #43 bool
+INFO  15:30:19,449 - #43 ibool
+INFO  15:30:19,451 - #25 ;
+ERROR 15:30:19,451 - Sintaksna greska prilikom definisanja globalne promenljive na liniji 6
+INFO  15:30:19,457 - #43 int
+INFO  15:30:19,458 - #43 s
+INFO  15:30:19,458 - #25 ;
+INFO  15:30:19,459 - #43 int
+INFO  15:30:19,459 - #43 niz
+INFO  15:30:19,460 - #14 [
+INFO  15:30:19,460 - #15 ]
+INFO  15:30:19,460 - #25 ;
+INFO  15:30:19,462 - #26 {
+INFO  15:30:19,462 - #43 int
+INFO  15:30:19,464 - #43 sum
+INFO  15:30:19,465 - #16 (
+INFO  15:30:19,466 - #43 int
+INFO  15:30:19,467 - #43 z
+INFO  15:30:19,468 - #21 ,
+INFO  15:30:19,470 - #43 int
+INFO  15:30:19,470 - #43 d
+INFO  15:30:19,471 - #17 )
+INFO  15:30:19,474 - #26 {
+INFO  15:30:19,475 - #34 return
+INFO  15:30:19,478 - #43 z
+INFO  15:30:19,479 - #5 +
+INFO  15:30:19,482 - #43 d
+INFO  15:30:19,485 - #25 ;
+INFO  15:30:19,486 - #27 }
+INFO  15:30:19,488 - #43 int
+INFO  15:30:19,491 - #43 inkrement
+INFO  15:30:19,491 - #16 (
+INFO  15:30:19,491 - #43 int
+INFO  15:30:19,491 - #43 a
+INFO  15:30:19,492 - #17 )
+INFO  15:30:19,492 - #43 int
+INFO  15:30:19,492 - #43 pom
+INFO  15:30:19,493 - #25 ;
+INFO  15:30:19,493 - #26 {
+INFO  15:30:19,495 - #43 pom
+INFO  15:30:19,495 - #22 =
+INFO  15:30:19,497 - #42 1
+INFO  15:30:19,498 - #25 ;
+INFO  15:30:19,499 - #34 return
+INFO  15:30:19,500 - #43 sum
+INFO  15:30:19,500 - #16 (
+INFO  15:30:19,502 - #43 a
+INFO  15:30:19,503 - #21 ,
+INFO  15:30:19,503 - #43 pom
+INFO  15:30:19,503 - #17 )
+INFO  15:30:19,509 - #25 ;
+INFO  15:30:19,510 - #27 }
+INFO  15:30:19,510 - #37 void
+INFO  15:30:19,510 - #43 main
+INFO  15:30:19,511 - #16 (
+INFO  15:30:19,515 - #17 )
+INFO  15:30:19,517 - #26 {
+INFO  15:30:19,517 - #28 if
+INFO  15:30:19,518 - #16 (
+INFO  15:30:19,519 - #42 1
+INFO  15:30:19,519 - #8 !=
+INFO  15:30:19,520 - #42 1
+INFO  15:30:19,522 - #17 )
+INFO  15:30:19,526 - #35 print
+INFO  15:30:19,528 - #16 (
+INFO  15:30:19,528 - #6 -
+INFO  15:30:19,528 - #42 6
+INFO  15:30:19,528 - #17 )
+INFO  15:30:19,530 - #25 ;
+INFO  15:30:19,530 - #32 else
+INFO  15:30:19,530 - #35 print
+INFO  15:30:19,532 - #16 (
+INFO  15:30:19,532 - #42 0
+INFO  15:30:19,532 - #17 )
+INFO  15:30:19,532 - #25 ;
+INFO  15:30:19,532 - #43 s
+INFO  15:30:19,533 - #22 =
+INFO  15:30:19,533 - #42 0
+INFO  15:30:19,534 - #25 ;
+INFO  15:30:19,534 - #43 ibool
+INFO  15:30:19,534 - #22 =
+INFO  15:30:19,535 - #44 false
+INFO  15:30:19,535 - #25 ;
+INFO  15:30:19,536 - #43 i
+INFO  15:30:19,536 - #22 =
+INFO  15:30:19,537 - #42 0
+INFO  15:30:19,537 - #25 ;
+INFO  15:30:19,537 - #29 do
+INFO  15:30:19,538 - #26 {
+INFO  15:30:19,539 - #28 if
+INFO  15:30:19,540 - #16 (
+INFO  15:30:19,540 - #43 i
+INFO  15:30:19,540 - #7 ==
+INFO  15:30:19,540 - #42 2
+INFO  15:30:19,543 - #17 )
+INFO  15:30:19,543 - #43 ibool
+INFO  15:30:19,545 - #22 =
+INFO  15:30:19,545 - #44 true
+INFO  15:30:19,545 - #25 ;
+INFO  15:30:19,546 - #43 i
+INFO  15:30:19,546 - #23 ++
+INFO  15:30:19,548 - #25 ;
+INFO  15:30:19,548 - #27 }
+INFO  15:30:19,551 - #30 while
+INFO  15:30:19,552 - #16 (
+INFO  15:30:19,553 - #43 i
+INFO  15:30:19,553 - #11 <
+INFO  15:30:19,553 - #42 5
+INFO  15:30:19,556 - #17 )
+INFO  15:30:19,557 - #25 ;
+INFO  15:30:19,558 - #28 if
+INFO  15:30:19,558 - #16 (
+INFO  15:30:19,559 - #43 ibool
+INFO  15:30:19,559 - #17 )
+INFO  15:30:19,560 - #28 if
+INFO  15:30:19,560 - #16 (
+INFO  15:30:19,560 - #43 i
+INFO  15:30:19,561 - #7 ==
+INFO  15:30:19,561 - #42 5
+INFO  15:30:19,561 - #17 )
+INFO  15:30:19,563 - #35 print
+INFO  15:30:19,564 - #16 (
+INFO  15:30:19,564 - #42 1
+INFO  15:30:19,565 - #17 )
+INFO  15:30:19,565 - #25 ;
+INFO  15:30:19,565 - #32 else
+INFO  15:30:19,566 - #35 print
+INFO  15:30:19,567 - #16 (
+INFO  15:30:19,567 - #6 -
+INFO  15:30:19,568 - #42 1
+INFO  15:30:19,569 - #17 )
+INFO  15:30:19,569 - #25 ;
+INFO  15:30:19,569 - #43 niz
+INFO  15:30:19,569 - #22 =
+INFO  15:30:19,570 - #18 new
+INFO  15:30:19,570 - #43 int
+INFO  15:30:19,570 - #14 [
+INFO  15:30:19,570 - #42 3
+INFO  15:30:19,570 - #15 ]
+INFO  15:30:19,570 - #25 ;
+INFO  15:30:19,571 - #43 niz
+INFO  15:30:19,571 - #14 [
+INFO  15:30:19,571 - #42 0
+INFO  15:30:19,571 - #15 ]
+INFO  15:30:19,572 - #22 =
+INFO  15:30:19,572 - #42 1
+INFO  15:30:19,572 - #25 ;
+INFO  15:30:19,572 - #43 niz
+INFO  15:30:19,572 - #14 [
+INFO  15:30:19,573 - #42 1
+INFO  15:30:19,573 - #15 ]
+INFO  15:30:19,573 - #22 =
+INFO  15:30:19,573 - #42 2
+INFO  15:30:19,573 - #25 ;
+INFO  15:30:19,573 - #43 niz
+INFO  15:30:19,574 - #14 [
+INFO  15:30:19,574 - #42 2
+INFO  15:30:19,574 - #15 ]
+INFO  15:30:19,574 - #22 =
+INFO  15:30:19,574 - #43 sum
+INFO  15:30:19,574 - #16 (
+INFO  15:30:19,574 - #43 niz
+INFO  15:30:19,575 - #14 [
+INFO  15:30:19,575 - #42 1
+INFO  15:30:19,575 - #15 ]
+INFO  15:30:19,575 - #21 ,
+INFO  15:30:19,575 - #43 niz
+INFO  15:30:19,575 - #14 [
+INFO  15:30:19,576 - #42 0
+INFO  15:30:19,576 - #15 ]
+INFO  15:30:19,576 - #17 )
+INFO  15:30:19,576 - #5 +
+INFO  15:30:19,576 - #42 1
+INFO  15:30:19,576 - #25 ;
+INFO  15:30:19,577 - #28 if
+INFO  15:30:19,577 - #16 (
+INFO  15:30:19,577 - #43 niz
+INFO  15:30:19,577 - #14 [
+INFO  15:30:19,577 - #42 2
+INFO  15:30:19,577 - #15 ]
+INFO  15:30:19,578 - #7 ==
+INFO  15:30:19,578 - #42 4
+INFO  15:30:19,578 - #17 )
+INFO  15:30:19,578 - #35 print
+INFO  15:30:19,578 - #16 (
+INFO  15:30:19,578 - #43 ord
+INFO  15:30:19,578 - #16 (
+INFO  15:30:19,579 - #45 A
+INFO  15:30:19,579 - #17 )
+INFO  15:30:19,580 - #17 )
+INFO  15:30:19,580 - #25 ;
+INFO  15:30:19,580 - #32 else
+INFO  15:30:19,581 - #35 print
+INFO  15:30:19,581 - #16 (
+INFO  15:30:19,581 - #43 ord
+INFO  15:30:19,581 - #16 (
+INFO  15:30:19,581 - #45 a
+INFO  15:30:19,581 - #17 )
+INFO  15:30:19,582 - #17 )
+INFO  15:30:19,582 - #25 ;
+INFO  15:30:19,582 - #35 print
+INFO  15:30:19,582 - #16 (
+INFO  15:30:19,582 - #43 eol
+INFO  15:30:19,583 - #17 )
+INFO  15:30:19,583 - #25 ;
+INFO  15:30:19,583 - #43 i
+INFO  15:30:19,583 - #22 =
+INFO  15:30:19,583 - #42 0
+INFO  15:30:19,583 - #25 ;
+INFO  15:30:19,584 - #29 do
+INFO  15:30:19,584 - #26 {
+INFO  15:30:19,584 - #28 if
+INFO  15:30:19,584 - #16 (
+INFO  15:30:19,584 - #43 i
+INFO  15:30:19,584 - #7 ==
+INFO  15:30:19,585 - #42 3
+INFO  15:30:19,585 - #20 ||
+INFO  15:30:19,585 - #43 i
+INFO  15:30:19,587 - #7 ==
+INFO  15:30:19,587 - #42 5
+INFO  15:30:19,587 - #17 )
+INFO  15:30:19,588 - #26 {
+INFO  15:30:19,588 - #43 i
+INFO  15:30:19,588 - #23 ++
+INFO  15:30:19,589 - #25 ;
+INFO  15:30:19,589 - #33 continue
+INFO  15:30:19,589 - #25 ;
+INFO  15:30:19,589 - #27 }
+INFO  15:30:19,590 - #28 if
+INFO  15:30:19,591 - #16 (
+INFO  15:30:19,591 - #43 i
+INFO  15:30:19,591 - #7 ==
+INFO  15:30:19,591 - #42 4
+INFO  15:30:19,591 - #17 )
+INFO  15:30:19,592 - #31 break
+INFO  15:30:19,592 - #25 ;
+INFO  15:30:19,592 - #43 i
+INFO  15:30:19,593 - #22 =
+INFO  15:30:19,594 - #43 inkrement
+INFO  15:30:19,594 - #16 (
+INFO  15:30:19,594 - #43 i
+INFO  15:30:19,594 - #17 )
+INFO  15:30:19,594 - #25 ;
+INFO  15:30:19,594 - #29 do
+INFO  15:30:19,594 - #26 {
+INFO  15:30:19,595 - #43 s
+INFO  15:30:19,595 - #22 =
+INFO  15:30:19,595 - #43 inkrement
+INFO  15:30:19,595 - #16 (
+INFO  15:30:19,595 - #43 s
+INFO  15:30:19,595 - #17 )
+INFO  15:30:19,596 - #25 ;
+INFO  15:30:19,596 - #35 print
+INFO  15:30:19,597 - #16 (
+INFO  15:30:19,597 - #43 s
+INFO  15:30:19,597 - #17 )
+INFO  15:30:19,597 - #25 ;
+INFO  15:30:19,597 - #27 }
+INFO  15:30:19,597 - #30 while
+INFO  15:30:19,597 - #16 (
+INFO  15:30:19,598 - #43 s
+INFO  15:30:19,598 - #11 <
+INFO  15:30:19,598 - #42 4
+INFO  15:30:19,598 - #20 ||
+INFO  15:30:19,598 - #43 i
+INFO  15:30:19,598 - #8 !=
+INFO  15:30:19,599 - #42 2
+INFO  15:30:19,599 - #17 )
+INFO  15:30:19,599 - #25 ;
+INFO  15:30:19,599 - #27 }
+INFO  15:30:19,599 - #30 while
+INFO  15:30:19,599 - #16 (
+INFO  15:30:19,599 - #43 i
+INFO  15:30:19,600 - #11 <
+INFO  15:30:19,600 - #42 3
+INFO  15:30:19,600 - #20 ||
+INFO  15:30:19,600 - #43 s
+INFO  15:30:19,600 - #7 ==
+INFO  15:30:19,600 - #42 4
+INFO  15:30:19,601 - #17 )
+INFO  15:30:19,601 - #25 ;
+INFO  15:30:19,601 - #28 if
+INFO  15:30:19,601 - #16 (
+INFO  15:30:19,601 - #43 i
+INFO  15:30:19,601 - #7 ==
+INFO  15:30:19,602 - #42 3
+INFO  15:30:19,602 - #17 )
+INFO  15:30:19,602 - #35 print
+INFO  15:30:19,602 - #16 (
+INFO  15:30:19,603 - #42 4
+INFO  15:30:19,603 - #17 )
+INFO  15:30:19,603 - #25 ;
+INFO  15:30:19,603 - #32 else
+INFO  15:30:19,603 - #35 print
+INFO  15:30:19,604 - #16 (
+INFO  15:30:19,604 - #6 -
+INFO  15:30:19,604 - #42 4
+INFO  15:30:19,604 - #17 )
+INFO  15:30:19,604 - #25 ;
+INFO  15:30:19,604 - #36 read
+INFO  15:30:19,605 - #16 (
+INFO  15:30:19,605 - #43 niz
+INFO  15:30:19,605 - #14 [
+INFO  15:30:19,605 - #42 0
+INFO  15:30:19,605 - #15 ]
+INFO  15:30:19,605 - #17 )
+INFO  15:30:19,605 - #25 ;
+INFO  15:30:19,606 - #36 read
+INFO  15:30:19,606 - #16 (
+INFO  15:30:19,606 - #43 niz
+INFO  15:30:19,606 - #14 [
+INFO  15:30:19,606 - #42 1
+INFO  15:30:19,606 - #15 ]
+INFO  15:30:19,606 - #17 )
+INFO  15:30:19,607 - #25 ;
+INFO  15:30:19,607 - #36 read
+INFO  15:30:19,607 - #16 (
+INFO  15:30:19,607 - #43 niz
+INFO  15:30:19,607 - #14 [
+INFO  15:30:19,608 - #42 2
+INFO  15:30:19,608 - #15 ]
+INFO  15:30:19,608 - #17 )
+INFO  15:30:19,608 - #25 ;
+INFO  15:30:19,608 - #35 print
+INFO  15:30:19,608 - #16 (
+INFO  15:30:19,608 - #43 eol
+INFO  15:30:19,608 - #17 )
+INFO  15:30:19,609 - #25 ;
+INFO  15:30:19,609 - #35 print
+INFO  15:30:19,609 - #16 (
+INFO  15:30:19,609 - #43 sum
+INFO  15:30:19,609 - #16 (
+INFO  15:30:19,609 - #43 sum
+INFO  15:30:19,609 - #16 (
+INFO  15:30:19,610 - #43 niz
+INFO  15:30:19,610 - #14 [
+INFO  15:30:19,610 - #42 0
+INFO  15:30:19,610 - #15 ]
+INFO  15:30:19,610 - #21 ,
+INFO  15:30:19,610 - #43 niz
+INFO  15:30:19,610 - #14 [
+INFO  15:30:19,611 - #42 1
+INFO  15:30:19,611 - #15 ]
+INFO  15:30:19,611 - #17 )
+INFO  15:30:19,611 - #21 ,
+INFO  15:30:19,611 - #43 niz
+INFO  15:30:19,612 - #14 [
+INFO  15:30:19,612 - #42 2
+INFO  15:30:19,612 - #15 ]
+INFO  15:30:19,612 - #17 )
+INFO  15:30:19,612 - #17 )
+INFO  15:30:19,612 - #25 ;
+INFO  15:30:19,612 - #27 }
+INFO  15:30:19,613 - #27 }
+INFO  15:30:19,649 - Detektovana upotreba formalnog parametra z metode sum na liniji 14: Var z: Int , 0, 1 
+INFO  15:30:19,649 - Detektovana upotreba formalnog parametra d metode sum na liniji 14: Var d: Int , 1, 1 
+INFO  15:30:19,650 - Detektovana upotreba lokalne promenljive pom metode inkrement na liniji 19: Var pom: Int , 1, 1 
+INFO  15:30:19,651 - Detektovan poziv globalne funkcije sum na liniji 20: Meth sum: Int , 0, 2 
+INFO  15:30:19,651 - Detektovana upotreba formalnog parametra a metode inkrement na liniji 20: Var a: Int , 0, 1 
+INFO  15:30:19,651 - Detektovana upotreba lokalne promenljive pom metode inkrement na liniji 20: Var pom: Int , 1, 1 
+INFO  15:30:19,652 - Detektovana upotreba globalne promenljive s na liniji 30: Var s: Int , 1, 0 
+INFO  15:30:19,652 - Detektovana upotreba globalne promenljive ibool na liniji 31: Var ibool: Bool , 0, 0 
+ERROR 15:30:19,652 - Semanticka greska na liniji 32 : ime i nije deklarisano! 
+ERROR 15:30:19,652 - Semanticka greska na liniji 35 : ime i nije deklarisano! 
+ERROR 15:30:19,652 - Semanticka greska na liniji 35: nije moguce porediti objekte nekompatibilnih tipova!
+INFO  15:30:19,652 - Detektovana upotreba globalne promenljive ibool na liniji 35: Var ibool: Bool , 0, 0 
+ERROR 15:30:19,653 - Semanticka greska na liniji 36 : ime i nije deklarisano! 
+ERROR 15:30:19,653 - Semanticka greska na liniji 36: post operator moze biti primenjen samo na tip int!
+ERROR 15:30:19,653 - Semanticka greska na liniji 37 : ime i nije deklarisano! 
+ERROR 15:30:19,653 - Semanticka greska na liniji 37: nije moguce porediti objekte nekompatibilnih tipova!
+INFO  15:30:19,653 - Detektovana upotreba globalne promenljive ibool na liniji 39: Var ibool: Bool , 0, 0 
+ERROR 15:30:19,653 - Semanticka greska na liniji 40 : ime i nije deklarisano! 
+ERROR 15:30:19,654 - Semanticka greska na liniji 40: nije moguce porediti objekte nekompatibilnih tipova!
+INFO  15:30:19,654 - Detektovana upotreba globalne promenljive niz na liniji 44: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,655 - Detektovano pravljenje niza tipa int na liniji 44
+INFO  15:30:19,655 - Detektovana upotreba globalne promenljive niz na liniji 45: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,655 - Detektovan pristup elementu niza niz na liniji 45: niz: Int , -1, -1 
+INFO  15:30:19,656 - Detektovana upotreba globalne promenljive niz na liniji 46: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,656 - Detektovan pristup elementu niza niz na liniji 46: niz: Int , -1, -1 
+INFO  15:30:19,656 - Detektovana upotreba globalne promenljive niz na liniji 47: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,657 - Detektovan pristup elementu niza niz na liniji 47: niz: Int , -1, -1 
+INFO  15:30:19,657 - Detektovan poziv globalne funkcije sum na liniji 47: Meth sum: Int , 0, 2 
+INFO  15:30:19,657 - Detektovana upotreba globalne promenljive niz na liniji 47: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,657 - Detektovan pristup elementu niza niz na liniji 47: niz: Int , -1, -1 
+INFO  15:30:19,657 - Detektovana upotreba globalne promenljive niz na liniji 47: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,658 - Detektovan pristup elementu niza niz na liniji 47: niz: Int , -1, -1 
+INFO  15:30:19,658 - Detektovana upotreba globalne promenljive niz na liniji 48: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,658 - Detektovan pristup elementu niza niz na liniji 48: niz: Int , -1, -1 
+INFO  15:30:19,659 - Detektovan poziv globalne funkcije ord na liniji 48: Meth ord: Int , 0, 1 
+INFO  15:30:19,659 - Detektovan poziv globalne funkcije ord na liniji 49: Meth ord: Int , 0, 1 
+INFO  15:30:19,659 - Detektovana upotreba globalne konstane eol na liniji 51: Con eol: Char , 10, 0 
+ERROR 15:30:19,660 - Semanticka greska na liniji 52 : ime i nije deklarisano! 
+ERROR 15:30:19,660 - Semanticka greska na liniji 55 : ime i nije deklarisano! 
+ERROR 15:30:19,660 - Semanticka greska na liniji 55: nije moguce porediti objekte nekompatibilnih tipova!
+ERROR 15:30:19,660 - Semanticka greska na liniji 55 : ime i nije deklarisano! 
+ERROR 15:30:19,660 - Semanticka greska na liniji 55: nije moguce porediti objekte nekompatibilnih tipova!
+ERROR 15:30:19,660 - Semanticka greska na liniji 57 : ime i nije deklarisano! 
+ERROR 15:30:19,660 - Semanticka greska na liniji 57: post operator moze biti primenjen samo na tip int!
+ERROR 15:30:19,661 - Semanticka greska na liniji 60 : ime i nije deklarisano! 
+ERROR 15:30:19,661 - Semanticka greska na liniji 60: nije moguce porediti objekte nekompatibilnih tipova!
+ERROR 15:30:19,661 - Semanticka greska na liniji 61 : ime i nije deklarisano! 
+INFO  15:30:19,662 - Detektovan poziv globalne funkcije inkrement na liniji 61: Meth inkrement: Int , 0, 1 
+ERROR 15:30:19,662 - Semanticka greska na liniji 61 : ime i nije deklarisano! 
+ERROR 15:30:19,662 - Semanticka greska na liniji 61: nevalidan tip parametra pri pozivu funkcije inkrement!
+INFO  15:30:19,662 - Detektovana upotreba globalne promenljive s na liniji 63: Var s: Int , 1, 0 
+INFO  15:30:19,662 - Detektovan poziv globalne funkcije inkrement na liniji 63: Meth inkrement: Int , 0, 1 
+INFO  15:30:19,662 - Detektovana upotreba globalne promenljive s na liniji 63: Var s: Int , 1, 0 
+INFO  15:30:19,663 - Detektovana upotreba globalne promenljive s na liniji 64: Var s: Int , 1, 0 
+INFO  15:30:19,663 - Detektovana upotreba globalne promenljive s na liniji 65: Var s: Int , 1, 0 
+ERROR 15:30:19,663 - Semanticka greska na liniji 65 : ime i nije deklarisano! 
+ERROR 15:30:19,663 - Semanticka greska na liniji 65: nije moguce porediti objekte nekompatibilnih tipova!
+ERROR 15:30:19,663 - Semanticka greska na liniji 66 : ime i nije deklarisano! 
+ERROR 15:30:19,663 - Semanticka greska na liniji 66: nije moguce porediti objekte nekompatibilnih tipova!
+INFO  15:30:19,663 - Detektovana upotreba globalne promenljive s na liniji 66: Var s: Int , 1, 0 
+ERROR 15:30:19,664 - Semanticka greska na liniji 68 : ime i nije deklarisano! 
+ERROR 15:30:19,664 - Semanticka greska na liniji 68: nije moguce porediti objekte nekompatibilnih tipova!
+INFO  15:30:19,664 - Detektovana upotreba globalne promenljive niz na liniji 71: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,664 - Detektovan pristup elementu niza niz na liniji 71: niz: Int , -1, -1 
+INFO  15:30:19,664 - Detektovana upotreba globalne promenljive niz na liniji 72: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,665 - Detektovan pristup elementu niza niz na liniji 72: niz: Int , -1, -1 
+INFO  15:30:19,665 - Detektovana upotreba globalne promenljive niz na liniji 73: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,665 - Detektovan pristup elementu niza niz na liniji 73: niz: Int , -1, -1 
+INFO  15:30:19,665 - Detektovana upotreba globalne konstane eol na liniji 74: Con eol: Char , 10, 0 
+INFO  15:30:19,665 - Detektovan poziv globalne funkcije sum na liniji 76: Meth sum: Int , 0, 2 
+INFO  15:30:19,665 - Detektovan poziv globalne funkcije sum na liniji 76: Meth sum: Int , 0, 2 
+INFO  15:30:19,665 - Detektovana upotreba globalne promenljive niz na liniji 76: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,666 - Detektovan pristup elementu niza niz na liniji 76: niz: Int , -1, -1 
+INFO  15:30:19,666 - Detektovana upotreba globalne promenljive niz na liniji 76: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,666 - Detektovan pristup elementu niza niz na liniji 76: niz: Int , -1, -1 
+INFO  15:30:19,666 - Detektovana upotreba globalne promenljive niz na liniji 76: Var niz: Arr of int, 2, 0 
+INFO  15:30:19,666 - Detektovan pristup elementu niza niz na liniji 76: niz: Int , -1, -1 
+ERROR 15:30:19,668 - Parsiranje NIJE uspesno zavrseno!

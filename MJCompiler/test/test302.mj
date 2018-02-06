@@ -3,7 +3,7 @@
 program test302
 
 
-int i;
+int $^#;
 bool ibool;
 int s;
 int niz[];

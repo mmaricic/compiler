@@ -94,7 +94,7 @@ precedence left ELSE;
 
 Program ::= (Program) PROG ProgName DeclarationList LBRACE MethodDeclList RBRACE ;
 
-ProgName ::= (ProgName) {:parser.Var = "globalne promenljive";:} IDENT:progName;
+ProgName ::= (ProgName) {:parser.Var = " globalne promenljive";:} IDENT:progName;
 
 DeclarationList ::= (DeclList) DeclarationList Decl | (DeclarationListEmpty);
 

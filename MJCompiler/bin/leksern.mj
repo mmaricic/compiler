@@ -1,0 +1,33 @@
+// Test301
+
+program leksern
+
+	int x, y;
+	
+	
+{
+
+	int sum(int x, int y){
+		return x+y;
+	}
+	void main()	int bodovi; char nizc[];
+	{
+	
+		x = 4;
+		y = 6;
+		bodovi = x+y;
+		print(sum(x,y));
+		print(bodovi);
+		
+		nizc = new char[2];
+		nizc[0]='a';
+		nizc[1]='b';
+		
+		print(nizc[0]);
+		print(nizc[1]);
+		
+	
+	}
+}
+
+

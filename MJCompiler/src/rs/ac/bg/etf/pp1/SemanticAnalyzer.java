@@ -730,7 +730,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	private void reportDetection(DesignatorName dn) {
 		switch (dn.obj.getKind()) {
 		case Obj.Con:
-			report_info("Detektovana upotreba globalne konstane " + dn.getName() + " na liniji " + dn.getLine() + ": "
+			report_info("Detektovana upotreba globalne konstante " + dn.getName() + " na liniji " + dn.getLine() + ": "
 					+ printNode(dn.obj, -1), null);
 			break;
 		case Obj.Meth:
@@ -761,30 +761,35 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
 	@Override
 	public void visit(ClassAccess ca) {
-		Struct str = ca.getElemDesignator().obj.getType();
+		if(ca.getElemDesignator().obj != Tab.noObj) {
+			Struct str = ca.getElemDesignator().obj.getType();
 
-		/*
-		 * if(ca.getDesignator() instanceof ArrayElem){
-		 * report_error(": ne postoje polja niza!", ca); ca.obj = Tab.noObj; return; }
-		 */
+			/*
+			 * if(ca.getDesignator() instanceof ArrayElem){
+			 * report_error(": ne postoje polja niza!", ca); ca.obj = Tab.noObj; return; }
+			 */
 
-		if (str.getKind() != Struct.Class)
-			report_error(": ne postoje polja kod promenljivih koje nisu klasnog tipa!", ca);
-		else {
-			Obj elem = str.getMembersTable().searchKey(ca.getClassElemName());
-			if (elem == null) {
-				report_error(": ne postoji polje u klasi sa imenom " + ca.getClassElemName() + "!", ca);
+			if (str.getKind() != Struct.Class) {
+				report_error(": ne postoje polja kod promenljivih koje nisu klasnog tipa!", ca);
 				ca.obj = Tab.noObj;
-			} else {
-				ca.obj = elem;
-				if (elem.getKind() == Obj.Meth)
-					report_info("Detektovan poziv metode " + elem.getName() + " unutrasnje klase " + " na liniji "
-							+ ca.getLine() + ": " + printNode(elem, -1), null);
-				else
-					report_info("Detektovan pristup polju " + elem.getName() + " unutrasnje klase" + " na liniji "
-							+ ca.getLine() + ": " + printNode(elem, -1), null);
 			}
-		}
+			else {
+				Obj elem = str.getMembersTable().searchKey(ca.getClassElemName());
+				if (elem == null) {
+					report_error(": ne postoji polje u klasi sa imenom " + ca.getClassElemName() + "!", ca);
+					ca.obj = Tab.noObj;
+				} else {
+					ca.obj = elem;
+					if (elem.getKind() == Obj.Meth)
+						report_info("Detektovan poziv metode " + elem.getName() + " unutrasnje klase " + " na liniji "
+								+ ca.getLine() + ": " + printNode(elem, -1), null);
+					else
+						report_info("Detektovan pristup polju " + elem.getName() + " unutrasnje klase" + " na liniji "
+								+ ca.getLine() + ": " + printNode(elem, -1), null);
+				}
+			}
+		}else
+			ca.obj = Tab.noObj;
 	}
 
 	@Override
@@ -795,28 +800,30 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	@Override
 	public void visit(ArrayElem ae) {
 		Obj obj = ae.getElemDesignator().obj;
+		if(obj != Tab.noObj) {
+			if (ae.getElemDesignator().getDesignator() instanceof ArrayElem) {
+				report_error(": postoje samo jednodimenzionalni nizovi!", ae);
+				ae.obj = Tab.noObj;
+				return;
+			}
 
-		if (ae.getElemDesignator().getDesignator() instanceof ArrayElem) {
-			report_error(": postoje samo jednodimenzionalni nizovi!", ae);
+			String name = (ae.getElemDesignator().getDesignator() instanceof DesignatorName)
+					? ((DesignatorName) ae.getElemDesignator().getDesignator()).getName()
+							: ((ClassAccess) ae.getElemDesignator().getDesignator()).getClassElemName();
+
+					if (obj.getType().getKind() != Struct.Array) {
+						report_error(": Promenljiva " + name + " nije nizovnog tipa!", ae);
+						ae.obj = Tab.noObj;
+					} else if (ae.getExpr().struct.getKind() != Struct.Int) {
+						report_error(": Za pristup elementu niza mora se koristiti int!", ae);
+						ae.obj = Tab.noObj;
+					} else {
+						ae.obj = new Obj(Obj.Elem, name, obj.getType().getElemType());
+						report_info("Detektovan pristup elementu niza " + obj.getName() + " na liniji " + ae.getLine() + ": "
+								+ printNode(ae.obj, -1), null);
+					}
+		}else
 			ae.obj = Tab.noObj;
-			return;
-		}
-
-		String name = (ae.getElemDesignator().getDesignator() instanceof DesignatorName)
-				? ((DesignatorName) ae.getElemDesignator().getDesignator()).getName()
-						: ((ClassAccess) ae.getElemDesignator().getDesignator()).getClassElemName();
-
-				if (obj.getType().getKind() != Struct.Array) {
-					report_error(": Promenljiva " + name + " nije nizovnog tipa!", ae);
-					ae.obj = Tab.noObj;
-				} else if (ae.getExpr().struct.getKind() != Struct.Int) {
-					report_error(": Za pristup elementu niza mora se koristiti int!", ae);
-					ae.obj = Tab.noObj;
-				} else {
-					ae.obj = new Obj(Obj.Elem, name, obj.getType().getElemType());
-					report_info("Detektovan pristup elementu niza " + obj.getName() + " na liniji " + ae.getLine() + ": "
-							+ printNode(ae.obj, -1), null);
-				}
 	}
 
 	public boolean passed() {

@@ -6,7 +6,7 @@ program test301
 	const int pet = 5;
 
 	int niz[];
-	
+	int 9i;
 	char nizch[];
 	
 {
