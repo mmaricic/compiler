@@ -1,0 +1,172 @@
+program kod_gen
+int array[];
+class Search{
+	{int search(int array[], int l, int r, int x){
+		if(l > r)
+			return -1;
+		do{
+			if(array[l] == x){
+				
+				return l;
+				}
+			else
+				l++;
+		}while(l <= r);
+		
+		return -1;
+	}
+	
+
+	}
+}
+
+class RecursiveBinarySearch extends Search{
+{
+
+
+  int search(int array[], int l, int r, int x)int mid;
+    {
+        if (r>=l)
+        {
+            mid = l + (r - l)/2;
+ 
+            // If the element is present at the 
+            // middle itself
+            if (array[mid] == x)
+               return mid;
+ 
+            // If element is smaller than mid, then 
+            // it can only be present in left subarray
+            if (array[mid] > x)
+               return search(array, l, mid-1, x);
+ 
+            // Else the element can only be present
+            // in right subarray
+            return search(array, mid+1, r, x);
+        }
+ 
+        // We reach here when element is not present
+        //  in array
+        return -1;
+    }
+ }
+ }
+ 
+ // Java implementation of iterative Binary Search
+class BinarySearch extends Search
+{
+{
+    // Returns index of x if it is present in arr[], 
+    // else return -1
+    int search(int array[], int l, int r, int x) int m;
+    {
+        l = 0; 
+        r = len(array) - 1;
+        do
+        {
+            m = l + (r-l)/2;
+ 
+            // Check if x is present at mid
+            if (array[m] == x)
+                return m;
+ 
+            // If x greater, ignore left half
+            if (array[m] < x)
+                l = m + 1;
+ 
+            // If x is smaller, ignore right half
+            else
+                r = m - 1;
+        }while (l <= r);
+ 
+        // if we reach here, then element was 
+        // not present
+        return -1;
+    }
+    }
+    }
+    
+    class Helper{
+    {
+    	void generateArray(int size) int i;{
+    	print('e');print('l');print('e');print('m');print('s');
+    		i = 0;
+    		do{
+    		read(array[i]);
+    		i++;
+    		}while(i < size);
+    	}
+    	
+    	void sortArray() int n; int i; int key; int j;{
+    	n = len(array);
+    	if( n < 2)
+    		return;
+    	i = 1;
+    	
+        //for (int i=1; i<n; ++i)
+        do{
+            key = array[i];
+            j = i-1;
+ 
+           if(j >=0 && array[j] > key)
+            do
+            {
+                array[j+1] = array[j];
+                j = j-1;
+            }while (j>=0 && array[j] > key);
+            i++;
+            array[j+1] = key;
+        }while(i < n);
+    	}
+    }	
+    }
+ {
+    void printSearchResult(int res){
+    	if(res != -1){
+    	print('f');print('o');print('u');print('n');print('d');print(' ');print('a');print('t');print(' ');
+    			print(res);
+    		}else{
+    			print('n');print('o');print('t');print(' ');print('f');print('o');print('u');print('n');print('d');
+    			print(eol);
+    			}
+    }
+    
+    void main() Helper h; int size; bool loop; Search s; int res; int elem; char con;{
+    	loop = true;
+    	con = 'y';
+    	do{
+    	do{
+    	print('s');print('i');print('z');print('e');
+    		read(size);
+    		if(size <= 0){
+    			print('s');print('i');print('z');print('e');
+    			print('e');print('r');print('r');print('o');print('r');print(eol);
+    			continue;
+    		}
+    		array = new int[size];
+    		h = new Helper;
+    		h.generateArray(size);
+    		h.sortArray();
+    		loop = false;
+    		}while(loop);
+    		s = new Search;
+    		print('x');
+    		read(elem);
+    		res = s.search(array, 0, size-1, elem);
+    		printSearchResult(res);
+    		s = new BinarySearch;
+    		res = s.search(array, 0, size-1, elem);
+    		printSearchResult(res);
+    		s = new RecursiveBinarySearch;
+    		res = s.search(array, 0, size-1, elem);
+    		printSearchResult(res);
+    		print('m');print('o');print('r');print('e');print('?');print('y');print('/');print('n');
+    		read(con);
+    		read(con);
+    		print(eol);
+    		
+    		}
+    		while(con == 'y');
+    }
+    
+}

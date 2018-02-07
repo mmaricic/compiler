@@ -62,7 +62,6 @@ int tezinaK, tezinaS;
 	{
 		
 		predmeti = new Predmet[6];
-		s1 = null;
 		s1 = new Sfera;
 		s2 = new Sfera;
 		s3 = new Sfera;

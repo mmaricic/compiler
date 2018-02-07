@@ -41,6 +41,7 @@ parser code {:
     			msg.append(" na liniji "+tokenLine);
     
         log.error(msg.toString());
+        System.err.println(msg.toString());
     }
     
     public void report_info(String message, Object info) {
@@ -48,6 +49,7 @@ parser code {:
     	if (info instanceof Symbol)
             msg.append (" na liniji ").append(((Symbol)info).left);
         log.info(msg.toString());
+        System.out.println(msg.toString());
     }
     
 :}
@@ -131,7 +133,7 @@ precedence left ELSE;
 
 Program ::= (Program) PROG ProgName:P1 DeclarationList:D2 LBRACE MethodDeclList:M3 RBRACE {: RESULT=new Program(P1, D2, M3); RESULT.setLine(P1left); :} ;
 
-ProgName ::= (ProgName) {:parser.Var = "globalne promenljive";:} IDENT:progName {: RESULT=new ProgName(progName); RESULT.setLine(progNameleft); :};
+ProgName ::= (ProgName) {:parser.Var = " globalne promenljive";:} IDENT:progName {: RESULT=new ProgName(progName); RESULT.setLine(progNameleft); :};
 
 DeclarationList ::= (DeclList) DeclarationList:D1 Decl:D2 {: RESULT=new DeclList(D1, D2); RESULT.setLine(D1left); :} | (DeclarationListEmpty) {: RESULT=new DeclarationListEmpty(); :};
 
@@ -178,7 +180,8 @@ Brackets ::= (ArrayBracket) LBRACKET RBRACKET {: RESULT=new ArrayBracket(); :} |
 
 FormParsList ::= (FormalParameterList) FormParsList:F1 COMMA Parameter:P2 {: RESULT=new FormalParameterList(F1, P2); RESULT.setLine(F1left); :} | (NoFormParsList) {: RESULT=new NoFormParsList(); :};
 
-Parameter ::= (FormalParameter) Type:T1 IDENT:formalParameterName Brackets:B2 {: RESULT=new FormalParameter(T1, formalParameterName, B2); RESULT.setLine(T1left); :} | (ParameterError) error:e {:parser.report_error("Greska pri deklaraciji formalnih parametara funkcije ", null);:} {: RESULT=new ParameterError(); :} ;
+Parameter ::= (FormalParameter) Type:T1 IDENT:formalParameterName Brackets:B2 {: RESULT=new FormalParameter(T1, formalParameterName, B2); RESULT.setLine(T1left); :} 
+| (ParameterError) error:e {:parser.report_error("Greska pri deklaraciji formalnih parametara funkcije ", null);:} {: RESULT=new ParameterError(); :} ;
 
 Type ::= (Type) IDENT:typeName {: RESULT=new Type(typeName); RESULT.setLine(typeNameleft); :} ;
 

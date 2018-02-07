@@ -1,0 +1,140 @@
+INFO  02:53:18,786 - #39 program
+INFO  02:53:18,789 - #43 LekserTest
+INFO  02:53:18,790 - #43 int
+INFO  02:53:18,795 - #43 a
+INFO  02:53:18,796 - #25 ;
+INFO  02:53:18,800 - #43 bool
+INFO  02:53:18,801 - #43 b
+INFO  02:53:18,802 - #25 ;
+INFO  02:53:18,802 - #43 int
+INFO  02:53:18,803 - #25 ;
+ERROR 02:53:18,803 - Sintaksna greska prilikom definisanja  globalne promenljive na liniji 6
+INFO  02:53:18,805 - #40 const
+INFO  02:53:18,806 - #43 int
+INFO  02:53:18,806 - #43 c
+INFO  02:53:18,806 - #22 =
+INFO  02:53:18,807 - #42 5
+INFO  02:53:18,807 - #25 ;
+INFO  02:53:18,811 - #40 const
+INFO  02:53:18,814 - #43 bool
+INFO  02:53:18,814 - #43 valBool
+INFO  02:53:18,815 - #22 =
+INFO  02:53:18,815 - #44 true
+INFO  02:53:18,815 - #25 ;
+INFO  02:53:18,850 - #38 class
+INFO  02:53:18,850 - #43 C
+INFO  02:53:18,850 - #26 {
+INFO  02:53:18,853 - #43 int
+INFO  02:53:18,856 - #43 a
+INFO  02:53:18,856 - #25 ;
+INFO  02:53:18,856 - #43 C
+INFO  02:53:18,857 - #43 proba
+INFO  02:53:18,857 - #25 ;
+INFO  02:53:18,858 - #26 {
+INFO  02:53:18,860 - #37 void
+INFO  02:53:18,861 - #43 metoda
+INFO  02:53:18,863 - #16 (
+INFO  02:53:18,865 - #17 )
+INFO  02:53:18,867 - #26 {
+INFO  02:53:18,867 - #29 do
+INFO  02:53:18,870 - #26 {
+INFO  02:53:18,873 - #43 a
+INFO  02:53:18,873 - #22 =
+INFO  02:53:18,876 - #43 a
+INFO  02:53:18,876 - #5 +
+INFO  02:53:18,879 - #42 5
+INFO  02:53:18,882 - #5 +
+INFO  02:53:18,884 - #43 c
+INFO  02:53:18,884 - #6 -
+INFO  02:53:18,884 - #16 (
+INFO  02:53:18,886 - #42 2
+INFO  02:53:18,886 - #2 *
+INFO  02:53:18,886 - #43 c
+INFO  02:53:18,889 - #17 )
+INFO  02:53:18,890 - #3 /
+INFO  02:53:18,891 - #42 3
+INFO  02:53:18,893 - #25 ;
+INFO  02:53:18,894 - #28 if
+INFO  02:53:18,897 - #16 (
+INFO  02:53:18,897 - #43 b
+INFO  02:53:18,897 - #17 )
+INFO  02:53:18,906 - #43 proba
+INFO  02:53:18,909 - #22 =
+INFO  02:53:18,909 - #18 new
+INFO  02:53:18,910 - #43 C
+INFO  02:53:18,910 - #25 ;
+INFO  02:53:18,911 - #43 proba
+INFO  02:53:18,911 - #13 .
+INFO  02:53:18,912 - #43 a
+INFO  02:53:18,912 - #22 =
+INFO  02:53:18,913 - #43 a
+INFO  02:53:18,914 - #25 ;
+INFO  02:53:18,914 - #27 }
+INFO  02:53:18,915 - #30 while
+INFO  02:53:18,916 - #16 (
+INFO  02:53:18,917 - #43 b
+INFO  02:53:18,918 - #19 &&
+INFO  02:53:18,919 - #43 a
+INFO  02:53:18,920 - #11 <
+INFO  02:53:18,921 - #42 50
+INFO  02:53:18,925 - #17 )
+INFO  02:53:18,926 - #25 ;
+INFO  02:53:18,927 - #27 }
+INFO  02:53:18,928 - #27 }
+INFO  02:53:18,931 - #27 }
+INFO  02:53:18,931 - #43 C
+INFO  02:53:18,933 - #43 mojArg
+INFO  02:53:18,934 - #25 ;
+INFO  02:53:18,934 - #26 {
+INFO  02:53:18,934 - #37 void
+INFO  02:53:18,934 - #43 main
+INFO  02:53:18,935 - #16 (
+INFO  02:53:18,935 - #17 )
+INFO  02:53:18,935 - #26 {
+INFO  02:53:18,935 - #43 mojArg
+INFO  02:53:18,936 - #22 =
+INFO  02:53:18,936 - #18 new
+INFO  02:53:18,936 - #43 C
+INFO  02:53:18,936 - #25 ;
+INFO  02:53:18,936 - #43 mojArg
+INFO  02:53:18,937 - #13 .
+INFO  02:53:18,937 - #43 a
+INFO  02:53:18,937 - #22 =
+INFO  02:53:18,937 - #42 6
+INFO  02:53:18,937 - #25 ;
+INFO  02:53:18,938 - #43 mojArg
+INFO  02:53:18,938 - #13 .
+INFO  02:53:18,938 - #43 metoda
+INFO  02:53:18,938 - #16 (
+INFO  02:53:18,940 - #44 true
+INFO  02:53:18,940 - #17 )
+INFO  02:53:18,945 - #25 ;
+INFO  02:53:18,945 - #35 print
+INFO  02:53:18,946 - #16 (
+INFO  02:53:18,946 - #43 mojArg
+INFO  02:53:18,946 - #13 .
+INFO  02:53:18,946 - #43 c
+INFO  02:53:18,947 - #13 .
+INFO  02:53:18,947 - #43 proba
+INFO  02:53:18,947 - #13 .
+INFO  02:53:18,947 - #43 a
+INFO  02:53:18,948 - #17 )
+INFO  02:53:18,949 - #25 ;
+INFO  02:53:18,950 - #27 }
+INFO  02:53:18,950 - #27 }
+INFO  02:53:18,983 - Detektovana upotreba globalne konstante c na liniji 16: Con c: Int , 5, 0 
+INFO  02:53:18,984 - Detektovana upotreba globalne konstante c na liniji 16: Con c: Int , 5, 0 
+INFO  02:53:18,984 - Detektovana upotreba globalne promenljive b na liniji 17: Var b: Bool , 1, 0 
+INFO  02:53:18,985 - Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 17: Type C: Class [], 0, 0 
+INFO  02:53:18,986 - Detektovan pristup polju a unutrasnje klase na liniji 18: Fld a: Int , 1, 1 
+INFO  02:53:18,986 - Detektovana upotreba globalne promenljive b na liniji 19: Var b: Bool , 1, 0 
+INFO  02:53:18,987 - Detektovana upotreba globalne promenljive mojArg na liniji 27: Var mojArg: Class , 2, 0 
+INFO  02:53:18,988 - Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 27: Type C: Class [], 0, 0 
+INFO  02:53:18,988 - Detektovana upotreba globalne promenljive mojArg na liniji 28: Var mojArg: Class , 2, 0 
+INFO  02:53:18,988 - Detektovan pristup polju a unutrasnje klase na liniji 28: Fld a: Int , 1, 1 
+INFO  02:53:18,988 - Detektovana upotreba globalne promenljive mojArg na liniji 29: Var mojArg: Class , 2, 0 
+INFO  02:53:18,989 - Detektovan poziv metode metoda unutrasnje klase  na liniji 29: Meth metoda: NoType , 0, 1 
+ERROR 02:53:18,989 - Semanticka greska na liniji 29: funkcija metoda ne moze imati parametre!
+INFO  02:53:18,990 - Detektovana upotreba globalne promenljive mojArg na liniji 30: Var mojArg: Class , 2, 0 
+ERROR 02:53:18,990 - Semanticka greska na liniji 30: ne postoji polje u klasi sa imenom c!
+ERROR 02:53:18,990 - Semanticka greska na liniji 30: simbol u opearciji print mora biti tipa int, bool ili char!

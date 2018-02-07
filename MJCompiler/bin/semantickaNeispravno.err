@@ -1,0 +1,36 @@
+Semanticka greska na liniji 3: a je vec deklarisano!
+Semanticka greska na liniji 6: zadati tip podataka axss nije pronadjen u tabeli simbola!
+Semanticka greska na liniji 10: neslaganje u tipu konstante i dodeljene vrednosti!
+Semanticka greska na liniji 15 : moguce je mnoziti samo 2 simbola tipa int.
+Semanticka greska na liniji 15 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska: funkcija metoda nema return iskaz!
+Semanticka greska na liniji 21: Tip koriscen za extend mora biti neka korisnicki definisana klasa!
+Semanticka greska na liniji 23 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije metodaB
+Semanticka greska na liniji 33: postoje samo jednodimenzionalni nizovi!
+Semanticka greska na liniji 35: ne postoje polja kod promenljivih koje nisu klasnog tipa!
+Semanticka greska na liniji 37 : element niza ne predstavlja ime funkcije ili metode klase!
+Semanticka greska na liniji 37: Nevalidan naziv metode!
+Semanticka greska na liniji 43 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska na liniji 45: velicina niza mora biti int!
+Semanticka greska na liniji 45 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska na liniji 48: negacija se moze primeniti samo na int!
+Semanticka greska na liniji 48 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska na liniji 49 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska na liniji 50: nizovne i klasne promenljive se mogu samo porediti na jednakost/razlicitost!
+Semanticka greska na liniji 53: nije moguce porediti objekte nekompatibilnih tipova!
+Semanticka greska: kljucna rec BREAK se sme koristiti samo u okviru do-while petlje!
+Semanticka greska na liniji 56: Greska prilikom pravljenja objekta klase - zadati tip int ne predstavlja ime klase!
+Semanticka greska na liniji 56 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska na liniji 57: nije moguce primeniti relacione operatore na promenljive tipa bool!
+Semanticka greska na liniji 63 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska na liniji 70: Za pristup elementu niza mora se koristiti int!
+Semanticka greska na liniji 71: Promenljiva g nije nizovnog tipa!
+Semanticka greska na liniji 76: Funkcija proba mora imati zadate stvarne argumente prilikom poziva!
+Semanticka greska na liniji 77: nevalidan tip parametra pri pozivu funkcije proba!
+Semanticka greska na liniji 78: previse argumenata pri pozivu metode proba!
+Semanticka greska: kljucna rec CONTINUE se sme koristiti samo u okviru do-while petlje!
+Semanticka greska na liniji 80 : ime neradim nije deklarisano! 
+Semanticka greska na liniji 80 : neradim ne predstavlja ime funkcije ili metode klase!
+Semanticka greska na liniji 80: Nevalidan naziv metode!
+=====================Semanticka analiza nije uspesno zavrsena=====================
+=====Kod nije izgenerisan zbog gresaka u semantickoj i/ili sintaksnoj analizi=====

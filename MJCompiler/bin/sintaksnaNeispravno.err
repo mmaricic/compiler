@@ -1,0 +1,17 @@
+Sintaksna greska prilikom definisanja  globalne promenljive na liniji 5
+Sintaksna greska prilikom definisanja globalne promenljive na liniji 9
+Sintaksna greska prilikom extendovanja klase  na liniji 10
+Sintaksna greska prilikom definisanja  polja klase  na liniji 10
+Greska pri deklaraciji formalnih parametara funkcije  na liniji 12
+Greska pri deklaraciji formalnih parametara funkcije  na liniji 16
+Sintaksna greska kod logickog izraza if-a  na liniji 44
+=====================Sintaksna analiza nije uspesno zavrsena======================
+Semanticka greska na liniji 24 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska na liniji 25 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska na liniji 33: nije moguce porediti objekte nekompatibilnih tipova!
+Semanticka greska: kljucna rec BREAK se sme koristiti samo u okviru do-while petlje!
+Semanticka greska na liniji 38: ime s je vec deklarisano!
+Semanticka greska na liniji 40 : nekompatibilni tipovi u dodeli vrednosti 
+Semanticka greska na liniji 41 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije s
+=====================Semanticka analiza nije uspesno zavrsena=====================
+=====Kod nije izgenerisan zbog gresaka u semantickoj i/ili sintaksnoj analizi=====

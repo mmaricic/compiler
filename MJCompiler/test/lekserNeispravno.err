@@ -1,0 +1,9 @@
+Leksicka greska (!) u liniji 6 na poziciji 5
+Sintaksna greska prilikom definisanja  globalne promenljive na liniji 6
+Leksicka greska (#) u liniji 14 na poziciji 15
+=====================Sintaksna analiza nije uspesno zavrsena======================
+Semanticka greska na liniji 29: funkcija metoda ne moze imati parametre!
+Semanticka greska na liniji 30: ne postoji polje u klasi sa imenom c!
+Semanticka greska na liniji 30: simbol u opearciji print mora biti tipa int, bool ili char!
+=====================Semanticka analiza nije uspesno zavrsena=====================
+=====Kod nije izgenerisan zbog gresaka u semantickoj i/ili sintaksnoj analizi=====

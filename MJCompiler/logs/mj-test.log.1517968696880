@@ -1,0 +1,461 @@
+INFO  02:57:55,160 - #39 program
+INFO  02:57:55,163 - #43 P
+INFO  02:57:55,164 - #38 class
+INFO  02:57:55,167 - #43 A
+INFO  02:57:55,167 - #26 {
+INFO  02:57:55,170 - #43 int
+INFO  02:57:55,173 - #43 i
+INFO  02:57:55,175 - #25 ;
+INFO  02:57:55,178 - #27 }
+INFO  02:57:55,182 - #38 class
+INFO  02:57:55,185 - #43 B
+INFO  02:57:55,186 - #26 {
+INFO  02:57:55,186 - #43 A
+INFO  02:57:55,187 - #43 a
+INFO  02:57:55,187 - #14 [
+INFO  02:57:55,187 - #15 ]
+INFO  02:57:55,188 - #25 ;
+INFO  02:57:55,190 - #26 {
+INFO  02:57:55,190 - #37 void
+INFO  02:57:55,192 - #43 ispis
+INFO  02:57:55,193 - #16 (
+INFO  02:57:55,196 - #43 int
+INFO  02:57:55,196 - #43 a
+INFO  02:57:55,196 - #17 )
+INFO  02:57:55,202 - #26 {
+INFO  02:57:55,202 - #35 print
+INFO  02:57:55,207 - #16 (
+INFO  02:57:55,207 - #43 a
+INFO  02:57:55,207 - #17 )
+INFO  02:57:55,211 - #25 ;
+INFO  02:57:55,211 - #35 print
+INFO  02:57:55,213 - #16 (
+INFO  02:57:55,213 - #43 eol
+INFO  02:57:55,213 - #17 )
+INFO  02:57:55,214 - #25 ;
+INFO  02:57:55,214 - #27 }
+INFO  02:57:55,214 - #27 }
+INFO  02:57:55,217 - #27 }
+INFO  02:57:55,218 - #38 class
+INFO  02:57:55,218 - #43 C
+INFO  02:57:55,219 - #41 extends
+INFO  02:57:55,219 - #43 B
+INFO  02:57:55,219 - #26 {
+INFO  02:57:55,220 - #43 B
+INFO  02:57:55,221 - #43 b
+INFO  02:57:55,221 - #25 ;
+INFO  02:57:55,221 - #26 {
+INFO  02:57:55,223 - #37 void
+INFO  02:57:55,223 - #43 ispis
+INFO  02:57:55,223 - #16 (
+INFO  02:57:55,224 - #43 int
+INFO  02:57:55,224 - #43 c
+INFO  02:57:55,225 - #17 )
+INFO  02:57:55,225 - #26 {
+INFO  02:57:55,225 - #35 print
+INFO  02:57:55,226 - #16 (
+INFO  02:57:55,226 - #43 c
+INFO  02:57:55,226 - #17 )
+INFO  02:57:55,227 - #25 ;
+INFO  02:57:55,227 - #35 print
+INFO  02:57:55,231 - #16 (
+INFO  02:57:55,231 - #45 o
+INFO  02:57:55,232 - #17 )
+INFO  02:57:55,233 - #25 ;
+INFO  02:57:55,233 - #35 print
+INFO  02:57:55,234 - #16 (
+INFO  02:57:55,235 - #43 eol
+INFO  02:57:55,235 - #17 )
+INFO  02:57:55,235 - #25 ;
+INFO  02:57:55,236 - #27 }
+INFO  02:57:55,236 - #43 int
+INFO  02:57:55,236 - #43 mojaMetoda
+INFO  02:57:55,237 - #16 (
+INFO  02:57:55,237 - #17 )
+INFO  02:57:55,239 - #26 {
+INFO  02:57:55,240 - #28 if
+INFO  02:57:55,240 - #16 (
+INFO  02:57:55,240 - #43 b
+INFO  02:57:55,240 - #7 ==
+INFO  02:57:55,241 - #43 null
+INFO  02:57:55,244 - #17 )
+INFO  02:57:55,249 - #43 b
+INFO  02:57:55,252 - #22 =
+INFO  02:57:55,254 - #18 new
+INFO  02:57:55,254 - #43 B
+INFO  02:57:55,254 - #25 ;
+INFO  02:57:55,254 - #43 b
+INFO  02:57:55,256 - #13 .
+INFO  02:57:55,256 - #43 a
+INFO  02:57:55,257 - #22 =
+INFO  02:57:55,257 - #18 new
+INFO  02:57:55,257 - #43 A
+INFO  02:57:55,258 - #14 [
+INFO  02:57:55,258 - #42 5
+INFO  02:57:55,258 - #15 ]
+INFO  02:57:55,259 - #25 ;
+INFO  02:57:55,259 - #43 b
+INFO  02:57:55,260 - #13 .
+INFO  02:57:55,260 - #43 a
+INFO  02:57:55,260 - #14 [
+INFO  02:57:55,260 - #42 2
+INFO  02:57:55,260 - #15 ]
+INFO  02:57:55,261 - #22 =
+INFO  02:57:55,261 - #18 new
+INFO  02:57:55,262 - #43 A
+INFO  02:57:55,262 - #25 ;
+INFO  02:57:55,262 - #36 read
+INFO  02:57:55,262 - #16 (
+INFO  02:57:55,263 - #43 b
+INFO  02:57:55,263 - #13 .
+INFO  02:57:55,263 - #43 a
+INFO  02:57:55,264 - #14 [
+INFO  02:57:55,264 - #42 2
+INFO  02:57:55,264 - #15 ]
+INFO  02:57:55,265 - #13 .
+INFO  02:57:55,265 - #43 i
+INFO  02:57:55,265 - #17 )
+INFO  02:57:55,265 - #25 ;
+INFO  02:57:55,266 - #43 a
+INFO  02:57:55,266 - #22 =
+INFO  02:57:55,267 - #18 new
+INFO  02:57:55,267 - #43 A
+INFO  02:57:55,267 - #14 [
+INFO  02:57:55,268 - #42 7
+INFO  02:57:55,268 - #15 ]
+INFO  02:57:55,268 - #25 ;
+INFO  02:57:55,271 - #43 a
+INFO  02:57:55,275 - #14 [
+INFO  02:57:55,276 - #42 2
+INFO  02:57:55,276 - #15 ]
+INFO  02:57:55,276 - #22 =
+INFO  02:57:55,276 - #18 new
+INFO  02:57:55,277 - #43 A
+INFO  02:57:55,277 - #25 ;
+INFO  02:57:55,277 - #43 a
+INFO  02:57:55,278 - #14 [
+INFO  02:57:55,278 - #42 2
+INFO  02:57:55,278 - #15 ]
+INFO  02:57:55,278 - #13 .
+INFO  02:57:55,278 - #43 i
+INFO  02:57:55,279 - #22 =
+INFO  02:57:55,279 - #42 14
+INFO  02:57:55,279 - #25 ;
+INFO  02:57:55,279 - #43 ispis
+INFO  02:57:55,280 - #16 (
+INFO  02:57:55,282 - #43 a
+INFO  02:57:55,282 - #14 [
+INFO  02:57:55,282 - #42 2
+INFO  02:57:55,282 - #15 ]
+INFO  02:57:55,283 - #13 .
+INFO  02:57:55,283 - #43 i
+INFO  02:57:55,284 - #17 )
+INFO  02:57:55,288 - #25 ;
+INFO  02:57:55,288 - #43 ispis
+INFO  02:57:55,289 - #16 (
+INFO  02:57:55,289 - #43 b
+INFO  02:57:55,289 - #13 .
+INFO  02:57:55,289 - #43 a
+INFO  02:57:55,290 - #14 [
+INFO  02:57:55,290 - #42 2
+INFO  02:57:55,290 - #15 ]
+INFO  02:57:55,290 - #13 .
+INFO  02:57:55,290 - #43 i
+INFO  02:57:55,290 - #17 )
+INFO  02:57:55,291 - #25 ;
+INFO  02:57:55,291 - #34 return
+INFO  02:57:55,291 - #43 a
+INFO  02:57:55,291 - #14 [
+INFO  02:57:55,291 - #42 2
+INFO  02:57:55,291 - #15 ]
+INFO  02:57:55,292 - #13 .
+INFO  02:57:55,292 - #43 i
+INFO  02:57:55,292 - #25 ;
+INFO  02:57:55,292 - #27 }
+INFO  02:57:55,293 - #27 }
+INFO  02:57:55,293 - #27 }
+INFO  02:57:55,293 - #43 C
+INFO  02:57:55,293 - #43 c
+INFO  02:57:55,293 - #25 ;
+INFO  02:57:55,294 - #43 int
+INFO  02:57:55,294 - #43 res
+INFO  02:57:55,294 - #21 ,
+INFO  02:57:55,295 - #43 s
+INFO  02:57:55,295 - #25 ;
+INFO  02:57:55,296 - #43 B
+INFO  02:57:55,296 - #43 b
+INFO  02:57:55,296 - #21 ,
+INFO  02:57:55,296 - #43 b2
+INFO  02:57:55,296 - #25 ;
+INFO  02:57:55,296 - #26 {
+INFO  02:57:55,297 - #37 void
+INFO  02:57:55,297 - #43 main
+INFO  02:57:55,297 - #16 (
+INFO  02:57:55,298 - #17 )
+INFO  02:57:55,298 - #26 {
+INFO  02:57:55,298 - #43 res
+INFO  02:57:55,298 - #22 =
+INFO  02:57:55,299 - #42 5
+INFO  02:57:55,299 - #25 ;
+INFO  02:57:55,299 - #43 c
+INFO  02:57:55,300 - #22 =
+INFO  02:57:55,300 - #18 new
+INFO  02:57:55,300 - #43 C
+INFO  02:57:55,300 - #25 ;
+INFO  02:57:55,300 - #43 c
+INFO  02:57:55,301 - #13 .
+INFO  02:57:55,301 - #43 b
+INFO  02:57:55,301 - #22 =
+INFO  02:57:55,301 - #18 new
+INFO  02:57:55,301 - #43 B
+INFO  02:57:55,301 - #25 ;
+INFO  02:57:55,302 - #43 c
+INFO  02:57:55,302 - #13 .
+INFO  02:57:55,302 - #43 b
+INFO  02:57:55,302 - #13 .
+INFO  02:57:55,302 - #43 a
+INFO  02:57:55,302 - #22 =
+INFO  02:57:55,303 - #18 new
+INFO  02:57:55,303 - #43 A
+INFO  02:57:55,303 - #14 [
+INFO  02:57:55,303 - #42 5
+INFO  02:57:55,303 - #15 ]
+INFO  02:57:55,304 - #25 ;
+INFO  02:57:55,304 - #43 c
+INFO  02:57:55,304 - #13 .
+INFO  02:57:55,304 - #43 b
+INFO  02:57:55,304 - #13 .
+INFO  02:57:55,305 - #43 a
+INFO  02:57:55,305 - #14 [
+INFO  02:57:55,305 - #42 2
+INFO  02:57:55,305 - #15 ]
+INFO  02:57:55,305 - #22 =
+INFO  02:57:55,306 - #18 new
+INFO  02:57:55,306 - #43 A
+INFO  02:57:55,306 - #25 ;
+INFO  02:57:55,306 - #43 c
+INFO  02:57:55,306 - #13 .
+INFO  02:57:55,307 - #43 b
+INFO  02:57:55,307 - #13 .
+INFO  02:57:55,307 - #43 a
+INFO  02:57:55,307 - #14 [
+INFO  02:57:55,307 - #42 2
+INFO  02:57:55,307 - #15 ]
+INFO  02:57:55,307 - #13 .
+INFO  02:57:55,308 - #43 i
+INFO  02:57:55,308 - #22 =
+INFO  02:57:55,308 - #42 6
+INFO  02:57:55,308 - #25 ;
+INFO  02:57:55,308 - #29 do
+INFO  02:57:55,308 - #26 {
+INFO  02:57:55,310 - #28 if
+INFO  02:57:55,310 - #16 (
+INFO  02:57:55,310 - #43 res
+INFO  02:57:55,310 - #11 <
+INFO  02:57:55,311 - #42 5
+INFO  02:57:55,312 - #20 ||
+INFO  02:57:55,313 - #43 res
+INFO  02:57:55,314 - #10 >=
+INFO  02:57:55,314 - #42 8
+INFO  02:57:55,316 - #19 &&
+INFO  02:57:55,317 - #44 true
+INFO  02:57:55,317 - #20 ||
+INFO  02:57:55,319 - #42 1
+INFO  02:57:55,319 - #7 ==
+INFO  02:57:55,319 - #42 1
+INFO  02:57:55,319 - #20 ||
+INFO  02:57:55,320 - #42 0
+INFO  02:57:55,320 - #8 !=
+INFO  02:57:55,320 - #42 1
+INFO  02:57:55,321 - #19 &&
+INFO  02:57:55,322 - #44 false
+INFO  02:57:55,322 - #17 )
+INFO  02:57:55,322 - #29 do
+INFO  02:57:55,322 - #43 res
+INFO  02:57:55,322 - #22 =
+INFO  02:57:55,323 - #43 res
+INFO  02:57:55,323 - #5 +
+INFO  02:57:55,323 - #43 c
+INFO  02:57:55,325 - #13 .
+INFO  02:57:55,325 - #43 b
+INFO  02:57:55,326 - #13 .
+INFO  02:57:55,326 - #43 a
+INFO  02:57:55,326 - #14 [
+INFO  02:57:55,326 - #42 2
+INFO  02:57:55,326 - #15 ]
+INFO  02:57:55,326 - #13 .
+INFO  02:57:55,327 - #43 i
+INFO  02:57:55,327 - #25 ;
+INFO  02:57:55,328 - #30 while
+INFO  02:57:55,328 - #16 (
+INFO  02:57:55,329 - #44 false
+INFO  02:57:55,329 - #17 )
+INFO  02:57:55,330 - #25 ;
+INFO  02:57:55,330 - #28 if
+INFO  02:57:55,330 - #16 (
+INFO  02:57:55,331 - #42 1
+INFO  02:57:55,331 - #7 ==
+INFO  02:57:55,331 - #42 0
+INFO  02:57:55,331 - #17 )
+INFO  02:57:55,331 - #31 break
+INFO  02:57:55,332 - #25 ;
+INFO  02:57:55,332 - #32 else
+INFO  02:57:55,334 - #33 continue
+INFO  02:57:55,335 - #25 ;
+INFO  02:57:55,335 - #27 }
+INFO  02:57:55,337 - #30 while
+INFO  02:57:55,338 - #16 (
+INFO  02:57:55,338 - #43 res
+INFO  02:57:55,338 - #11 <
+INFO  02:57:55,338 - #42 20
+INFO  02:57:55,339 - #17 )
+INFO  02:57:55,339 - #25 ;
+INFO  02:57:55,339 - #43 res
+INFO  02:57:55,339 - #22 =
+INFO  02:57:55,339 - #43 res
+INFO  02:57:55,339 - #5 +
+INFO  02:57:55,340 - #42 2
+INFO  02:57:55,340 - #25 ;
+INFO  02:57:55,340 - #35 print
+INFO  02:57:55,340 - #16 (
+INFO  02:57:55,340 - #43 res
+INFO  02:57:55,340 - #17 )
+INFO  02:57:55,341 - #25 ;
+INFO  02:57:55,341 - #43 b
+INFO  02:57:55,341 - #22 =
+INFO  02:57:55,341 - #18 new
+INFO  02:57:55,341 - #43 B
+INFO  02:57:55,341 - #25 ;
+INFO  02:57:55,341 - #43 b
+INFO  02:57:55,342 - #13 .
+INFO  02:57:55,342 - #43 ispis
+INFO  02:57:55,342 - #16 (
+INFO  02:57:55,342 - #42 5
+INFO  02:57:55,342 - #17 )
+INFO  02:57:55,342 - #25 ;
+INFO  02:57:55,343 - #43 c
+INFO  02:57:55,343 - #13 .
+INFO  02:57:55,343 - #43 ispis
+INFO  02:57:55,343 - #16 (
+INFO  02:57:55,343 - #42 5
+INFO  02:57:55,343 - #17 )
+INFO  02:57:55,344 - #25 ;
+INFO  02:57:55,344 - #43 c
+INFO  02:57:55,344 - #22 =
+INFO  02:57:55,344 - #18 new
+INFO  02:57:55,344 - #43 C
+INFO  02:57:55,344 - #25 ;
+INFO  02:57:55,345 - #43 s
+INFO  02:57:55,345 - #22 =
+INFO  02:57:55,345 - #43 c
+INFO  02:57:55,345 - #13 .
+INFO  02:57:55,345 - #43 mojaMetoda
+INFO  02:57:55,345 - #16 (
+INFO  02:57:55,346 - #17 )
+INFO  02:57:55,347 - #25 ;
+INFO  02:57:55,348 - #35 print
+INFO  02:57:55,348 - #16 (
+INFO  02:57:55,348 - #43 s
+INFO  02:57:55,348 - #17 )
+INFO  02:57:55,348 - #25 ;
+INFO  02:57:55,349 - #35 print
+INFO  02:57:55,349 - #16 (
+INFO  02:57:55,349 - #43 eol
+INFO  02:57:55,349 - #17 )
+INFO  02:57:55,349 - #25 ;
+INFO  02:57:55,349 - #43 b2
+INFO  02:57:55,350 - #22 =
+INFO  02:57:55,350 - #18 new
+INFO  02:57:55,350 - #43 C
+INFO  02:57:55,350 - #25 ;
+INFO  02:57:55,350 - #43 b2
+INFO  02:57:55,350 - #13 .
+INFO  02:57:55,350 - #43 ispis
+INFO  02:57:55,350 - #16 (
+INFO  02:57:55,351 - #42 3
+INFO  02:57:55,351 - #17 )
+INFO  02:57:55,351 - #25 ;
+INFO  02:57:55,351 - #27 }
+INFO  02:57:55,351 - #27 }
+INFO  02:57:55,381 - ========================Sintaksna analiza uspesno zavrsena========================
+INFO  02:57:55,399 - Detektovana upotreba formalnog parametra a metode ispis na liniji 9: Var a: Int , 1, 1 
+INFO  02:57:55,400 - Detektovana upotreba globalne konstante eol na liniji 10: Con eol: Char , 10, 0 
+INFO  02:57:55,401 - Detektovana upotreba formalnog parametra c metode ispis na liniji 18: Var c: Int , 1, 1 
+INFO  02:57:55,402 - Detektovana upotreba globalne konstante eol na liniji 20: Con eol: Char , 10, 0 
+INFO  02:57:55,402 - Detektovana upotreba globalne konstante null na liniji 25: Con null: Class , 0, 0 
+INFO  02:57:55,403 - Detektovana upotreba unutrasnje klase B(pravljenje objekta) na liniji 26: Type B: Class [], 0, 0 
+INFO  02:57:55,404 - Detektovan pristup polju a unutrasnje klase na liniji 27: Fld a: Arr of Class, 1, 1 
+INFO  02:57:55,405 - Detektovano pravljenje niza tipa A na liniji 27
+INFO  02:57:55,405 - Detektovan pristup polju a unutrasnje klase na liniji 28: Fld a: Arr of Class, 1, 1 
+INFO  02:57:55,406 - Detektovan pristup elementu niza a na liniji 28: a: Class , -1, -1 
+INFO  02:57:55,406 - Detektovana upotreba unutrasnje klase A(pravljenje objekta) na liniji 28: Type A: Class [], 0, 0 
+INFO  02:57:55,406 - Detektovan pristup polju a unutrasnje klase na liniji 29: Fld a: Arr of Class, 1, 1 
+INFO  02:57:55,407 - Detektovan pristup elementu niza a na liniji 29: a: Class , -1, -1 
+INFO  02:57:55,407 - Detektovan pristup polju i unutrasnje klase na liniji 29: Fld i: Int , 1, 1 
+INFO  02:57:55,407 - Detektovano pravljenje niza tipa A na liniji 30
+INFO  02:57:55,407 - Detektovan pristup elementu niza a na liniji 31: a: Class , -1, -1 
+INFO  02:57:55,407 - Detektovana upotreba unutrasnje klase A(pravljenje objekta) na liniji 31: Type A: Class [], 0, 0 
+INFO  02:57:55,408 - Detektovan pristup elementu niza a na liniji 32: a: Class , -1, -1 
+INFO  02:57:55,408 - Detektovan pristup polju i unutrasnje klase na liniji 32: Fld i: Int , 1, 1 
+INFO  02:57:55,408 - Detektovan poziv metode ispis unutrasnje klase  na liniji 33: Meth ispis: NoType , 0, 2 
+INFO  02:57:55,408 - Detektovan pristup elementu niza a na liniji 33: a: Class , -1, -1 
+INFO  02:57:55,409 - Detektovan pristup polju i unutrasnje klase na liniji 33: Fld i: Int , 1, 1 
+INFO  02:57:55,409 - Detektovan poziv metode ispis unutrasnje klase  na liniji 34: Meth ispis: NoType , 0, 2 
+INFO  02:57:55,409 - Detektovan pristup polju a unutrasnje klase na liniji 34: Fld a: Arr of Class, 1, 1 
+INFO  02:57:55,410 - Detektovan pristup elementu niza a na liniji 34: a: Class , -1, -1 
+INFO  02:57:55,410 - Detektovan pristup polju i unutrasnje klase na liniji 34: Fld i: Int , 1, 1 
+INFO  02:57:55,410 - Detektovan pristup elementu niza a na liniji 35: a: Class , -1, -1 
+INFO  02:57:55,410 - Detektovan pristup polju i unutrasnje klase na liniji 35: Fld i: Int , 1, 1 
+INFO  02:57:55,411 - Detektovana upotreba globalne promenljive res na liniji 45: Var res: Int , 1, 0 
+INFO  02:57:55,411 - Detektovana upotreba globalne promenljive c na liniji 46: Var c: Class , 0, 0 
+INFO  02:57:55,411 - Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 46: Type C: Class [], 0, 0 
+INFO  02:57:55,411 - Detektovana upotreba globalne promenljive c na liniji 47: Var c: Class , 0, 0 
+INFO  02:57:55,412 - Detektovan pristup polju b unutrasnje klase na liniji 47: Fld b: Class , 2, 1 
+INFO  02:57:55,412 - Detektovana upotreba unutrasnje klase B(pravljenje objekta) na liniji 47: Type B: Class [], 0, 0 
+INFO  02:57:55,412 - Detektovana upotreba globalne promenljive c na liniji 48: Var c: Class , 0, 0 
+INFO  02:57:55,412 - Detektovan pristup polju b unutrasnje klase na liniji 48: Fld b: Class , 2, 1 
+INFO  02:57:55,412 - Detektovan pristup polju a unutrasnje klase na liniji 48: Fld a: Arr of Class, 1, 1 
+INFO  02:57:55,413 - Detektovano pravljenje niza tipa A na liniji 48
+INFO  02:57:55,413 - Detektovana upotreba globalne promenljive c na liniji 49: Var c: Class , 0, 0 
+INFO  02:57:55,413 - Detektovan pristup polju b unutrasnje klase na liniji 49: Fld b: Class , 2, 1 
+INFO  02:57:55,413 - Detektovan pristup polju a unutrasnje klase na liniji 49: Fld a: Arr of Class, 1, 1 
+INFO  02:57:55,414 - Detektovan pristup elementu niza a na liniji 49: a: Class , -1, -1 
+INFO  02:57:55,414 - Detektovana upotreba unutrasnje klase A(pravljenje objekta) na liniji 49: Type A: Class [], 0, 0 
+INFO  02:57:55,414 - Detektovana upotreba globalne promenljive c na liniji 50: Var c: Class , 0, 0 
+INFO  02:57:55,414 - Detektovan pristup polju b unutrasnje klase na liniji 50: Fld b: Class , 2, 1 
+INFO  02:57:55,414 - Detektovan pristup polju a unutrasnje klase na liniji 50: Fld a: Arr of Class, 1, 1 
+INFO  02:57:55,414 - Detektovan pristup elementu niza a na liniji 50: a: Class , -1, -1 
+INFO  02:57:55,415 - Detektovan pristup polju i unutrasnje klase na liniji 50: Fld i: Int , 1, 1 
+INFO  02:57:55,415 - Detektovana upotreba globalne promenljive res na liniji 53: Var res: Int , 1, 0 
+INFO  02:57:55,416 - Detektovana upotreba globalne promenljive res na liniji 53: Var res: Int , 1, 0 
+INFO  02:57:55,416 - Detektovana upotreba globalne promenljive res na liniji 55: Var res: Int , 1, 0 
+INFO  02:57:55,417 - Detektovana upotreba globalne promenljive res na liniji 55: Var res: Int , 1, 0 
+INFO  02:57:55,417 - Detektovana upotreba globalne promenljive c na liniji 55: Var c: Class , 0, 0 
+INFO  02:57:55,417 - Detektovan pristup polju b unutrasnje klase na liniji 55: Fld b: Class , 2, 1 
+INFO  02:57:55,417 - Detektovan pristup polju a unutrasnje klase na liniji 55: Fld a: Arr of Class, 1, 1 
+INFO  02:57:55,418 - Detektovan pristup elementu niza a na liniji 55: a: Class , -1, -1 
+INFO  02:57:55,418 - Detektovan pristup polju i unutrasnje klase na liniji 55: Fld i: Int , 1, 1 
+INFO  02:57:55,418 - Detektovana upotreba globalne promenljive res na liniji 61: Var res: Int , 1, 0 
+INFO  02:57:55,419 - Detektovana upotreba globalne promenljive res na liniji 62: Var res: Int , 1, 0 
+INFO  02:57:55,419 - Detektovana upotreba globalne promenljive res na liniji 62: Var res: Int , 1, 0 
+INFO  02:57:55,420 - Detektovana upotreba globalne promenljive res na liniji 63: Var res: Int , 1, 0 
+INFO  02:57:55,420 - Detektovana upotreba globalne promenljive b na liniji 65: Var b: Class , 3, 0 
+INFO  02:57:55,422 - Detektovana upotreba unutrasnje klase B(pravljenje objekta) na liniji 65: Type B: Class [], 0, 0 
+INFO  02:57:55,426 - Detektovana upotreba globalne promenljive b na liniji 66: Var b: Class , 3, 0 
+INFO  02:57:55,426 - Detektovan poziv metode ispis unutrasnje klase  na liniji 66: Meth ispis: NoType , 0, 2 
+INFO  02:57:55,427 - Detektovana upotreba globalne promenljive c na liniji 67: Var c: Class , 0, 0 
+INFO  02:57:55,427 - Detektovan poziv metode ispis unutrasnje klase  na liniji 67: Meth ispis: NoType , 0, 2 
+INFO  02:57:55,427 - Detektovana upotreba globalne promenljive c na liniji 68: Var c: Class , 0, 0 
+INFO  02:57:55,427 - Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 68: Type C: Class [], 0, 0 
+INFO  02:57:55,427 - Detektovana upotreba globalne promenljive s na liniji 69: Var s: Int , 2, 0 
+INFO  02:57:55,428 - Detektovana upotreba globalne promenljive c na liniji 69: Var c: Class , 0, 0 
+INFO  02:57:55,428 - Detektovan poziv metode mojaMetoda unutrasnje klase  na liniji 69: Meth mojaMetoda: Int , 0, 1 
+INFO  02:57:55,428 - Detektovana upotreba globalne promenljive s na liniji 70: Var s: Int , 2, 0 
+INFO  02:57:55,428 - Detektovana upotreba globalne konstante eol na liniji 71: Con eol: Char , 10, 0 
+INFO  02:57:55,429 - Detektovana upotreba globalne promenljive b2 na liniji 72: Var b2: Class , 4, 0 
+INFO  02:57:55,429 - Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 72: Type C: Class [], 0, 0 
+INFO  02:57:55,429 - Detektovana upotreba globalne promenljive b2 na liniji 73: Var b2: Class , 4, 0 
+INFO  02:57:55,429 - Detektovan poziv metode ispis unutrasnje klase  na liniji 73: Meth ispis: NoType , 0, 2 
+INFO  02:57:55,430 - =======================Semanticka analiza uspesno zavrsena========================
+INFO  02:57:55,430 - Generise se bajtkod: D:\Faks\4. godina\PP1\pp1dz_template\workspace\MJCompiler\test\sintaksnaIspravno.obj
+INFO  02:57:55,457 - =============================Zavrseno generisanje koda============================

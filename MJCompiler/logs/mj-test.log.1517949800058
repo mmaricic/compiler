@@ -1,0 +1,829 @@
+INFO  21:41:39,116 - #39 program
+INFO  21:41:39,116 - #43 test_303
+INFO  21:41:39,116 - #40 const
+INFO  21:41:39,116 - #43 int
+INFO  21:41:39,116 - #43 cinilac
+INFO  21:41:39,116 - #22 =
+INFO  21:41:39,116 - #42 4
+INFO  21:41:39,131 - #21 ,
+INFO  21:41:39,131 - #43 delilac
+INFO  21:41:39,131 - #22 =
+INFO  21:41:39,131 - #42 3
+INFO  21:41:39,131 - #25 ;
+INFO  21:41:39,131 - #38 class
+INFO  21:41:39,131 - #43 Predmet
+INFO  21:41:39,131 - #26 {
+INFO  21:41:39,131 - #43 int
+INFO  21:41:39,131 - #43 tezina
+INFO  21:41:39,147 - #25 ;
+INFO  21:41:39,147 - #43 char
+INFO  21:41:39,147 - #43 vrsta
+INFO  21:41:39,147 - #25 ;
+INFO  21:41:39,147 - #26 {
+INFO  21:41:39,147 - #37 void
+INFO  21:41:39,147 - #43 postaviTezinu
+INFO  21:41:39,162 - #16 (
+INFO  21:41:39,162 - #43 int
+INFO  21:41:39,162 - #43 tezina
+INFO  21:41:39,162 - #17 )
+INFO  21:41:39,162 - #26 {
+INFO  21:41:39,162 - #43 this
+INFO  21:41:39,178 - #13 .
+INFO  21:41:39,178 - #43 tezina
+INFO  21:41:39,178 - #22 =
+INFO  21:41:39,178 - #43 tezina
+INFO  21:41:39,178 - #25 ;
+INFO  21:41:39,178 - #27 }
+INFO  21:41:39,178 - #37 void
+INFO  21:41:39,178 - #43 ucitajTezinu
+INFO  21:41:39,178 - #16 (
+INFO  21:41:39,194 - #17 )
+INFO  21:41:39,195 - #26 {
+INFO  21:41:39,195 - #36 read
+INFO  21:41:39,196 - #16 (
+INFO  21:41:39,196 - #43 tezina
+INFO  21:41:39,196 - #17 )
+INFO  21:41:39,196 - #25 ;
+INFO  21:41:39,196 - #27 }
+INFO  21:41:39,212 - #43 int
+INFO  21:41:39,212 - #43 zapremina
+INFO  21:41:39,212 - #16 (
+INFO  21:41:39,212 - #17 )
+INFO  21:41:39,212 - #26 {
+INFO  21:41:39,212 - #34 return
+INFO  21:41:39,212 - #42 0
+INFO  21:41:39,212 - #25 ;
+INFO  21:41:39,212 - #27 }
+INFO  21:41:39,212 - #43 int
+INFO  21:41:39,212 - #43 Q
+INFO  21:41:39,212 - #16 (
+INFO  21:41:39,212 - #17 )
+INFO  21:41:39,212 - #26 {
+INFO  21:41:39,212 - #34 return
+INFO  21:41:39,212 - #43 zapremina
+INFO  21:41:39,212 - #16 (
+INFO  21:41:39,212 - #17 )
+INFO  21:41:39,212 - #2 *
+INFO  21:41:39,212 - #43 tezina
+INFO  21:41:39,212 - #25 ;
+INFO  21:41:39,212 - #27 }
+INFO  21:41:39,212 - #37 void
+INFO  21:41:39,212 - #43 postaviVrstu
+INFO  21:41:39,212 - #16 (
+INFO  21:41:39,212 - #43 char
+INFO  21:41:39,227 - #43 vrsta
+INFO  21:41:39,227 - #17 )
+INFO  21:41:39,227 - #26 {
+INFO  21:41:39,227 - #43 this
+INFO  21:41:39,227 - #13 .
+INFO  21:41:39,227 - #43 vrsta
+INFO  21:41:39,227 - #22 =
+INFO  21:41:39,227 - #43 vrsta
+INFO  21:41:39,227 - #25 ;
+INFO  21:41:39,227 - #27 }
+INFO  21:41:39,227 - #27 }
+INFO  21:41:39,227 - #27 }
+INFO  21:41:39,227 - #38 class
+INFO  21:41:39,227 - #43 Sfera
+INFO  21:41:39,227 - #41 extends
+INFO  21:41:39,227 - #43 Predmet
+INFO  21:41:39,227 - #26 {
+INFO  21:41:39,227 - #43 int
+INFO  21:41:39,227 - #43 r
+INFO  21:41:39,227 - #25 ;
+INFO  21:41:39,227 - #26 {
+INFO  21:41:39,227 - #37 void
+INFO  21:41:39,227 - #43 postaviTezinu
+INFO  21:41:39,227 - #16 (
+INFO  21:41:39,227 - #43 int
+INFO  21:41:39,227 - #43 tezina
+INFO  21:41:39,227 - #17 )
+INFO  21:41:39,227 - #26 {
+INFO  21:41:39,227 - #43 this
+INFO  21:41:39,227 - #13 .
+INFO  21:41:39,227 - #43 tezina
+INFO  21:41:39,227 - #22 =
+INFO  21:41:39,227 - #43 tezina
+INFO  21:41:39,227 - #25 ;
+INFO  21:41:39,227 - #43 vrsta
+INFO  21:41:39,227 - #22 =
+INFO  21:41:39,227 - #45 s
+INFO  21:41:39,227 - #25 ;
+INFO  21:41:39,243 - #27 }
+INFO  21:41:39,243 - #37 void
+INFO  21:41:39,243 - #43 postaviPoluprecnik
+INFO  21:41:39,243 - #16 (
+INFO  21:41:39,243 - #43 int
+INFO  21:41:39,243 - #43 r
+INFO  21:41:39,243 - #17 )
+INFO  21:41:39,243 - #26 {
+INFO  21:41:39,243 - #43 this
+INFO  21:41:39,243 - #13 .
+INFO  21:41:39,243 - #43 r
+INFO  21:41:39,243 - #22 =
+INFO  21:41:39,243 - #43 r
+INFO  21:41:39,243 - #25 ;
+INFO  21:41:39,243 - #43 postaviVrstu
+INFO  21:41:39,243 - #16 (
+INFO  21:41:39,243 - #45 s
+INFO  21:41:39,243 - #17 )
+INFO  21:41:39,243 - #25 ;
+INFO  21:41:39,243 - #27 }
+INFO  21:41:39,243 - #43 int
+INFO  21:41:39,243 - #43 zapremina
+INFO  21:41:39,243 - #16 (
+INFO  21:41:39,243 - #17 )
+INFO  21:41:39,243 - #43 int
+INFO  21:41:39,243 - #43 z
+INFO  21:41:39,243 - #25 ;
+INFO  21:41:39,243 - #26 {
+INFO  21:41:39,243 - #43 z
+INFO  21:41:39,259 - #22 =
+INFO  21:41:39,259 - #43 cinilac
+INFO  21:41:39,259 - #25 ;
+INFO  21:41:39,259 - #34 return
+INFO  21:41:39,259 - #43 z
+INFO  21:41:39,259 - #2 *
+INFO  21:41:39,259 - #16 (
+INFO  21:41:39,259 - #43 r
+INFO  21:41:39,259 - #3 /
+INFO  21:41:39,259 - #43 delilac
+INFO  21:41:39,259 - #17 )
+INFO  21:41:39,259 - #25 ;
+INFO  21:41:39,259 - #27 }
+INFO  21:41:39,259 - #27 }
+INFO  21:41:39,259 - #27 }
+INFO  21:41:39,259 - #38 class
+INFO  21:41:39,259 - #43 Kvadar
+INFO  21:41:39,259 - #41 extends
+INFO  21:41:39,259 - #43 Predmet
+INFO  21:41:39,259 - #26 {
+INFO  21:41:39,259 - #43 int
+INFO  21:41:39,259 - #43 a
+INFO  21:41:39,259 - #21 ,
+INFO  21:41:39,259 - #43 b
+INFO  21:41:39,259 - #21 ,
+INFO  21:41:39,259 - #43 c
+INFO  21:41:39,259 - #25 ;
+INFO  21:41:39,259 - #26 {
+INFO  21:41:39,259 - #37 void
+INFO  21:41:39,259 - #43 postaviTezinu
+INFO  21:41:39,259 - #16 (
+INFO  21:41:39,259 - #43 int
+INFO  21:41:39,259 - #43 tezina
+INFO  21:41:39,259 - #17 )
+INFO  21:41:39,259 - #26 {
+INFO  21:41:39,259 - #43 this
+INFO  21:41:39,259 - #13 .
+INFO  21:41:39,259 - #43 tezina
+INFO  21:41:39,259 - #22 =
+INFO  21:41:39,259 - #43 tezina
+INFO  21:41:39,259 - #25 ;
+INFO  21:41:39,259 - #43 vrsta
+INFO  21:41:39,259 - #22 =
+INFO  21:41:39,259 - #45 k
+INFO  21:41:39,259 - #25 ;
+INFO  21:41:39,259 - #27 }
+INFO  21:41:39,259 - #37 void
+INFO  21:41:39,259 - #43 postaviStranice
+INFO  21:41:39,274 - #16 (
+INFO  21:41:39,274 - #43 int
+INFO  21:41:39,274 - #43 a
+INFO  21:41:39,274 - #21 ,
+INFO  21:41:39,274 - #43 int
+INFO  21:41:39,274 - #43 b
+INFO  21:41:39,274 - #21 ,
+INFO  21:41:39,274 - #43 int
+INFO  21:41:39,274 - #43 c
+INFO  21:41:39,274 - #17 )
+INFO  21:41:39,274 - #26 {
+INFO  21:41:39,274 - #43 this
+INFO  21:41:39,274 - #13 .
+INFO  21:41:39,274 - #43 a
+INFO  21:41:39,274 - #22 =
+INFO  21:41:39,274 - #43 a
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #43 this
+INFO  21:41:39,274 - #13 .
+INFO  21:41:39,274 - #43 b
+INFO  21:41:39,274 - #22 =
+INFO  21:41:39,274 - #43 b
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #43 this
+INFO  21:41:39,274 - #13 .
+INFO  21:41:39,274 - #43 c
+INFO  21:41:39,274 - #22 =
+INFO  21:41:39,274 - #43 c
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #43 vrsta
+INFO  21:41:39,274 - #22 =
+INFO  21:41:39,274 - #45 k
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #27 }
+INFO  21:41:39,274 - #43 int
+INFO  21:41:39,274 - #43 zapremina
+INFO  21:41:39,274 - #16 (
+INFO  21:41:39,274 - #17 )
+INFO  21:41:39,274 - #43 int
+INFO  21:41:39,274 - #43 z
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #26 {
+INFO  21:41:39,274 - #43 z
+INFO  21:41:39,274 - #22 =
+INFO  21:41:39,274 - #43 a
+INFO  21:41:39,274 - #2 *
+INFO  21:41:39,274 - #43 b
+INFO  21:41:39,274 - #2 *
+INFO  21:41:39,274 - #43 c
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #34 return
+INFO  21:41:39,274 - #43 z
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #27 }
+INFO  21:41:39,274 - #27 }
+INFO  21:41:39,274 - #27 }
+INFO  21:41:39,274 - #43 int
+INFO  21:41:39,274 - #43 zapreminaK
+INFO  21:41:39,274 - #21 ,
+INFO  21:41:39,274 - #43 zapreminaS
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #43 int
+INFO  21:41:39,274 - #43 tezinaK
+INFO  21:41:39,274 - #21 ,
+INFO  21:41:39,274 - #43 tezinaS
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #26 {
+INFO  21:41:39,274 - #37 void
+INFO  21:41:39,274 - #43 ispis
+INFO  21:41:39,274 - #16 (
+INFO  21:41:39,274 - #43 Predmet
+INFO  21:41:39,274 - #43 p
+INFO  21:41:39,274 - #17 )
+INFO  21:41:39,274 - #26 {
+INFO  21:41:39,274 - #35 print
+INFO  21:41:39,274 - #16 (
+INFO  21:41:39,274 - #43 p
+INFO  21:41:39,274 - #13 .
+INFO  21:41:39,274 - #43 vrsta
+INFO  21:41:39,274 - #17 )
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,274 - #35 print
+INFO  21:41:39,274 - #16 (
+INFO  21:41:39,274 - #43 eol
+INFO  21:41:39,274 - #17 )
+INFO  21:41:39,274 - #25 ;
+INFO  21:41:39,290 - #35 print
+INFO  21:41:39,290 - #16 (
+INFO  21:41:39,290 - #43 p
+INFO  21:41:39,290 - #13 .
+INFO  21:41:39,290 - #43 tezina
+INFO  21:41:39,290 - #17 )
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #27 }
+INFO  21:41:39,290 - #37 void
+INFO  21:41:39,290 - #43 main
+INFO  21:41:39,290 - #16 (
+INFO  21:41:39,290 - #17 )
+INFO  21:41:39,290 - #43 Predmet
+INFO  21:41:39,290 - #43 predmeti
+INFO  21:41:39,290 - #14 [
+INFO  21:41:39,290 - #15 ]
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 int
+INFO  21:41:39,290 - #43 i
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 Sfera
+INFO  21:41:39,290 - #43 s1
+INFO  21:41:39,290 - #21 ,
+INFO  21:41:39,290 - #43 s2
+INFO  21:41:39,290 - #21 ,
+INFO  21:41:39,290 - #43 s3
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 Kvadar
+INFO  21:41:39,290 - #43 k1
+INFO  21:41:39,290 - #21 ,
+INFO  21:41:39,290 - #43 k2
+INFO  21:41:39,290 - #21 ,
+INFO  21:41:39,290 - #43 k3
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 int
+INFO  21:41:39,290 - #43 t
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 Predmet
+INFO  21:41:39,290 - #43 pred
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #26 {
+INFO  21:41:39,290 - #43 pred
+INFO  21:41:39,290 - #22 =
+INFO  21:41:39,290 - #18 new
+INFO  21:41:39,290 - #43 Sfera
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 predmeti
+INFO  21:41:39,290 - #22 =
+INFO  21:41:39,290 - #18 new
+INFO  21:41:39,290 - #43 Predmet
+INFO  21:41:39,290 - #14 [
+INFO  21:41:39,290 - #42 6
+INFO  21:41:39,290 - #15 ]
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 s1
+INFO  21:41:39,290 - #22 =
+INFO  21:41:39,290 - #43 null
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 s1
+INFO  21:41:39,290 - #22 =
+INFO  21:41:39,290 - #18 new
+INFO  21:41:39,290 - #43 Sfera
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 s2
+INFO  21:41:39,290 - #22 =
+INFO  21:41:39,290 - #18 new
+INFO  21:41:39,290 - #43 Sfera
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 s3
+INFO  21:41:39,290 - #22 =
+INFO  21:41:39,290 - #18 new
+INFO  21:41:39,290 - #43 Sfera
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 k1
+INFO  21:41:39,290 - #22 =
+INFO  21:41:39,290 - #18 new
+INFO  21:41:39,290 - #43 Kvadar
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 k2
+INFO  21:41:39,290 - #22 =
+INFO  21:41:39,290 - #18 new
+INFO  21:41:39,290 - #43 Kvadar
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 k3
+INFO  21:41:39,290 - #22 =
+INFO  21:41:39,290 - #18 new
+INFO  21:41:39,290 - #43 Kvadar
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,290 - #43 s1
+INFO  21:41:39,290 - #13 .
+INFO  21:41:39,290 - #43 postaviPoluprecnik
+INFO  21:41:39,290 - #16 (
+INFO  21:41:39,290 - #42 1
+INFO  21:41:39,290 - #17 )
+INFO  21:41:39,290 - #25 ;
+INFO  21:41:39,305 - #43 s2
+INFO  21:41:39,305 - #13 .
+INFO  21:41:39,305 - #43 postaviPoluprecnik
+INFO  21:41:39,305 - #16 (
+INFO  21:41:39,305 - #42 2
+INFO  21:41:39,305 - #17 )
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 s3
+INFO  21:41:39,305 - #13 .
+INFO  21:41:39,305 - #43 postaviPoluprecnik
+INFO  21:41:39,305 - #16 (
+INFO  21:41:39,305 - #42 3
+INFO  21:41:39,305 - #17 )
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 k1
+INFO  21:41:39,305 - #13 .
+INFO  21:41:39,305 - #43 postaviStranice
+INFO  21:41:39,305 - #16 (
+INFO  21:41:39,305 - #42 1
+INFO  21:41:39,305 - #21 ,
+INFO  21:41:39,305 - #42 2
+INFO  21:41:39,305 - #21 ,
+INFO  21:41:39,305 - #42 3
+INFO  21:41:39,305 - #17 )
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 k2
+INFO  21:41:39,305 - #13 .
+INFO  21:41:39,305 - #43 postaviStranice
+INFO  21:41:39,305 - #16 (
+INFO  21:41:39,305 - #42 2
+INFO  21:41:39,305 - #21 ,
+INFO  21:41:39,305 - #42 3
+INFO  21:41:39,305 - #21 ,
+INFO  21:41:39,305 - #42 4
+INFO  21:41:39,305 - #17 )
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 k3
+INFO  21:41:39,305 - #13 .
+INFO  21:41:39,305 - #43 postaviStranice
+INFO  21:41:39,305 - #16 (
+INFO  21:41:39,305 - #42 3
+INFO  21:41:39,305 - #21 ,
+INFO  21:41:39,305 - #42 4
+INFO  21:41:39,305 - #21 ,
+INFO  21:41:39,305 - #42 5
+INFO  21:41:39,305 - #17 )
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 predmeti
+INFO  21:41:39,305 - #14 [
+INFO  21:41:39,305 - #42 0
+INFO  21:41:39,305 - #15 ]
+INFO  21:41:39,305 - #22 =
+INFO  21:41:39,305 - #43 s1
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 predmeti
+INFO  21:41:39,305 - #14 [
+INFO  21:41:39,305 - #42 2
+INFO  21:41:39,305 - #15 ]
+INFO  21:41:39,305 - #22 =
+INFO  21:41:39,305 - #43 s2
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 predmeti
+INFO  21:41:39,305 - #14 [
+INFO  21:41:39,305 - #42 4
+INFO  21:41:39,305 - #15 ]
+INFO  21:41:39,305 - #22 =
+INFO  21:41:39,305 - #43 s3
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 predmeti
+INFO  21:41:39,305 - #14 [
+INFO  21:41:39,305 - #42 1
+INFO  21:41:39,305 - #15 ]
+INFO  21:41:39,305 - #22 =
+INFO  21:41:39,305 - #43 k1
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 predmeti
+INFO  21:41:39,305 - #14 [
+INFO  21:41:39,305 - #42 3
+INFO  21:41:39,305 - #15 ]
+INFO  21:41:39,305 - #22 =
+INFO  21:41:39,305 - #43 k2
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 predmeti
+INFO  21:41:39,305 - #14 [
+INFO  21:41:39,305 - #42 5
+INFO  21:41:39,305 - #15 ]
+INFO  21:41:39,305 - #22 =
+INFO  21:41:39,305 - #43 k3
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #36 read
+INFO  21:41:39,305 - #16 (
+INFO  21:41:39,305 - #43 t
+INFO  21:41:39,305 - #17 )
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #43 i
+INFO  21:41:39,305 - #22 =
+INFO  21:41:39,305 - #42 0
+INFO  21:41:39,305 - #25 ;
+INFO  21:41:39,305 - #29 do
+INFO  21:41:39,305 - #26 {
+INFO  21:41:39,321 - #43 predmeti
+INFO  21:41:39,321 - #14 [
+INFO  21:41:39,321 - #43 i
+INFO  21:41:39,321 - #15 ]
+INFO  21:41:39,321 - #13 .
+INFO  21:41:39,321 - #43 postaviTezinu
+INFO  21:41:39,321 - #16 (
+INFO  21:41:39,321 - #43 t
+INFO  21:41:39,321 - #17 )
+INFO  21:41:39,321 - #25 ;
+INFO  21:41:39,321 - #43 i
+INFO  21:41:39,321 - #23 ++
+INFO  21:41:39,321 - #25 ;
+INFO  21:41:39,321 - #27 }
+INFO  21:41:39,321 - #30 while
+INFO  21:41:39,321 - #16 (
+INFO  21:41:39,321 - #43 i
+INFO  21:41:39,321 - #11 <
+INFO  21:41:39,321 - #42 6
+INFO  21:41:39,321 - #17 )
+INFO  21:41:39,337 - #25 ;
+INFO  21:41:39,337 - #43 i
+INFO  21:41:39,337 - #22 =
+INFO  21:41:39,337 - #42 0
+INFO  21:41:39,337 - #25 ;
+INFO  21:41:39,337 - #43 zapreminaS
+INFO  21:41:39,337 - #22 =
+INFO  21:41:39,337 - #42 0
+INFO  21:41:39,337 - #25 ;
+INFO  21:41:39,337 - #43 tezinaS
+INFO  21:41:39,337 - #22 =
+INFO  21:41:39,337 - #42 0
+INFO  21:41:39,337 - #25 ;
+INFO  21:41:39,337 - #29 do
+INFO  21:41:39,337 - #26 {
+INFO  21:41:39,337 - #43 i
+INFO  21:41:39,337 - #23 ++
+INFO  21:41:39,337 - #25 ;
+INFO  21:41:39,352 - #28 if
+INFO  21:41:39,352 - #16 (
+INFO  21:41:39,352 - #43 i
+INFO  21:41:39,352 - #4 %
+INFO  21:41:39,352 - #42 2
+INFO  21:41:39,352 - #7 ==
+INFO  21:41:39,352 - #42 0
+INFO  21:41:39,352 - #17 )
+INFO  21:41:39,352 - #33 continue
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #43 zapreminaS
+INFO  21:41:39,352 - #22 =
+INFO  21:41:39,352 - #43 zapreminaS
+INFO  21:41:39,352 - #5 +
+INFO  21:41:39,352 - #43 predmeti
+INFO  21:41:39,352 - #14 [
+INFO  21:41:39,352 - #43 i
+INFO  21:41:39,352 - #6 -
+INFO  21:41:39,352 - #42 1
+INFO  21:41:39,352 - #15 ]
+INFO  21:41:39,352 - #13 .
+INFO  21:41:39,352 - #43 zapremina
+INFO  21:41:39,352 - #16 (
+INFO  21:41:39,352 - #17 )
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #43 tezinaS
+INFO  21:41:39,352 - #22 =
+INFO  21:41:39,352 - #43 tezinaS
+INFO  21:41:39,352 - #5 +
+INFO  21:41:39,352 - #43 predmeti
+INFO  21:41:39,352 - #14 [
+INFO  21:41:39,352 - #43 i
+INFO  21:41:39,352 - #6 -
+INFO  21:41:39,352 - #42 1
+INFO  21:41:39,352 - #15 ]
+INFO  21:41:39,352 - #13 .
+INFO  21:41:39,352 - #43 Q
+INFO  21:41:39,352 - #16 (
+INFO  21:41:39,352 - #17 )
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #43 ispis
+INFO  21:41:39,352 - #16 (
+INFO  21:41:39,352 - #43 predmeti
+INFO  21:41:39,352 - #14 [
+INFO  21:41:39,352 - #43 i
+INFO  21:41:39,352 - #6 -
+INFO  21:41:39,352 - #42 1
+INFO  21:41:39,352 - #15 ]
+INFO  21:41:39,352 - #17 )
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #27 }
+INFO  21:41:39,352 - #30 while
+INFO  21:41:39,352 - #16 (
+INFO  21:41:39,352 - #43 i
+INFO  21:41:39,352 - #11 <
+INFO  21:41:39,352 - #42 6
+INFO  21:41:39,352 - #17 )
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #43 i
+INFO  21:41:39,352 - #22 =
+INFO  21:41:39,352 - #42 0
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #43 zapreminaK
+INFO  21:41:39,352 - #22 =
+INFO  21:41:39,352 - #42 0
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #43 tezinaK
+INFO  21:41:39,352 - #22 =
+INFO  21:41:39,352 - #42 0
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #29 do
+INFO  21:41:39,352 - #26 {
+INFO  21:41:39,352 - #43 i
+INFO  21:41:39,352 - #23 ++
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #28 if
+INFO  21:41:39,352 - #16 (
+INFO  21:41:39,352 - #43 i
+INFO  21:41:39,352 - #4 %
+INFO  21:41:39,352 - #42 2
+INFO  21:41:39,352 - #7 ==
+INFO  21:41:39,352 - #42 1
+INFO  21:41:39,352 - #17 )
+INFO  21:41:39,352 - #33 continue
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #43 zapreminaK
+INFO  21:41:39,352 - #22 =
+INFO  21:41:39,352 - #43 zapreminaK
+INFO  21:41:39,352 - #5 +
+INFO  21:41:39,352 - #43 predmeti
+INFO  21:41:39,352 - #14 [
+INFO  21:41:39,352 - #43 i
+INFO  21:41:39,352 - #6 -
+INFO  21:41:39,352 - #42 1
+INFO  21:41:39,352 - #15 ]
+INFO  21:41:39,352 - #13 .
+INFO  21:41:39,352 - #43 zapremina
+INFO  21:41:39,352 - #16 (
+INFO  21:41:39,352 - #17 )
+INFO  21:41:39,352 - #25 ;
+INFO  21:41:39,352 - #43 tezinaK
+INFO  21:41:39,352 - #22 =
+INFO  21:41:39,352 - #43 tezinaK
+INFO  21:41:39,368 - #5 +
+INFO  21:41:39,368 - #43 predmeti
+INFO  21:41:39,368 - #14 [
+INFO  21:41:39,368 - #43 i
+INFO  21:41:39,368 - #6 -
+INFO  21:41:39,368 - #42 1
+INFO  21:41:39,368 - #15 ]
+INFO  21:41:39,368 - #13 .
+INFO  21:41:39,368 - #43 Q
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #43 ispis
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 predmeti
+INFO  21:41:39,368 - #14 [
+INFO  21:41:39,368 - #43 i
+INFO  21:41:39,368 - #6 -
+INFO  21:41:39,368 - #42 1
+INFO  21:41:39,368 - #15 ]
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #27 }
+INFO  21:41:39,368 - #30 while
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 i
+INFO  21:41:39,368 - #11 <
+INFO  21:41:39,368 - #42 6
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #35 print
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 zapreminaS
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #35 print
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 eol
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #35 print
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 zapreminaK
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #35 print
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 eol
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #35 print
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 tezinaS
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #35 print
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 eol
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #35 print
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 tezinaK
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #35 print
+INFO  21:41:39,368 - #16 (
+INFO  21:41:39,368 - #43 eol
+INFO  21:41:39,368 - #17 )
+INFO  21:41:39,368 - #25 ;
+INFO  21:41:39,368 - #27 }
+INFO  21:41:39,368 - #27 }
+INFO  21:41:39,446 - Detektovana upotreba formalnog parametra this metode postaviTezinu na liniji 12: Var this: 
+INFO  21:41:39,446 - Detektovan pristup polju tezina unutrasnje klase na liniji 12: Fld tezina: Int , 1, 1 
+INFO  21:41:39,446 - Detektovana upotreba formalnog parametra tezina metode postaviTezinu na liniji 12: Var tezina: Int , 1, 1 
+INFO  21:41:39,446 - Detektovan poziv metode zapremina unutrasnje klase  na liniji 15: Meth zapremina: Int , 0, 1 
+INFO  21:41:39,446 - Detektovana upotreba formalnog parametra this metode postaviVrstu na liniji 16: Var this: 
+INFO  21:41:39,446 - Detektovan pristup polju vrsta unutrasnje klase na liniji 16: Fld vrsta: Char , 2, 1 
+INFO  21:41:39,446 - Detektovana upotreba formalnog parametra vrsta metode postaviVrstu na liniji 16: Var vrsta: Char , 1, 1 
+INFO  21:41:39,446 - Detektovana upotreba formalnog parametra this metode postaviTezinu na liniji 24: Var this: 
+INFO  21:41:39,446 - Detektovan pristup polju tezina unutrasnje klase na liniji 24: Fld tezina: Int , 1, 1 
+INFO  21:41:39,446 - Detektovana upotreba formalnog parametra tezina metode postaviTezinu na liniji 24: Var tezina: Int , 1, 1 
+INFO  21:41:39,446 - Detektovana upotreba formalnog parametra this metode postaviPoluprecnik na liniji 25: Var this: 
+INFO  21:41:39,462 - Detektovan pristup polju r unutrasnje klase na liniji 25: Fld r: Int , 3, 1 
+INFO  21:41:39,462 - Detektovana upotreba formalnog parametra r metode postaviPoluprecnik na liniji 25: Var r: Int , 1, 1 
+INFO  21:41:39,462 - Detektovan poziv metode postaviVrstu unutrasnje klase  na liniji 25: Meth postaviVrstu: NoType , 0, 2 
+INFO  21:41:39,462 - Detektovana upotreba lokalne promenljive z metode zapremina na liniji 29: Var z: Int , 1, 1 
+INFO  21:41:39,462 - Detektovana upotreba globalne konstante cinilac na liniji 29: Con cinilac: Int , 4, 0 
+INFO  21:41:39,462 - Detektovana upotreba lokalne promenljive z metode zapremina na liniji 30: Var z: Int , 1, 1 
+INFO  21:41:39,462 - Detektovana upotreba globalne konstante delilac na liniji 30: Con delilac: Int , 3, 0 
+INFO  21:41:39,462 - Detektovana upotreba formalnog parametra this metode postaviTezinu na liniji 39: Var this: 
+INFO  21:41:39,462 - Detektovan pristup polju tezina unutrasnje klase na liniji 39: Fld tezina: Int , 1, 1 
+INFO  21:41:39,462 - Detektovana upotreba formalnog parametra tezina metode postaviTezinu na liniji 39: Var tezina: Int , 1, 1 
+INFO  21:41:39,462 - Detektovana upotreba formalnog parametra this metode postaviStranice na liniji 40: Var this: 
+INFO  21:41:39,462 - Detektovan pristup polju a unutrasnje klase na liniji 40: Fld a: Int , 3, 1 
+INFO  21:41:39,462 - Detektovana upotreba formalnog parametra a metode postaviStranice na liniji 40: Var a: Int , 1, 1 
+INFO  21:41:39,462 - Detektovana upotreba formalnog parametra this metode postaviStranice na liniji 40: Var this: 
+INFO  21:41:39,462 - Detektovan pristup polju b unutrasnje klase na liniji 40: Fld b: Int , 4, 1 
+INFO  21:41:39,477 - Detektovana upotreba formalnog parametra b metode postaviStranice na liniji 40: Var b: Int , 2, 1 
+INFO  21:41:39,477 - Detektovana upotreba formalnog parametra this metode postaviStranice na liniji 40: Var this: 
+INFO  21:41:39,477 - Detektovan pristup polju c unutrasnje klase na liniji 40: Fld c: Int , 5, 1 
+INFO  21:41:39,477 - Detektovana upotreba formalnog parametra c metode postaviStranice na liniji 40: Var c: Int , 3, 1 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive z metode zapremina na liniji 44: Var z: Int , 1, 1 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive z metode zapremina na liniji 45: Var z: Int , 1, 1 
+INFO  21:41:39,477 - Detektovana upotreba formalnog parametra p metode ispis na liniji 56: Var p: Class , 0, 1 
+INFO  21:41:39,477 - Detektovan pristup polju vrsta unutrasnje klase na liniji 56: Fld vrsta: Char , 2, 1 
+INFO  21:41:39,477 - Detektovana upotreba globalne konstante eol na liniji 57: Con eol: Char , 10, 0 
+INFO  21:41:39,477 - Detektovana upotreba formalnog parametra p metode ispis na liniji 58: Var p: Class , 0, 1 
+INFO  21:41:39,477 - Detektovan pristup polju tezina unutrasnje klase na liniji 58: Fld tezina: Int , 1, 1 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive pred metode main na liniji 63: Var pred: Class , 9, 1 
+INFO  21:41:39,477 - Detektovana upotreba unutrasnje klase Sfera(pravljenje objekta) na liniji 63: Type Sfera: Class [], 0, 0 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 64: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,477 - Detektovano pravljenje niza tipa Predmet na liniji 64
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive s1 metode main na liniji 65: Var s1: Class , 2, 1 
+INFO  21:41:39,477 - Detektovana upotreba globalne konstante null na liniji 65: Con null: Class , 0, 0 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive s1 metode main na liniji 66: Var s1: Class , 2, 1 
+INFO  21:41:39,477 - Detektovana upotreba unutrasnje klase Sfera(pravljenje objekta) na liniji 66: Type Sfera: Class [], 0, 0 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive s2 metode main na liniji 67: Var s2: Class , 3, 1 
+INFO  21:41:39,477 - Detektovana upotreba unutrasnje klase Sfera(pravljenje objekta) na liniji 67: Type Sfera: Class [], 0, 0 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive s3 metode main na liniji 68: Var s3: Class , 4, 1 
+INFO  21:41:39,477 - Detektovana upotreba unutrasnje klase Sfera(pravljenje objekta) na liniji 68: Type Sfera: Class [], 0, 0 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive k1 metode main na liniji 70: Var k1: Class , 5, 1 
+INFO  21:41:39,477 - Detektovana upotreba unutrasnje klase Kvadar(pravljenje objekta) na liniji 70: Type Kvadar: Class [], 0, 0 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive k2 metode main na liniji 71: Var k2: Class , 6, 1 
+INFO  21:41:39,477 - Detektovana upotreba unutrasnje klase Kvadar(pravljenje objekta) na liniji 71: Type Kvadar: Class [], 0, 0 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive k3 metode main na liniji 72: Var k3: Class , 7, 1 
+INFO  21:41:39,477 - Detektovana upotreba unutrasnje klase Kvadar(pravljenje objekta) na liniji 72: Type Kvadar: Class [], 0, 0 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive s1 metode main na liniji 74: Var s1: Class , 2, 1 
+INFO  21:41:39,477 - Detektovan poziv metode postaviPoluprecnik unutrasnje klase  na liniji 74: Meth postaviPoluprecnik: NoType , 0, 2 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive s2 metode main na liniji 75: Var s2: Class , 3, 1 
+INFO  21:41:39,477 - Detektovan poziv metode postaviPoluprecnik unutrasnje klase  na liniji 75: Meth postaviPoluprecnik: NoType , 0, 2 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive s3 metode main na liniji 76: Var s3: Class , 4, 1 
+INFO  21:41:39,477 - Detektovan poziv metode postaviPoluprecnik unutrasnje klase  na liniji 76: Meth postaviPoluprecnik: NoType , 0, 2 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive k1 metode main na liniji 78: Var k1: Class , 5, 1 
+INFO  21:41:39,477 - Detektovan poziv metode postaviStranice unutrasnje klase  na liniji 78: Meth postaviStranice: NoType , 0, 4 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive k2 metode main na liniji 79: Var k2: Class , 6, 1 
+INFO  21:41:39,477 - Detektovan poziv metode postaviStranice unutrasnje klase  na liniji 79: Meth postaviStranice: NoType , 0, 4 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive k3 metode main na liniji 80: Var k3: Class , 7, 1 
+INFO  21:41:39,477 - Detektovan poziv metode postaviStranice unutrasnje klase  na liniji 80: Meth postaviStranice: NoType , 0, 4 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 82: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,477 - Detektovan pristup elementu niza predmeti na liniji 82: predmeti: Class , -1, -1 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive s1 metode main na liniji 82: Var s1: Class , 2, 1 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 83: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,477 - Detektovan pristup elementu niza predmeti na liniji 83: predmeti: Class , -1, -1 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive s2 metode main na liniji 83: Var s2: Class , 3, 1 
+INFO  21:41:39,477 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 84: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,477 - Detektovan pristup elementu niza predmeti na liniji 84: predmeti: Class , -1, -1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive s3 metode main na liniji 84: Var s3: Class , 4, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 85: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,493 - Detektovan pristup elementu niza predmeti na liniji 85: predmeti: Class , -1, -1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive k1 metode main na liniji 85: Var k1: Class , 5, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 86: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,493 - Detektovan pristup elementu niza predmeti na liniji 86: predmeti: Class , -1, -1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive k2 metode main na liniji 86: Var k2: Class , 6, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 87: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,493 - Detektovan pristup elementu niza predmeti na liniji 87: predmeti: Class , -1, -1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive k3 metode main na liniji 87: Var k3: Class , 7, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive t metode main na liniji 89: Var t: Int , 8, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 90: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 93: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 93: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovan pristup elementu niza predmeti na liniji 93: predmeti: Class , -1, -1 
+INFO  21:41:39,493 - Detektovan poziv metode postaviTezinu unutrasnje klase  na liniji 93: Meth postaviTezinu: NoType , 0, 2 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive t metode main na liniji 93: Var t: Int , 8, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 94: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 95: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 98: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive zapreminaS na liniji 99: Var zapreminaS: Int , 1, 0 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive tezinaS na liniji 100: Var tezinaS: Int , 3, 0 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 103: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 104: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive zapreminaS na liniji 105: Var zapreminaS: Int , 1, 0 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive zapreminaS na liniji 105: Var zapreminaS: Int , 1, 0 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 105: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 105: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovan pristup elementu niza predmeti na liniji 105: predmeti: Class , -1, -1 
+INFO  21:41:39,493 - Detektovan poziv metode zapremina unutrasnje klase  na liniji 105: Meth zapremina: Int , 0, 1 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive tezinaS na liniji 106: Var tezinaS: Int , 3, 0 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive tezinaS na liniji 106: Var tezinaS: Int , 3, 0 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 106: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 106: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovan pristup elementu niza predmeti na liniji 106: predmeti: Class , -1, -1 
+INFO  21:41:39,493 - Detektovan poziv metode Q unutrasnje klase  na liniji 106: Meth Q: Int , 0, 1 
+INFO  21:41:39,493 - Detektovan poziv globalne funkcije ispis na liniji 107: Meth ispis: NoType , 0, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 107: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 107: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovan pristup elementu niza predmeti na liniji 107: predmeti: Class , -1, -1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 108: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 110: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive zapreminaK na liniji 111: Var zapreminaK: Int , 0, 0 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive tezinaK na liniji 111: Var tezinaK: Int , 2, 0 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 114: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 115: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive zapreminaK na liniji 116: Var zapreminaK: Int , 0, 0 
+INFO  21:41:39,493 - Detektovana upotreba globalne promenljive zapreminaK na liniji 116: Var zapreminaK: Int , 0, 0 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 116: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,493 - Detektovana upotreba lokalne promenljive i metode main na liniji 116: Var i: Int , 1, 1 
+INFO  21:41:39,493 - Detektovan pristup elementu niza predmeti na liniji 116: predmeti: Class , -1, -1 
+INFO  21:41:39,493 - Detektovan poziv metode zapremina unutrasnje klase  na liniji 116: Meth zapremina: Int , 0, 1 
+INFO  21:41:39,509 - Detektovana upotreba globalne promenljive tezinaK na liniji 117: Var tezinaK: Int , 2, 0 
+INFO  21:41:39,509 - Detektovana upotreba globalne promenljive tezinaK na liniji 117: Var tezinaK: Int , 2, 0 
+INFO  21:41:39,509 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 117: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,509 - Detektovana upotreba lokalne promenljive i metode main na liniji 117: Var i: Int , 1, 1 
+INFO  21:41:39,509 - Detektovan pristup elementu niza predmeti na liniji 117: predmeti: Class , -1, -1 
+INFO  21:41:39,509 - Detektovan poziv metode Q unutrasnje klase  na liniji 117: Meth Q: Int , 0, 1 
+INFO  21:41:39,509 - Detektovan poziv globalne funkcije ispis na liniji 118: Meth ispis: NoType , 0, 1 
+INFO  21:41:39,509 - Detektovana upotreba lokalne promenljive predmeti metode main na liniji 118: Var predmeti: Arr of Class, 0, 1 
+INFO  21:41:39,509 - Detektovana upotreba lokalne promenljive i metode main na liniji 118: Var i: Int , 1, 1 
+INFO  21:41:39,509 - Detektovan pristup elementu niza predmeti na liniji 118: predmeti: Class , -1, -1 
+INFO  21:41:39,509 - Detektovana upotreba lokalne promenljive i metode main na liniji 119: Var i: Int , 1, 1 
+INFO  21:41:39,509 - Detektovana upotreba globalne promenljive zapreminaS na liniji 121: Var zapreminaS: Int , 1, 0 
+INFO  21:41:39,509 - Detektovana upotreba globalne konstante eol na liniji 121: Con eol: Char , 10, 0 
+INFO  21:41:39,509 - Detektovana upotreba globalne promenljive zapreminaK na liniji 122: Var zapreminaK: Int , 0, 0 
+INFO  21:41:39,509 - Detektovana upotreba globalne konstante eol na liniji 122: Con eol: Char , 10, 0 
+INFO  21:41:39,509 - Detektovana upotreba globalne promenljive tezinaS na liniji 123: Var tezinaS: Int , 3, 0 
+INFO  21:41:39,509 - Detektovana upotreba globalne konstante eol na liniji 123: Con eol: Char , 10, 0 
+INFO  21:41:39,509 - Detektovana upotreba globalne promenljive tezinaK na liniji 124: Var tezinaK: Int , 2, 0 
+INFO  21:41:39,509 - Detektovana upotreba globalne konstante eol na liniji 124: Con eol: Char , 10, 0 
+INFO  21:41:39,509 - Generise se bajtkod: D:\Faks\4. godina\PP1\pp1dz_template\workspace\MJCompiler\test\test.obj

@@ -2,6 +2,7 @@ package rs.ac.bg.etf.pp1;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 
 import org.apache.log4j.Logger;
 import rs.ac.bg.etf.pp1.ast.*;
@@ -27,6 +28,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	ArrayList<Obj> oldParams = null;
 	public int nVars;
 	boolean invalidMethod = false;
+	HashMap<Struct, Struct> arrayTypes = new HashMap<Struct, Struct>(); 
 
 	public SemanticAnalyzer() {
 		Tab.currentScope.addToLocals(new Obj(Obj.Type, "bool", boolType));
@@ -41,6 +43,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		msg.append(message);
 
 		log.error(msg.toString());
+		System.err.println(msg.toString());
 	}
 
 	public void report_info(String message, SyntaxNode info) {
@@ -49,6 +52,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		if (line != 0)
 			msg.append(" na liniji ").append(line);
 		log.info(msg.toString());
+		System.out.println(msg.toString());
 	}
 
 	@Override
@@ -207,6 +211,11 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
 	@Override
 	public void visit(FormalParameter fp) {
+		if(fp.getBrackets() instanceof ArrayBracket) {
+			if(arrayTypes.get(fp.getType().struct) == null)
+				arrayTypes.put(fp.getType().struct, new Struct(Struct.Array, fp.getType().struct));
+			fp.getType().struct = arrayTypes.get(fp.getType().struct);
+		}
 		if (oldParams != null && !invalidMethod) {
 			if (oldParams.size() < (formParsCount - 1)) {
 				report_error(
@@ -231,8 +240,10 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		}
 		if (fp.getBrackets() instanceof NotArray)
 			newFp = Tab.insert(Obj.Var, fp.getFormalParameterName(), fp.getType().struct);
-		else
-			newFp = Tab.insert(Obj.Var, fp.getFormalParameterName(), new Struct(Struct.Array, fp.getType().struct));
+		else {
+			
+			newFp = Tab.insert(Obj.Var, fp.getFormalParameterName(), fp.getType().struct);
+		}
 		newFp.setFpPos(formParsCount);
 	}
 
@@ -314,8 +325,12 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 			if (VarNameDecl.getBrackets() instanceof NotArray) {
 				Tab.insert(kind, VarNameDecl.getVarName(), currentType);
 
-			} else
-				Tab.insert(kind, VarNameDecl.getVarName(), new Struct(Struct.Array, currentType));
+			} else {
+				if(arrayTypes.get(currentType) == null) {
+					arrayTypes.put(currentType, new Struct(Struct.Array, currentType)); 
+				}
+				Tab.insert(kind, VarNameDecl.getVarName(), arrayTypes.get(currentType));
+			}
 		}
 	}
 
@@ -364,15 +379,18 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	public void visit(Assignment assignment) {
 		int res = validObjType(assignment.getAssignDesignator().getDesignator());
 		Obj desObj = assignment.getAssignDesignator().getDesignator().obj;
-		if (res == 1 && !assignment.getExpr().struct.assignableTo(desObj.getType()))
-			if (res == 1 && assignment.getExpr().struct.getKind() == Struct.Class
-			&& desObj.getType().getKind() == Struct.Class) {
-				Struct parent = assignment.getExpr().struct.getElemType();
-				while (parent != null && !parent.assignableTo(desObj.getType()))
-					parent = parent.getElemType();
-				if (parent == null)
-					report_error(" : nekompatibilni tipovi u dodeli vrednosti ", assignment);
-			} else
+		if(res == 1 && assignment.getExpr().struct.getKind() == Struct.Class && desObj.getType().getKind() == Struct.Class) {
+			Struct left = desObj.getType();
+			Struct right = assignment.getExpr().struct;
+			if(right == Tab.nullType)
+				return;
+			while(right != null && left != right)
+				right = right.getElemType();
+			if(right == null)
+				report_error(" : nekompatibilni tipovi u dodeli vrednosti ", assignment);
+		}
+		else if(res == 1 /*&& (assignment.getExpr().struct.getKind() == Struct.Array && desObj.getType().getKind() == Struct.Array*/
+				&& assignment.getExpr().struct != desObj.getType() /*||!assignment.getExpr().struct.assignableTo(desObj.getType()))*/)
 				report_error(" : nekompatibilni tipovi u dodeli vrednosti ", assignment);
 		else if (res == -1)
 			report_error(" : leva strana dodele vrednosti mora biti promenljiva, element niza ili polje klase ",
@@ -515,7 +533,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		int i = 1;
 		boolean removedThis = false;
 		ArrayList<Obj> formPars = new ArrayList<Obj>(funcCall.get(funcCall.size() - 1).getLocalSymbols());
-		if (formPars.get(0).getName() == "this" && formPars.get(0).getType().getKind() == Struct.Class) {
+		if (formPars.get(0).getName().equals("this") && formPars.get(0).getType().getKind() == Struct.Class) {
 			formPars.remove(0);
 			removedThis = true;
 		}
@@ -644,7 +662,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		Struct ts1 = al.getTerm().struct;
 		Struct ts2 = al.getExpr().struct;
 
-		if (ts1.compatibleWith(ts2) && ts1 == Tab.intType)
+		if (ts1.compatibleWith(ts2) && ts1.equals(Tab.intType))
 			al.struct = ts1;
 		else {
 			report_error(" : nekompatibilni tipovi u izrazu za sabiranje.", al);
@@ -689,7 +707,10 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		} else {
 			report_info("Detektovano pravljenje niza tipa " + na.getType().getTypeName() + " na liniji " + na.getLine(),
 					null);
-			na.struct = new Struct(Struct.Array, na.getType().struct);
+			if(arrayTypes.get(na.getType().struct) == null) {
+				arrayTypes.put(na.getType().struct, new Struct(Struct.Array, na.getType().struct)); 
+			}
+			na.struct =arrayTypes.get(na.getType().struct);
 		}
 	}
 

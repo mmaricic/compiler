@@ -1,0 +1,258 @@
+INFO  00:13:10,189 - #39 program
+INFO  00:13:10,204 - #43 ParserIspravno
+INFO  00:13:10,204 - #40 const
+INFO  00:13:10,204 - #43 int
+INFO  00:13:10,204 - #43 a
+INFO  00:13:10,204 - #22 =
+INFO  00:13:10,204 - #42 5
+INFO  00:13:10,204 - #25 ;
+INFO  00:13:10,204 - #40 const
+INFO  00:13:10,204 - #43 bool
+INFO  00:13:10,220 - #43 b
+INFO  00:13:10,220 - #22 =
+INFO  00:13:10,220 - #44 true
+INFO  00:13:10,220 - #25 ;
+INFO  00:13:10,220 - #38 class
+INFO  00:13:10,220 - #43 KlasaA
+INFO  00:13:10,220 - #26 {
+INFO  00:13:10,220 - #43 int
+INFO  00:13:10,220 - #43 a
+INFO  00:13:10,220 - #25 ;
+INFO  00:13:10,220 - #43 char
+INFO  00:13:10,236 - #43 nizChar
+INFO  00:13:10,236 - #14 [
+INFO  00:13:10,236 - #15 ]
+INFO  00:13:10,236 - #25 ;
+INFO  00:13:10,282 - #43 KlasaA
+INFO  00:13:10,282 - #43 polje
+INFO  00:13:10,282 - #25 ;
+INFO  00:13:10,282 - #26 {
+INFO  00:13:10,282 - #37 void
+INFO  00:13:10,282 - #43 ispis
+INFO  00:13:10,282 - #16 (
+INFO  00:13:10,282 - #43 char
+INFO  00:13:10,282 - #43 c
+INFO  00:13:10,282 - #17 )
+INFO  00:13:10,298 - #26 {
+INFO  00:13:10,298 - #35 print
+INFO  00:13:10,298 - #16 (
+INFO  00:13:10,298 - #43 c
+INFO  00:13:10,298 - #17 )
+INFO  00:13:10,298 - #25 ;
+INFO  00:13:10,298 - #35 print
+INFO  00:13:10,298 - #16 (
+INFO  00:13:10,298 - #43 eol
+INFO  00:13:10,298 - #17 )
+INFO  00:13:10,298 - #25 ;
+INFO  00:13:10,298 - #27 }
+INFO  00:13:10,298 - #27 }
+INFO  00:13:10,298 - #27 }
+INFO  00:13:10,298 - #38 class
+INFO  00:13:10,314 - #43 KlasaB
+INFO  00:13:10,314 - #41 extends
+INFO  00:13:10,314 - #43 KlasaA
+INFO  00:13:10,314 - #26 {
+INFO  00:13:10,314 - #27 }
+INFO  00:13:10,314 - #38 class
+INFO  00:13:10,314 - #43 KlasaC
+INFO  00:13:10,314 - #41 extends
+INFO  00:13:10,314 - #43 KlasaB
+INFO  00:13:10,314 - #26 {
+INFO  00:13:10,314 - #26 {
+INFO  00:13:10,314 - #37 void
+INFO  00:13:10,314 - #43 metoda
+INFO  00:13:10,314 - #16 (
+INFO  00:13:10,314 - #43 bool
+INFO  00:13:10,314 - #43 osnovna
+INFO  00:13:10,314 - #21 ,
+INFO  00:13:10,314 - #43 int
+INFO  00:13:10,314 - #43 brojElemenata
+INFO  00:13:10,314 - #17 )
+INFO  00:13:10,314 - #43 int
+INFO  00:13:10,314 - #43 i
+INFO  00:13:10,314 - #25 ;
+INFO  00:13:10,314 - #26 {
+INFO  00:13:10,329 - #28 if
+INFO  00:13:10,329 - #16 (
+INFO  00:13:10,329 - #43 osnovna
+INFO  00:13:10,329 - #17 )
+INFO  00:13:10,329 - #26 {
+INFO  00:13:10,329 - #43 polje
+INFO  00:13:10,329 - #22 =
+INFO  00:13:10,329 - #18 new
+INFO  00:13:10,329 - #43 KlasaA
+INFO  00:13:10,329 - #25 ;
+INFO  00:13:10,329 - #27 }
+INFO  00:13:10,329 - #32 else
+INFO  00:13:10,329 - #26 {
+INFO  00:13:10,345 - #43 polje
+INFO  00:13:10,345 - #22 =
+INFO  00:13:10,345 - #18 new
+INFO  00:13:10,345 - #43 KlasaB
+INFO  00:13:10,345 - #25 ;
+INFO  00:13:10,345 - #27 }
+INFO  00:13:10,345 - #43 polje
+INFO  00:13:10,345 - #13 .
+INFO  00:13:10,345 - #43 nizChar
+INFO  00:13:10,345 - #22 =
+INFO  00:13:10,345 - #18 new
+INFO  00:13:10,345 - #43 char
+INFO  00:13:10,345 - #14 [
+INFO  00:13:10,345 - #43 brojElemenata
+INFO  00:13:10,345 - #15 ]
+INFO  00:13:10,345 - #25 ;
+INFO  00:13:10,345 - #43 i
+INFO  00:13:10,345 - #22 =
+INFO  00:13:10,345 - #42 0
+INFO  00:13:10,345 - #25 ;
+INFO  00:13:10,345 - #29 do
+INFO  00:13:10,345 - #26 {
+INFO  00:13:10,345 - #43 this
+INFO  00:13:10,345 - #13 .
+INFO  00:13:10,345 - #43 polje
+INFO  00:13:10,345 - #13 .
+INFO  00:13:10,345 - #43 nizChar
+INFO  00:13:10,345 - #14 [
+INFO  00:13:10,345 - #43 i
+INFO  00:13:10,345 - #15 ]
+INFO  00:13:10,345 - #22 =
+INFO  00:13:10,345 - #45 a
+INFO  00:13:10,345 - #25 ;
+INFO  00:13:10,345 - #43 i
+INFO  00:13:10,345 - #23 ++
+INFO  00:13:10,345 - #25 ;
+INFO  00:13:10,345 - #27 }
+INFO  00:13:10,361 - #30 while
+INFO  00:13:10,361 - #16 (
+INFO  00:13:10,365 - #43 i
+INFO  00:13:10,365 - #11 <
+INFO  00:13:10,365 - #43 brojElemenata
+INFO  00:13:10,365 - #17 )
+INFO  00:13:10,365 - #25 ;
+INFO  00:13:10,365 - #43 i
+INFO  00:13:10,365 - #22 =
+INFO  00:13:10,365 - #42 0
+INFO  00:13:10,365 - #25 ;
+INFO  00:13:10,365 - #29 do
+INFO  00:13:10,365 - #26 {
+INFO  00:13:10,365 - #43 ispis
+INFO  00:13:10,365 - #16 (
+INFO  00:13:10,365 - #43 this
+INFO  00:13:10,365 - #13 .
+INFO  00:13:10,365 - #43 polje
+INFO  00:13:10,365 - #13 .
+INFO  00:13:10,365 - #43 nizChar
+INFO  00:13:10,365 - #14 [
+INFO  00:13:10,365 - #43 i
+INFO  00:13:10,365 - #15 ]
+INFO  00:13:10,365 - #17 )
+INFO  00:13:10,365 - #25 ;
+INFO  00:13:10,365 - #43 i
+INFO  00:13:10,365 - #23 ++
+INFO  00:13:10,365 - #25 ;
+INFO  00:13:10,365 - #27 }
+INFO  00:13:10,365 - #30 while
+INFO  00:13:10,365 - #16 (
+INFO  00:13:10,365 - #43 i
+INFO  00:13:10,365 - #11 <
+INFO  00:13:10,365 - #43 brojElemenata
+INFO  00:13:10,365 - #17 )
+INFO  00:13:10,365 - #25 ;
+INFO  00:13:10,381 - #27 }
+INFO  00:13:10,381 - #27 }
+INFO  00:13:10,381 - #27 }
+INFO  00:13:10,381 - #26 {
+INFO  00:13:10,381 - #37 void
+INFO  00:13:10,381 - #43 primerMetoda
+INFO  00:13:10,381 - #16 (
+INFO  00:13:10,381 - #17 )
+INFO  00:13:10,381 - #26 {
+INFO  00:13:10,381 - #35 print
+INFO  00:13:10,381 - #16 (
+INFO  00:13:10,381 - #45 p
+INFO  00:13:10,381 - #17 )
+INFO  00:13:10,381 - #25 ;
+INFO  00:13:10,381 - #35 print
+INFO  00:13:10,381 - #16 (
+INFO  00:13:10,381 - #45 m
+INFO  00:13:10,381 - #17 )
+INFO  00:13:10,381 - #25 ;
+INFO  00:13:10,381 - #35 print
+INFO  00:13:10,381 - #16 (
+INFO  00:13:10,381 - #43 eol
+INFO  00:13:10,381 - #17 )
+INFO  00:13:10,381 - #25 ;
+INFO  00:13:10,381 - #27 }
+INFO  00:13:10,381 - #37 void
+INFO  00:13:10,381 - #43 main
+INFO  00:13:10,381 - #16 (
+INFO  00:13:10,381 - #17 )
+INFO  00:13:10,381 - #43 KlasaC
+INFO  00:13:10,381 - #43 objekat
+INFO  00:13:10,381 - #25 ;
+INFO  00:13:10,381 - #26 {
+INFO  00:13:10,381 - #43 primerMetoda
+INFO  00:13:10,381 - #16 (
+INFO  00:13:10,381 - #17 )
+INFO  00:13:10,381 - #25 ;
+INFO  00:13:10,381 - #43 objekat
+INFO  00:13:10,381 - #22 =
+INFO  00:13:10,381 - #18 new
+INFO  00:13:10,381 - #43 KlasaC
+INFO  00:13:10,381 - #25 ;
+INFO  00:13:10,381 - #43 objekat
+INFO  00:13:10,381 - #13 .
+INFO  00:13:10,381 - #43 metoda
+INFO  00:13:10,381 - #16 (
+INFO  00:13:10,381 - #44 true
+INFO  00:13:10,381 - #21 ,
+INFO  00:13:10,381 - #42 2
+INFO  00:13:10,381 - #17 )
+INFO  00:13:10,381 - #25 ;
+INFO  00:13:10,381 - #43 objekat
+INFO  00:13:10,381 - #13 .
+INFO  00:13:10,381 - #43 metoda
+INFO  00:13:10,381 - #16 (
+INFO  00:13:10,381 - #44 false
+INFO  00:13:10,381 - #21 ,
+INFO  00:13:10,381 - #42 3
+INFO  00:13:10,381 - #17 )
+INFO  00:13:10,381 - #25 ;
+INFO  00:13:10,381 - #27 }
+INFO  00:13:10,381 - #27 }
+INFO  00:13:10,412 - Detektovana upotreba formalnog parametra c metode ispis na liniji 12: Var c: Char , 1, 1 
+INFO  00:13:10,412 - Detektovana upotreba globalne konstante eol na liniji 13: Con eol: Char , 10, 0 
+INFO  00:13:10,428 - Detektovana upotreba formalnog parametra osnovna metode metoda na liniji 24: Var osnovna: Bool , 1, 1 
+INFO  00:13:10,428 - Detektovana upotreba unutrasnje klase KlasaA(pravljenje objekta) na liniji 25: Type KlasaA: Class [], 0, 0 
+INFO  00:13:10,428 - Detektovana upotreba unutrasnje klase KlasaB(pravljenje objekta) na liniji 27: Type KlasaB: Class [], 0, 0 
+INFO  00:13:10,428 - Detektovan pristup polju nizChar unutrasnje klase na liniji 30: Fld nizChar: Arr of char, 2, 1 
+INFO  00:13:10,428 - Detektovana upotreba formalnog parametra brojElemenata metode metoda na liniji 30: Var brojElemenata: Int , 2, 1 
+INFO  00:13:10,428 - Detektovano pravljenje niza tipa char na liniji 30
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive i metode metoda na liniji 31: Var i: Int , 3, 1 
+INFO  00:13:10,428 - Detektovana upotreba formalnog parametra this metode metoda na liniji 34: Var this: 
+INFO  00:13:10,428 - Detektovan pristup polju polje unutrasnje klase na liniji 34: Fld polje: Class , 3, 1 
+INFO  00:13:10,428 - Detektovan pristup polju nizChar unutrasnje klase na liniji 34: Fld nizChar: Arr of char, 2, 1 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive i metode metoda na liniji 34: Var i: Int , 3, 1 
+INFO  00:13:10,428 - Detektovan pristup elementu niza nizChar na liniji 34: nizChar: Char , -1, -1 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive i metode metoda na liniji 35: Var i: Int , 3, 1 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive i metode metoda na liniji 36: Var i: Int , 3, 1 
+INFO  00:13:10,428 - Detektovana upotreba formalnog parametra brojElemenata metode metoda na liniji 36: Var brojElemenata: Int , 2, 1 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive i metode metoda na liniji 38: Var i: Int , 3, 1 
+INFO  00:13:10,428 - Detektovan poziv metode ispis unutrasnje klase  na liniji 41: Meth ispis: NoType , 0, 2 
+INFO  00:13:10,428 - Detektovana upotreba formalnog parametra this metode metoda na liniji 41: Var this: 
+INFO  00:13:10,428 - Detektovan pristup polju polje unutrasnje klase na liniji 41: Fld polje: Class , 3, 1 
+INFO  00:13:10,428 - Detektovan pristup polju nizChar unutrasnje klase na liniji 41: Fld nizChar: Arr of char, 2, 1 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive i metode metoda na liniji 41: Var i: Int , 3, 1 
+INFO  00:13:10,428 - Detektovan pristup elementu niza nizChar na liniji 41: nizChar: Char , -1, -1 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive i metode metoda na liniji 42: Var i: Int , 3, 1 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive i metode metoda na liniji 44: Var i: Int , 3, 1 
+INFO  00:13:10,428 - Detektovana upotreba formalnog parametra brojElemenata metode metoda na liniji 44: Var brojElemenata: Int , 2, 1 
+INFO  00:13:10,428 - Detektovana upotreba globalne konstante eol na liniji 53: Con eol: Char , 10, 0 
+INFO  00:13:10,428 - Detektovan poziv globalne funkcije primerMetoda na liniji 57: Meth primerMetoda: NoType , 0, 0 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive objekat metode main na liniji 59: Var objekat: Class , 0, 1 
+INFO  00:13:10,428 - Detektovana upotreba unutrasnje klase KlasaC(pravljenje objekta) na liniji 59: Type KlasaC: Class [], 0, 0 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive objekat metode main na liniji 60: Var objekat: Class , 0, 1 
+INFO  00:13:10,428 - Detektovan poziv metode metoda unutrasnje klase  na liniji 60: Meth metoda: NoType , 0, 3 
+INFO  00:13:10,428 - Detektovana upotreba lokalne promenljive objekat metode main na liniji 61: Var objekat: Class , 0, 1 
+INFO  00:13:10,428 - Detektovan poziv metode metoda unutrasnje klase  na liniji 61: Meth metoda: NoType , 0, 3 
+INFO  00:13:10,428 - Generise se bajtkod: D:\Faks\4. godina\PP1\pp1dz_template\workspace\MJCompiler\test\test.obj

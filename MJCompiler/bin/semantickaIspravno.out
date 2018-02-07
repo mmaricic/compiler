@@ -1,0 +1,1751 @@
+Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DeclList(
+    DeclList(
+      DeclList(
+        DeclList(
+          DeclarationListEmpty(
+          ) [DeclarationListEmpty]
+          DeclDerived3(
+            ClassDecl(
+              ClassName(
+               A
+                NoExtend(
+                ) [NoExtend]
+              ) [ClassName]
+              ClassStart(
+              ) [ClassStart]
+              ClassVars(
+                VarDeclarations(
+                  NoVarDecl(
+                  ) [NoVarDecl]
+                  VarDeclGood(
+                    Type(
+                     int
+                    ) [Type]
+                    VarNameList(
+                      VarNameList(
+                        VarOne(
+                          VarNameDecl(
+                           x
+                            ArrayBracket(
+                            ) [ArrayBracket]
+                          ) [VarNameDecl]
+                        ) [VarOne]
+                        VarNameDecl(
+                         y
+                          ArrayBracket(
+                          ) [ArrayBracket]
+                        ) [VarNameDecl]
+                      ) [VarNameList]
+                      VarNameDecl(
+                       b
+                        NotArray(
+                        ) [NotArray]
+                      ) [VarNameDecl]
+                    ) [VarNameList]
+                  ) [VarDeclGood]
+                ) [VarDeclarations]
+              ) [ClassVars]
+              ClassHasMethods(
+                MethodList(
+                  NoMethodList(
+                  ) [NoMethodList]
+                  MethodDecl(
+                    MethodTypeName(
+                      SomeType(
+                        Type(
+                         int
+                        ) [Type]
+                      ) [SomeType]
+                     metoda
+                    ) [MethodTypeName]
+                    FormParameters(
+                      FormPars(
+                        FormalParameter(
+                          Type(
+                           A
+                          ) [Type]
+                         a
+                          NotArray(
+                          ) [NotArray]
+                        ) [FormalParameter]
+                        NoFormParsList(
+                        ) [NoFormParsList]
+                      ) [FormPars]
+                    ) [FormParameters]
+                    NoVarDecl(
+                    ) [NoVarDecl]
+                    MethodVarEnd(
+                    ) [MethodVarEnd]
+                    Statements(
+                      Statements(
+                        NoStatement(
+                        ) [NoStatement]
+                        OperationStatement(
+                          Assignment(
+                            AssignDesignator(
+                              ClassAccess(
+                                ElemDesignator(
+                                  DesignatorName(
+                                   a
+                                  ) [DesignatorName]
+                                ) [ElemDesignator]
+                               b
+                              ) [ClassAccess]
+                            ) [AssignDesignator]
+                            ExprTerm(
+                              TermFactor(
+                                Const(
+                                  ConstInt(
+                                   5
+                                  ) [ConstInt]
+                                ) [Const]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [Assignment]
+                        ) [OperationStatement]
+                      ) [Statements]
+                      ReturnExpr(
+                        ExprTerm(
+                          TermFactor(
+                            FactorVar(
+                              ElemDesignator(
+                                ClassAccess(
+                                  ElemDesignator(
+                                    DesignatorName(
+                                     a
+                                    ) [DesignatorName]
+                                  ) [ElemDesignator]
+                                 b
+                                ) [ClassAccess]
+                              ) [ElemDesignator]
+                            ) [FactorVar]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [ReturnExpr]
+                    ) [Statements]
+                  ) [MethodDecl]
+                ) [MethodList]
+              ) [ClassHasMethods]
+            ) [ClassDecl]
+          ) [DeclDerived3]
+        ) [DeclList]
+        DeclDerived1(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ValueAssign(
+             pi
+              ConstInt(
+               3
+              ) [ConstInt]
+            ) [ValueAssign]
+            ConstList(
+              NoConstList(
+              ) [NoConstList]
+              ValueAssign(
+               e
+                ConstInt(
+                 2
+                ) [ConstInt]
+              ) [ValueAssign]
+            ) [ConstList]
+          ) [ConstDecl]
+        ) [DeclDerived1]
+      ) [DeclList]
+      DeclDerived3(
+        ClassDecl(
+          ClassName(
+           B
+            Extends(
+              Type(
+               A
+              ) [Type]
+            ) [Extends]
+          ) [ClassName]
+          ClassStart(
+          ) [ClassStart]
+          ClassVars(
+            VarDeclarations(
+              NoVarDecl(
+              ) [NoVarDecl]
+              VarDeclGood(
+                Type(
+                 int
+                ) [Type]
+                VarOne(
+                  VarNameDecl(
+                   i
+                    NotArray(
+                    ) [NotArray]
+                  ) [VarNameDecl]
+                ) [VarOne]
+              ) [VarDeclGood]
+            ) [VarDeclarations]
+          ) [ClassVars]
+          ClassHasMethods(
+            MethodList(
+              NoMethodList(
+              ) [NoMethodList]
+              MethodDecl(
+                MethodTypeName(
+                  SomeType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [SomeType]
+                 metoda2
+                ) [MethodTypeName]
+                FormParameters(
+                  FormPars(
+                    FormalParameter(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                      NotArray(
+                      ) [NotArray]
+                    ) [FormalParameter]
+                    NoFormParsList(
+                    ) [NoFormParsList]
+                  ) [FormPars]
+                ) [FormParameters]
+                VarDeclarations(
+                  VarDeclarations(
+                    VarDeclarations(
+                      NoVarDecl(
+                      ) [NoVarDecl]
+                      VarDeclGood(
+                        Type(
+                         int
+                        ) [Type]
+                        VarOne(
+                          VarNameDecl(
+                           b
+                            NotArray(
+                            ) [NotArray]
+                          ) [VarNameDecl]
+                        ) [VarOne]
+                      ) [VarDeclGood]
+                    ) [VarDeclarations]
+                    VarDeclGood(
+                      Type(
+                       bool
+                      ) [Type]
+                      VarOne(
+                        VarNameDecl(
+                         c
+                          NotArray(
+                          ) [NotArray]
+                        ) [VarNameDecl]
+                      ) [VarOne]
+                    ) [VarDeclGood]
+                  ) [VarDeclarations]
+                  VarDeclGood(
+                    Type(
+                     A
+                    ) [Type]
+                    VarOne(
+                      VarNameDecl(
+                       proba
+                        NotArray(
+                        ) [NotArray]
+                      ) [VarNameDecl]
+                    ) [VarOne]
+                  ) [VarDeclGood]
+                ) [VarDeclarations]
+                MethodVarEnd(
+                ) [MethodVarEnd]
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              NoStatement(
+                              ) [NoStatement]
+                              If(
+                                IfCondition(
+                                  ValidCondition(
+                                    CondTerm(
+                                      CondFactWithComparision(
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorVar(
+                                              ElemDesignator(
+                                                DesignatorName(
+                                                 a
+                                                ) [DesignatorName]
+                                              ) [ElemDesignator]
+                                            ) [FactorVar]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                        Gt(
+                                        ) [Gt]
+                                        ExprTerm(
+                                          TermFactor(
+                                            Const(
+                                              ConstInt(
+                                               0
+                                              ) [ConstInt]
+                                            ) [Const]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [CondFactWithComparision]
+                                      NoCondFactList(
+                                      ) [NoCondFactList]
+                                    ) [CondTerm]
+                                    NoCondTermList(
+                                    ) [NoCondTermList]
+                                  ) [ValidCondition]
+                                ) [IfCondition]
+                                MultipleStatements(
+                                  Statements(
+                                    Statements(
+                                      NoStatement(
+                                      ) [NoStatement]
+                                      PrintExpr(
+                                        ExprTerm(
+                                          TermFactor(
+                                            FactorVar(
+                                              ElemDesignator(
+                                                DesignatorName(
+                                                 a
+                                                ) [DesignatorName]
+                                              ) [ElemDesignator]
+                                            ) [FactorVar]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                        NoAdditionalPrint(
+                                        ) [NoAdditionalPrint]
+                                      ) [PrintExpr]
+                                    ) [Statements]
+                                    OperationStatement(
+                                      DesignatorOptMethodCall(
+                                        FuncCallName(
+                                          DesignatorName(
+                                           metoda2
+                                          ) [DesignatorName]
+                                        ) [FuncCallName]
+                                        HasPars(
+                                          ActPars(
+                                            ExprAddop(
+                                              ExprTerm(
+                                                TermFactor(
+                                                  FactorVar(
+                                                    ElemDesignator(
+                                                      DesignatorName(
+                                                       a
+                                                      ) [DesignatorName]
+                                                    ) [ElemDesignator]
+                                                  ) [FactorVar]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                              Sub(
+                                              ) [Sub]
+                                              TermFactor(
+                                                Const(
+                                                  ConstInt(
+                                                   1
+                                                  ) [ConstInt]
+                                                ) [Const]
+                                              ) [TermFactor]
+                                            ) [ExprAddop]
+                                            NoExprList(
+                                            ) [NoExprList]
+                                          ) [ActPars]
+                                        ) [HasPars]
+                                      ) [DesignatorOptMethodCall]
+                                    ) [OperationStatement]
+                                  ) [Statements]
+                                ) [MultipleStatements]
+                              ) [If]
+                            ) [Statements]
+                            OperationStatement(
+                              Assignment(
+                                AssignDesignator(
+                                  ClassAccess(
+                                    ElemDesignator(
+                                      DesignatorName(
+                                       this
+                                      ) [DesignatorName]
+                                    ) [ElemDesignator]
+                                   i
+                                  ) [ClassAccess]
+                                ) [AssignDesignator]
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorVar(
+                                      ElemDesignator(
+                                        DesignatorName(
+                                         a
+                                        ) [DesignatorName]
+                                      ) [ElemDesignator]
+                                    ) [FactorVar]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [Assignment]
+                            ) [OperationStatement]
+                          ) [Statements]
+                          OperationStatement(
+                            Assignment(
+                              AssignDesignator(
+                                DesignatorName(
+                                 i
+                                ) [DesignatorName]
+                              ) [AssignDesignator]
+                              ExprTerm(
+                                TermFactor(
+                                  FactorVar(
+                                    ElemDesignator(
+                                      DesignatorName(
+                                       b
+                                      ) [DesignatorName]
+                                    ) [ElemDesignator]
+                                  ) [FactorVar]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [Assignment]
+                          ) [OperationStatement]
+                        ) [Statements]
+                        OperationStatement(
+                          Assignment(
+                            AssignDesignator(
+                              DesignatorName(
+                               b
+                              ) [DesignatorName]
+                            ) [AssignDesignator]
+                            ExprTerm(
+                              TermFactor(
+                                Const(
+                                  ConstInt(
+                                   5
+                                  ) [ConstInt]
+                                ) [Const]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [Assignment]
+                        ) [OperationStatement]
+                      ) [Statements]
+                      OperationStatement(
+                        Assignment(
+                          AssignDesignator(
+                            DesignatorName(
+                             c
+                            ) [DesignatorName]
+                          ) [AssignDesignator]
+                          ExprTerm(
+                            TermFactor(
+                              Const(
+                                ConstBool(
+                                 true
+                                ) [ConstBool]
+                              ) [Const]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [Assignment]
+                      ) [OperationStatement]
+                    ) [Statements]
+                    OperationStatement(
+                      Assignment(
+                        AssignDesignator(
+                          ClassAccess(
+                            ElemDesignator(
+                              DesignatorName(
+                               this
+                              ) [DesignatorName]
+                            ) [ElemDesignator]
+                           b
+                          ) [ClassAccess]
+                        ) [AssignDesignator]
+                        ExprTerm(
+                          TermFactor(
+                            FactorVar(
+                              ElemDesignator(
+                                DesignatorName(
+                                 b
+                                ) [DesignatorName]
+                              ) [ElemDesignator]
+                            ) [FactorVar]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [Assignment]
+                    ) [OperationStatement]
+                  ) [Statements]
+                  ReturnExpr(
+                    ExprAddop(
+                      ExprAddop(
+                        ExprAddop(
+                          ExprAddop(
+                            ExprTerm(
+                              TermFactor(
+                                FactorVar(
+                                  ElemDesignator(
+                                    ClassAccess(
+                                      ElemDesignator(
+                                        DesignatorName(
+                                         this
+                                        ) [DesignatorName]
+                                      ) [ElemDesignator]
+                                     i
+                                    ) [ClassAccess]
+                                  ) [ElemDesignator]
+                                ) [FactorVar]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                            Add(
+                            ) [Add]
+                            TermFactor(
+                              FactorVar(
+                                ElemDesignator(
+                                  ArrayElem(
+                                    ElemDesignator(
+                                      DesignatorName(
+                                       x
+                                      ) [DesignatorName]
+                                    ) [ElemDesignator]
+                                    ExprTerm(
+                                      TermFactor(
+                                        Const(
+                                          ConstInt(
+                                           0
+                                          ) [ConstInt]
+                                        ) [Const]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                  ) [ArrayElem]
+                                ) [ElemDesignator]
+                              ) [FactorVar]
+                            ) [TermFactor]
+                          ) [ExprAddop]
+                          Add(
+                          ) [Add]
+                          TermFactor(
+                            FactorVar(
+                              ElemDesignator(
+                                ClassAccess(
+                                  ElemDesignator(
+                                    DesignatorName(
+                                     this
+                                    ) [DesignatorName]
+                                  ) [ElemDesignator]
+                                 b
+                                ) [ClassAccess]
+                              ) [ElemDesignator]
+                            ) [FactorVar]
+                          ) [TermFactor]
+                        ) [ExprAddop]
+                        Add(
+                        ) [Add]
+                        TermFactor(
+                          FactorVar(
+                            ElemDesignator(
+                              DesignatorName(
+                               b
+                              ) [DesignatorName]
+                            ) [ElemDesignator]
+                          ) [FactorVar]
+                        ) [TermFactor]
+                      ) [ExprAddop]
+                      Add(
+                      ) [Add]
+                      TermFactor(
+                        FactorVar(
+                          ElemDesignator(
+                            DesignatorName(
+                             i
+                            ) [DesignatorName]
+                          ) [ElemDesignator]
+                        ) [FactorVar]
+                      ) [TermFactor]
+                    ) [ExprAddop]
+                  ) [ReturnExpr]
+                ) [Statements]
+              ) [MethodDecl]
+            ) [MethodList]
+          ) [ClassHasMethods]
+        ) [ClassDecl]
+      ) [DeclDerived3]
+    ) [DeclList]
+    DeclDerived3(
+      ClassDecl(
+        ClassName(
+         C
+          Extends(
+            Type(
+             B
+            ) [Type]
+          ) [Extends]
+        ) [ClassName]
+        ClassStart(
+        ) [ClassStart]
+        ClassVars(
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDeclGood(
+              Type(
+               A
+              ) [Type]
+              VarOne(
+                VarNameDecl(
+                 theA
+                  NotArray(
+                  ) [NotArray]
+                ) [VarNameDecl]
+              ) [VarOne]
+            ) [VarDeclGood]
+          ) [VarDeclarations]
+        ) [ClassVars]
+        ClassHasMethods(
+          MethodList(
+            NoMethodList(
+            ) [NoMethodList]
+            MethodDecl(
+              MethodTypeName(
+                SomeType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [SomeType]
+               metoda
+              ) [MethodTypeName]
+              FormParameters(
+                FormPars(
+                  FormalParameter(
+                    Type(
+                     A
+                    ) [Type]
+                   a
+                    NotArray(
+                    ) [NotArray]
+                  ) [FormalParameter]
+                  NoFormParsList(
+                  ) [NoFormParsList]
+                ) [FormPars]
+              ) [FormParameters]
+              NoVarDecl(
+              ) [NoVarDecl]
+              MethodVarEnd(
+              ) [MethodVarEnd]
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  NoStatement(
+                                  ) [NoStatement]
+                                  PrintExpr(
+                                    ExprTerm(
+                                      TermFactor(
+                                        Const(
+                                          ConstChar(
+                                           o
+                                          ) [ConstChar]
+                                        ) [Const]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                    NoAdditionalPrint(
+                                    ) [NoAdditionalPrint]
+                                  ) [PrintExpr]
+                                ) [Statements]
+                                PrintExpr(
+                                  ExprTerm(
+                                    TermFactor(
+                                      Const(
+                                        ConstChar(
+                                         v
+                                        ) [ConstChar]
+                                      ) [Const]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                  NoAdditionalPrint(
+                                  ) [NoAdditionalPrint]
+                                ) [PrintExpr]
+                              ) [Statements]
+                              PrintExpr(
+                                ExprTerm(
+                                  TermFactor(
+                                    Const(
+                                      ConstChar(
+                                       e
+                                      ) [ConstChar]
+                                    ) [Const]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                                NoAdditionalPrint(
+                                ) [NoAdditionalPrint]
+                              ) [PrintExpr]
+                            ) [Statements]
+                            PrintExpr(
+                              ExprTerm(
+                                TermFactor(
+                                  Const(
+                                    ConstChar(
+                                     r
+                                    ) [ConstChar]
+                                  ) [Const]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                              NoAdditionalPrint(
+                              ) [NoAdditionalPrint]
+                            ) [PrintExpr]
+                          ) [Statements]
+                          PrintExpr(
+                            ExprTerm(
+                              TermFactor(
+                                Const(
+                                  ConstChar(
+                                   r
+                                  ) [ConstChar]
+                                ) [Const]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                            NoAdditionalPrint(
+                            ) [NoAdditionalPrint]
+                          ) [PrintExpr]
+                        ) [Statements]
+                        PrintExpr(
+                          ExprTerm(
+                            TermFactor(
+                              Const(
+                                ConstChar(
+                                 i
+                                ) [ConstChar]
+                              ) [Const]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                          NoAdditionalPrint(
+                          ) [NoAdditionalPrint]
+                        ) [PrintExpr]
+                      ) [Statements]
+                      PrintExpr(
+                        ExprTerm(
+                          TermFactor(
+                            Const(
+                              ConstChar(
+                               d
+                              ) [ConstChar]
+                            ) [Const]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                        NoAdditionalPrint(
+                        ) [NoAdditionalPrint]
+                      ) [PrintExpr]
+                    ) [Statements]
+                    PrintExpr(
+                      ExprTerm(
+                        TermFactor(
+                          Const(
+                            ConstChar(
+                             e
+                            ) [ConstChar]
+                          ) [Const]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                      NoAdditionalPrint(
+                      ) [NoAdditionalPrint]
+                    ) [PrintExpr]
+                  ) [Statements]
+                  PrintExpr(
+                    ExprTerm(
+                      TermFactor(
+                        FactorVar(
+                          ElemDesignator(
+                            DesignatorName(
+                             eol
+                            ) [DesignatorName]
+                          ) [ElemDesignator]
+                        ) [FactorVar]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    NoAdditionalPrint(
+                    ) [NoAdditionalPrint]
+                  ) [PrintExpr]
+                ) [Statements]
+                ReturnExpr(
+                  ExprTerm(
+                    TermFactor(
+                      Const(
+                        ConstInt(
+                         0
+                        ) [ConstInt]
+                      ) [Const]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [ReturnExpr]
+              ) [Statements]
+            ) [MethodDecl]
+          ) [MethodList]
+        ) [ClassHasMethods]
+      ) [ClassDecl]
+    ) [DeclDerived3]
+  ) [DeclList]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDecl(
+        MethodTypeName(
+          TypeVoid(
+          ) [TypeVoid]
+         proba
+        ) [MethodTypeName]
+        FormParameters(
+          FormPars(
+            FormalParameter(
+              Type(
+               int
+              ) [Type]
+             s
+              NotArray(
+              ) [NotArray]
+            ) [FormalParameter]
+            NoFormParsList(
+            ) [NoFormParsList]
+          ) [FormPars]
+        ) [FormParameters]
+        NoVarDecl(
+        ) [NoVarDecl]
+        MethodVarEnd(
+        ) [MethodVarEnd]
+        Statements(
+          NoStatement(
+          ) [NoStatement]
+          If(
+            IfCondition(
+              ValidCondition(
+                CondTerm(
+                  CondFactWithComparision(
+                    ExprTerm(
+                      TermFactor(
+                        FactorVar(
+                          ElemDesignator(
+                            DesignatorName(
+                             s
+                            ) [DesignatorName]
+                          ) [ElemDesignator]
+                        ) [FactorVar]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    Equal(
+                    ) [Equal]
+                    ExprTerm(
+                      TermFactor(
+                        Const(
+                          ConstInt(
+                           5
+                          ) [ConstInt]
+                        ) [Const]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [CondFactWithComparision]
+                  NoCondFactList(
+                  ) [NoCondFactList]
+                ) [CondTerm]
+                NoCondTermList(
+                ) [NoCondTermList]
+              ) [ValidCondition]
+            ) [IfCondition]
+            Return(
+            ) [Return]
+          ) [If]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodList]
+    MethodDecl(
+      MethodTypeName(
+        TypeVoid(
+        ) [TypeVoid]
+       main
+      ) [MethodTypeName]
+      NoFormPars(
+      ) [NoFormPars]
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            VarDeclarations(
+              VarDeclarations(
+                NoVarDecl(
+                ) [NoVarDecl]
+                VarDeclGood(
+                  Type(
+                   A
+                  ) [Type]
+                  VarOne(
+                    VarNameDecl(
+                     a
+                      NotArray(
+                      ) [NotArray]
+                    ) [VarNameDecl]
+                  ) [VarOne]
+                ) [VarDeclGood]
+              ) [VarDeclarations]
+              VarDeclGood(
+                Type(
+                 C
+                ) [Type]
+                VarOne(
+                  VarNameDecl(
+                   c
+                    NotArray(
+                    ) [NotArray]
+                  ) [VarNameDecl]
+                ) [VarOne]
+              ) [VarDeclGood]
+            ) [VarDeclarations]
+            VarDeclGood(
+              Type(
+               int
+              ) [Type]
+              VarOne(
+                VarNameDecl(
+                 i
+                  NotArray(
+                  ) [NotArray]
+                ) [VarNameDecl]
+              ) [VarOne]
+            ) [VarDeclGood]
+          ) [VarDeclarations]
+          VarDeclGood(
+            Type(
+             int
+            ) [Type]
+            VarOne(
+              VarNameDecl(
+               x
+                ArrayBracket(
+                ) [ArrayBracket]
+              ) [VarNameDecl]
+            ) [VarOne]
+          ) [VarDeclGood]
+        ) [VarDeclarations]
+        VarDeclGood(
+          Type(
+           char
+          ) [Type]
+          VarOne(
+            VarNameDecl(
+             g
+              NotArray(
+              ) [NotArray]
+            ) [VarNameDecl]
+          ) [VarOne]
+        ) [VarDeclGood]
+      ) [VarDeclarations]
+      MethodVarEnd(
+      ) [MethodVarEnd]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          NoStatement(
+                                          ) [NoStatement]
+                                          OperationStatement(
+                                            Assignment(
+                                              AssignDesignator(
+                                                DesignatorName(
+                                                 a
+                                                ) [DesignatorName]
+                                              ) [AssignDesignator]
+                                              ExprTerm(
+                                                TermFactor(
+                                                  NewClass(
+                                                    Type(
+                                                     C
+                                                    ) [Type]
+                                                  ) [NewClass]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                            ) [Assignment]
+                                          ) [OperationStatement]
+                                        ) [Statements]
+                                        OperationStatement(
+                                          Assignment(
+                                            AssignDesignator(
+                                              ClassAccess(
+                                                ElemDesignator(
+                                                  DesignatorName(
+                                                   a
+                                                  ) [DesignatorName]
+                                                ) [ElemDesignator]
+                                               x
+                                              ) [ClassAccess]
+                                            ) [AssignDesignator]
+                                            ExprTerm(
+                                              TermFactor(
+                                                NewArray(
+                                                  Type(
+                                                   int
+                                                  ) [Type]
+                                                  ExprTerm(
+                                                    TermFactor(
+                                                      Const(
+                                                        ConstInt(
+                                                         5
+                                                        ) [ConstInt]
+                                                      ) [Const]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [NewArray]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                          ) [Assignment]
+                                        ) [OperationStatement]
+                                      ) [Statements]
+                                      OperationStatement(
+                                        Assignment(
+                                          AssignDesignator(
+                                            ClassAccess(
+                                              ElemDesignator(
+                                                DesignatorName(
+                                                 a
+                                                ) [DesignatorName]
+                                              ) [ElemDesignator]
+                                             y
+                                            ) [ClassAccess]
+                                          ) [AssignDesignator]
+                                          ExprTerm(
+                                            TermFactor(
+                                              NewArray(
+                                                Type(
+                                                 int
+                                                ) [Type]
+                                                ExprTerm(
+                                                  TermFactor(
+                                                    Const(
+                                                      ConstInt(
+                                                       5
+                                                      ) [ConstInt]
+                                                    ) [Const]
+                                                  ) [TermFactor]
+                                                ) [ExprTerm]
+                                              ) [NewArray]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [Assignment]
+                                      ) [OperationStatement]
+                                    ) [Statements]
+                                    OperationStatement(
+                                      Assignment(
+                                        AssignDesignator(
+                                          DesignatorName(
+                                           c
+                                          ) [DesignatorName]
+                                        ) [AssignDesignator]
+                                        ExprTerm(
+                                          TermFactor(
+                                            NewClass(
+                                              Type(
+                                               C
+                                              ) [Type]
+                                            ) [NewClass]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [Assignment]
+                                    ) [OperationStatement]
+                                  ) [Statements]
+                                  OperationStatement(
+                                    Assignment(
+                                      AssignDesignator(
+                                        ClassAccess(
+                                          ElemDesignator(
+                                            DesignatorName(
+                                             c
+                                            ) [DesignatorName]
+                                          ) [ElemDesignator]
+                                         theA
+                                        ) [ClassAccess]
+                                      ) [AssignDesignator]
+                                      ExprTerm(
+                                        TermFactor(
+                                          NewClass(
+                                            Type(
+                                             A
+                                            ) [Type]
+                                          ) [NewClass]
+                                        ) [TermFactor]
+                                      ) [ExprTerm]
+                                    ) [Assignment]
+                                  ) [OperationStatement]
+                                ) [Statements]
+                                OperationStatement(
+                                  Assignment(
+                                    AssignDesignator(
+                                      ClassAccess(
+                                        ElemDesignator(
+                                          ClassAccess(
+                                            ElemDesignator(
+                                              DesignatorName(
+                                               c
+                                              ) [DesignatorName]
+                                            ) [ElemDesignator]
+                                           theA
+                                          ) [ClassAccess]
+                                        ) [ElemDesignator]
+                                       x
+                                      ) [ClassAccess]
+                                    ) [AssignDesignator]
+                                    ExprTerm(
+                                      TermFactor(
+                                        FactorVar(
+                                          ElemDesignator(
+                                            ClassAccess(
+                                              ElemDesignator(
+                                                DesignatorName(
+                                                 a
+                                                ) [DesignatorName]
+                                              ) [ElemDesignator]
+                                             x
+                                            ) [ClassAccess]
+                                          ) [ElemDesignator]
+                                        ) [FactorVar]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                  ) [Assignment]
+                                ) [OperationStatement]
+                              ) [Statements]
+                              OperationStatement(
+                                Assignment(
+                                  AssignDesignator(
+                                    ClassAccess(
+                                      ElemDesignator(
+                                        DesignatorName(
+                                         c
+                                        ) [DesignatorName]
+                                      ) [ElemDesignator]
+                                     x
+                                    ) [ClassAccess]
+                                  ) [AssignDesignator]
+                                  ExprTerm(
+                                    TermFactor(
+                                      NewArray(
+                                        Type(
+                                         int
+                                        ) [Type]
+                                        ExprTerm(
+                                          TermFactor(
+                                            Const(
+                                              ConstInt(
+                                               5
+                                              ) [ConstInt]
+                                            ) [Const]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [NewArray]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [Assignment]
+                              ) [OperationStatement]
+                            ) [Statements]
+                            OperationStatement(
+                              Assignment(
+                                AssignDesignator(
+                                  DesignatorName(
+                                   x
+                                  ) [DesignatorName]
+                                ) [AssignDesignator]
+                                ExprTerm(
+                                  TermFactor(
+                                    NewArray(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      ExprTerm(
+                                        TermFactor(
+                                          Const(
+                                            ConstInt(
+                                             3
+                                            ) [ConstInt]
+                                          ) [Const]
+                                        ) [TermFactor]
+                                      ) [ExprTerm]
+                                    ) [NewArray]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [Assignment]
+                            ) [OperationStatement]
+                          ) [Statements]
+                          OperationStatement(
+                            Assignment(
+                              AssignDesignator(
+                                DesignatorName(
+                                 i
+                                ) [DesignatorName]
+                              ) [AssignDesignator]
+                              ExprTerm(
+                                TermFactor(
+                                  Const(
+                                    ConstInt(
+                                     0
+                                    ) [ConstInt]
+                                  ) [Const]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [Assignment]
+                          ) [OperationStatement]
+                        ) [Statements]
+                        Read(
+                          ClassAccess(
+                            ElemDesignator(
+                              DesignatorName(
+                               c
+                              ) [DesignatorName]
+                            ) [ElemDesignator]
+                           i
+                          ) [ClassAccess]
+                        ) [Read]
+                      ) [Statements]
+                      DoWhile(
+                        LoopBegin(
+                        ) [LoopBegin]
+                        MultipleStatements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    NoStatement(
+                                    ) [NoStatement]
+                                    If(
+                                      IfCondition(
+                                        ValidCondition(
+                                          CondTerm(
+                                            CondFactWithComparision(
+                                              ExprTerm(
+                                                TermFactor(
+                                                  FactorVar(
+                                                    ElemDesignator(
+                                                      ClassAccess(
+                                                        ElemDesignator(
+                                                          DesignatorName(
+                                                           c
+                                                          ) [DesignatorName]
+                                                        ) [ElemDesignator]
+                                                       i
+                                                      ) [ClassAccess]
+                                                    ) [ElemDesignator]
+                                                  ) [FactorVar]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                              Lt(
+                                              ) [Lt]
+                                              ExprTerm(
+                                                TermFactor(
+                                                  Const(
+                                                    ConstInt(
+                                                     0
+                                                    ) [ConstInt]
+                                                  ) [Const]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                            ) [CondFactWithComparision]
+                                            NoCondFactList(
+                                            ) [NoCondFactList]
+                                          ) [CondTerm]
+                                          NoCondTermList(
+                                          ) [NoCondTermList]
+                                        ) [ValidCondition]
+                                      ) [IfCondition]
+                                      Break(
+                                      ) [Break]
+                                    ) [If]
+                                  ) [Statements]
+                                  Read(
+                                    ArrayElem(
+                                      ElemDesignator(
+                                        ClassAccess(
+                                          ElemDesignator(
+                                            DesignatorName(
+                                             c
+                                            ) [DesignatorName]
+                                          ) [ElemDesignator]
+                                         x
+                                        ) [ClassAccess]
+                                      ) [ElemDesignator]
+                                      ExprTerm(
+                                        TermFactor(
+                                          FactorVar(
+                                            ElemDesignator(
+                                              DesignatorName(
+                                               i
+                                              ) [DesignatorName]
+                                            ) [ElemDesignator]
+                                          ) [FactorVar]
+                                        ) [TermFactor]
+                                      ) [ExprTerm]
+                                    ) [ArrayElem]
+                                  ) [Read]
+                                ) [Statements]
+                                If(
+                                  IfCondition(
+                                    ValidCondition(
+                                      CondTerm(
+                                        CondFactWithComparision(
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorVar(
+                                                ElemDesignator(
+                                                  ArrayElem(
+                                                    ElemDesignator(
+                                                      ClassAccess(
+                                                        ElemDesignator(
+                                                          DesignatorName(
+                                                           c
+                                                          ) [DesignatorName]
+                                                        ) [ElemDesignator]
+                                                       x
+                                                      ) [ClassAccess]
+                                                    ) [ElemDesignator]
+                                                    ExprTerm(
+                                                      TermFactor(
+                                                        FactorVar(
+                                                          ElemDesignator(
+                                                            DesignatorName(
+                                                             i
+                                                            ) [DesignatorName]
+                                                          ) [ElemDesignator]
+                                                        ) [FactorVar]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                  ) [ArrayElem]
+                                                ) [ElemDesignator]
+                                              ) [FactorVar]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                          Equal(
+                                          ) [Equal]
+                                          ExprTerm(
+                                            TermFactor(
+                                              FactorVar(
+                                                ElemDesignator(
+                                                  DesignatorName(
+                                                   i
+                                                  ) [DesignatorName]
+                                                ) [ElemDesignator]
+                                              ) [FactorVar]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [CondFactWithComparision]
+                                        NoCondFactList(
+                                        ) [NoCondFactList]
+                                      ) [CondTerm]
+                                      NoCondTermList(
+                                      ) [NoCondTermList]
+                                    ) [ValidCondition]
+                                  ) [IfCondition]
+                                  Continue(
+                                  ) [Continue]
+                                ) [If]
+                              ) [Statements]
+                              Read(
+                                ArrayElem(
+                                  ElemDesignator(
+                                    ClassAccess(
+                                      ElemDesignator(
+                                        ClassAccess(
+                                          ElemDesignator(
+                                            DesignatorName(
+                                             c
+                                            ) [DesignatorName]
+                                          ) [ElemDesignator]
+                                         theA
+                                        ) [ClassAccess]
+                                      ) [ElemDesignator]
+                                     x
+                                    ) [ClassAccess]
+                                  ) [ElemDesignator]
+                                  ExprTerm(
+                                    TermFactor(
+                                      FactorVar(
+                                        ElemDesignator(
+                                          DesignatorName(
+                                           i
+                                          ) [DesignatorName]
+                                        ) [ElemDesignator]
+                                      ) [FactorVar]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [ArrayElem]
+                              ) [Read]
+                            ) [Statements]
+                            OperationStatement(
+                              PostOperation(
+                                PostOperand(
+                                  DesignatorName(
+                                   i
+                                  ) [DesignatorName]
+                                ) [PostOperand]
+                                Inc(
+                                ) [Inc]
+                              ) [PostOperation]
+                            ) [OperationStatement]
+                          ) [Statements]
+                        ) [MultipleStatements]
+                        While(
+                        ) [While]
+                        ValidCondition(
+                          CondTerm(
+                            CondFactWithComparision(
+                              ExprTerm(
+                                TermFactor(
+                                  FactorVar(
+                                    ElemDesignator(
+                                      DesignatorName(
+                                       i
+                                      ) [DesignatorName]
+                                    ) [ElemDesignator]
+                                  ) [FactorVar]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                              Lt(
+                              ) [Lt]
+                              ExprTerm(
+                                TermFactor(
+                                  Const(
+                                    ConstInt(
+                                     5
+                                    ) [ConstInt]
+                                  ) [Const]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [CondFactWithComparision]
+                            NoCondFactList(
+                            ) [NoCondFactList]
+                          ) [CondTerm]
+                          NoCondTermList(
+                          ) [NoCondTermList]
+                        ) [ValidCondition]
+                      ) [DoWhile]
+                    ) [Statements]
+                    PrintExpr(
+                      ExprTerm(
+                        TermFactor(
+                          FactorFuncCall(
+                            FuncCallName(
+                              ClassAccess(
+                                ElemDesignator(
+                                  DesignatorName(
+                                   c
+                                  ) [DesignatorName]
+                                ) [ElemDesignator]
+                               metoda2
+                              ) [ClassAccess]
+                            ) [FuncCallName]
+                            HasPars(
+                              ActPars(
+                                ExprTerm(
+                                  TermFactor(
+                                    FactorVar(
+                                      ElemDesignator(
+                                        ArrayElem(
+                                          ElemDesignator(
+                                            ClassAccess(
+                                              ElemDesignator(
+                                                ClassAccess(
+                                                  ElemDesignator(
+                                                    DesignatorName(
+                                                     c
+                                                    ) [DesignatorName]
+                                                  ) [ElemDesignator]
+                                                 theA
+                                                ) [ClassAccess]
+                                              ) [ElemDesignator]
+                                             x
+                                            ) [ClassAccess]
+                                          ) [ElemDesignator]
+                                          ExprTerm(
+                                            TermFactor(
+                                              Const(
+                                                ConstInt(
+                                                 0
+                                                ) [ConstInt]
+                                              ) [Const]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [ArrayElem]
+                                      ) [ElemDesignator]
+                                    ) [FactorVar]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                                NoExprList(
+                                ) [NoExprList]
+                              ) [ActPars]
+                            ) [HasPars]
+                          ) [FactorFuncCall]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                      NoAdditionalPrint(
+                      ) [NoAdditionalPrint]
+                    ) [PrintExpr]
+                  ) [Statements]
+                  OperationStatement(
+                    Assignment(
+                      AssignDesignator(
+                        DesignatorName(
+                         g
+                        ) [DesignatorName]
+                      ) [AssignDesignator]
+                      ExprTerm(
+                        TermFactor(
+                          Const(
+                            ConstChar(
+                             c
+                            ) [ConstChar]
+                          ) [Const]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [Assignment]
+                  ) [OperationStatement]
+                ) [Statements]
+                PrintExpr(
+                  ExprTerm(
+                    TermFactor(
+                      FactorVar(
+                        ElemDesignator(
+                          DesignatorName(
+                           g
+                          ) [DesignatorName]
+                        ) [ElemDesignator]
+                      ) [FactorVar]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                  NoAdditionalPrint(
+                  ) [NoAdditionalPrint]
+                ) [PrintExpr]
+              ) [Statements]
+              OperationStatement(
+                DesignatorOptMethodCall(
+                  FuncCallName(
+                    DesignatorName(
+                     proba
+                    ) [DesignatorName]
+                  ) [FuncCallName]
+                  HasPars(
+                    ActPars(
+                      ExprTerm(
+                        TermFactor(
+                          Const(
+                            ConstInt(
+                             0
+                            ) [ConstInt]
+                          ) [Const]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                      NoExprList(
+                      ) [NoExprList]
+                    ) [ActPars]
+                  ) [HasPars]
+                ) [DesignatorOptMethodCall]
+              ) [OperationStatement]
+            ) [Statements]
+            OperationStatement(
+              DesignatorOptMethodCall(
+                FuncCallName(
+                  DesignatorName(
+                   proba
+                  ) [DesignatorName]
+                ) [FuncCallName]
+                HasPars(
+                  ActPars(
+                    ExprTerm(
+                      TermFactor(
+                        Const(
+                          ConstInt(
+                           5
+                          ) [ConstInt]
+                        ) [Const]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    NoExprList(
+                    ) [NoExprList]
+                  ) [ActPars]
+                ) [HasPars]
+              ) [DesignatorOptMethodCall]
+            ) [OperationStatement]
+          ) [Statements]
+          OperationStatement(
+            DesignatorOptMethodCall(
+              FuncCallName(
+                ClassAccess(
+                  ElemDesignator(
+                    ClassAccess(
+                      ElemDesignator(
+                        DesignatorName(
+                         c
+                        ) [DesignatorName]
+                      ) [ElemDesignator]
+                     theA
+                    ) [ClassAccess]
+                  ) [ElemDesignator]
+                 metoda
+                ) [ClassAccess]
+              ) [FuncCallName]
+              HasPars(
+                ActPars(
+                  ExprTerm(
+                    TermFactor(
+                      FactorVar(
+                        ElemDesignator(
+                          DesignatorName(
+                           a
+                          ) [DesignatorName]
+                        ) [ElemDesignator]
+                      ) [FactorVar]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                  NoExprList(
+                  ) [NoExprList]
+                ) [ActPars]
+              ) [HasPars]
+            ) [DesignatorOptMethodCall]
+          ) [OperationStatement]
+        ) [Statements]
+        OperationStatement(
+          DesignatorOptMethodCall(
+            FuncCallName(
+              ClassAccess(
+                ElemDesignator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                ) [ElemDesignator]
+               metoda
+              ) [ClassAccess]
+            ) [FuncCallName]
+            HasPars(
+              ActPars(
+                ExprTerm(
+                  TermFactor(
+                    FactorVar(
+                      ElemDesignator(
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                      ) [ElemDesignator]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoExprList(
+                ) [NoExprList]
+              ) [ActPars]
+            ) [HasPars]
+          ) [DesignatorOptMethodCall]
+        ) [OperationStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodList]
+) [Program]
+========================Sintaksna analiza uspesno zavrsena========================
+Detektovana upotreba formalnog parametra a metode metoda na liniji 6: Var a: Class , 1, 1 
+Detektovan pristup polju b unutrasnje klase na liniji 6: Fld b: Int , 3, 1 
+Detektovana upotreba formalnog parametra a metode metoda na liniji 7: Var a: Class , 1, 1 
+Detektovan pristup polju b unutrasnje klase na liniji 7: Fld b: Int , 3, 1 
+Detektovana upotreba formalnog parametra a metode metoda2 na liniji 19: Var a: Int , 1, 1 
+Detektovana upotreba formalnog parametra a metode metoda2 na liniji 20: Var a: Int , 1, 1 
+Detektovan poziv metode metoda2 unutrasnje klase  na liniji 21: Meth metoda2: Int , 0, 2 
+Detektovana upotreba formalnog parametra a metode metoda2 na liniji 21: Var a: Int , 1, 1 
+Detektovana upotreba formalnog parametra this metode metoda2 na liniji 23: Var this: 
+Detektovan pristup polju i unutrasnje klase na liniji 23: Fld i: Int , 4, 1 
+Detektovana upotreba formalnog parametra a metode metoda2 na liniji 23: Var a: Int , 1, 1 
+Detektovana upotreba lokalne promenljive b metode metoda2 na liniji 24: Var b: Int , 2, 1 
+Detektovana upotreba lokalne promenljive b metode metoda2 na liniji 25: Var b: Int , 2, 1 
+Detektovana upotreba lokalne promenljive c metode metoda2 na liniji 26: Var c: Bool , 3, 1 
+Detektovana upotreba formalnog parametra this metode metoda2 na liniji 27: Var this: 
+Detektovan pristup polju b unutrasnje klase na liniji 27: Fld b: Int , 3, 1 
+Detektovana upotreba lokalne promenljive b metode metoda2 na liniji 27: Var b: Int , 2, 1 
+Detektovana upotreba formalnog parametra this metode metoda2 na liniji 28: Var this: 
+Detektovan pristup polju i unutrasnje klase na liniji 28: Fld i: Int , 4, 1 
+Detektovan pristup elementu niza x na liniji 28: x: Int , -1, -1 
+Detektovana upotreba formalnog parametra this metode metoda2 na liniji 28: Var this: 
+Detektovan pristup polju b unutrasnje klase na liniji 28: Fld b: Int , 3, 1 
+Detektovana upotreba lokalne promenljive b metode metoda2 na liniji 28: Var b: Int , 2, 1 
+Detektovana upotreba globalne konstante eol na liniji 45: Con eol: Char , 10, 0 
+Detektovana upotreba formalnog parametra s metode proba na liniji 52: Var s: Int , 0, 1 
+Detektovana upotreba lokalne promenljive a metode main na liniji 57: Var a: Class , 0, 1 
+Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 57: Type C: Class [], 0, 0 
+Detektovana upotreba lokalne promenljive a metode main na liniji 58: Var a: Class , 0, 1 
+Detektovan pristup polju x unutrasnje klase na liniji 58: Fld x: Arr of int, 1, 1 
+Detektovano pravljenje niza tipa int na liniji 58
+Detektovana upotreba lokalne promenljive a metode main na liniji 59: Var a: Class , 0, 1 
+Detektovan pristup polju y unutrasnje klase na liniji 59: Fld y: Arr of int, 2, 1 
+Detektovano pravljenje niza tipa int na liniji 59
+Detektovana upotreba lokalne promenljive c metode main na liniji 60: Var c: Class , 1, 1 
+Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 60: Type C: Class [], 0, 0 
+Detektovana upotreba lokalne promenljive c metode main na liniji 61: Var c: Class , 1, 1 
+Detektovan pristup polju theA unutrasnje klase na liniji 61: Fld theA: Class , 5, 1 
+Detektovana upotreba unutrasnje klase A(pravljenje objekta) na liniji 61: Type A: Class [], 0, 0 
+Detektovana upotreba lokalne promenljive c metode main na liniji 62: Var c: Class , 1, 1 
+Detektovan pristup polju theA unutrasnje klase na liniji 62: Fld theA: Class , 5, 1 
+Detektovan pristup polju x unutrasnje klase na liniji 62: Fld x: Arr of int, 1, 1 
+Detektovana upotreba lokalne promenljive a metode main na liniji 62: Var a: Class , 0, 1 
+Detektovan pristup polju x unutrasnje klase na liniji 62: Fld x: Arr of int, 1, 1 
+Detektovana upotreba lokalne promenljive c metode main na liniji 63: Var c: Class , 1, 1 
+Detektovan pristup polju x unutrasnje klase na liniji 63: Fld x: Arr of int, 1, 1 
+Detektovano pravljenje niza tipa int na liniji 63
+Detektovana upotreba lokalne promenljive x metode main na liniji 64: Var x: Arr of int, 3, 1 
+Detektovano pravljenje niza tipa int na liniji 64
+Detektovana upotreba lokalne promenljive i metode main na liniji 65: Var i: Int , 2, 1 
+Detektovana upotreba lokalne promenljive c metode main na liniji 66: Var c: Class , 1, 1 
+Detektovan pristup polju i unutrasnje klase na liniji 66: Fld i: Int , 4, 1 
+Detektovana upotreba lokalne promenljive c metode main na liniji 68: Var c: Class , 1, 1 
+Detektovan pristup polju i unutrasnje klase na liniji 68: Fld i: Int , 4, 1 
+Detektovana upotreba lokalne promenljive c metode main na liniji 70: Var c: Class , 1, 1 
+Detektovan pristup polju x unutrasnje klase na liniji 70: Fld x: Arr of int, 1, 1 
+Detektovana upotreba lokalne promenljive i metode main na liniji 70: Var i: Int , 2, 1 
+Detektovan pristup elementu niza x na liniji 70: x: Int , -1, -1 
+Detektovana upotreba lokalne promenljive c metode main na liniji 71: Var c: Class , 1, 1 
+Detektovan pristup polju x unutrasnje klase na liniji 71: Fld x: Arr of int, 1, 1 
+Detektovana upotreba lokalne promenljive i metode main na liniji 71: Var i: Int , 2, 1 
+Detektovan pristup elementu niza x na liniji 71: x: Int , -1, -1 
+Detektovana upotreba lokalne promenljive i metode main na liniji 71: Var i: Int , 2, 1 
+Detektovana upotreba lokalne promenljive c metode main na liniji 73: Var c: Class , 1, 1 
+Detektovan pristup polju theA unutrasnje klase na liniji 73: Fld theA: Class , 5, 1 
+Detektovan pristup polju x unutrasnje klase na liniji 73: Fld x: Arr of int, 1, 1 
+Detektovana upotreba lokalne promenljive i metode main na liniji 73: Var i: Int , 2, 1 
+Detektovan pristup elementu niza x na liniji 73: x: Int , -1, -1 
+Detektovana upotreba lokalne promenljive i metode main na liniji 74: Var i: Int , 2, 1 
+Detektovana upotreba lokalne promenljive i metode main na liniji 75: Var i: Int , 2, 1 
+Detektovana upotreba lokalne promenljive c metode main na liniji 76: Var c: Class , 1, 1 
+Detektovan poziv metode metoda2 unutrasnje klase  na liniji 76: Meth metoda2: Int , 0, 2 
+Detektovana upotreba lokalne promenljive c metode main na liniji 76: Var c: Class , 1, 1 
+Detektovan pristup polju theA unutrasnje klase na liniji 76: Fld theA: Class , 5, 1 
+Detektovan pristup polju x unutrasnje klase na liniji 76: Fld x: Arr of int, 1, 1 
+Detektovan pristup elementu niza x na liniji 76: x: Int , -1, -1 
+Detektovana upotreba lokalne promenljive g metode main na liniji 77: Var g: Char , 4, 1 
+Detektovana upotreba lokalne promenljive g metode main na liniji 78: Var g: Char , 4, 1 
+Detektovan poziv globalne funkcije proba na liniji 79: Meth proba: NoType , 0, 1 
+Detektovan poziv globalne funkcije proba na liniji 80: Meth proba: NoType , 0, 1 
+Detektovana upotreba lokalne promenljive c metode main na liniji 81: Var c: Class , 1, 1 
+Detektovan pristup polju theA unutrasnje klase na liniji 81: Fld theA: Class , 5, 1 
+Detektovan poziv metode metoda unutrasnje klase  na liniji 81: Meth metoda: Int , 0, 2 
+Detektovana upotreba lokalne promenljive a metode main na liniji 81: Var a: Class , 0, 1 
+Detektovana upotreba lokalne promenljive a metode main na liniji 82: Var a: Class , 0, 1 
+Detektovan poziv metode metoda unutrasnje klase  na liniji 82: Meth metoda: Int , 0, 2 
+Detektovana upotreba lokalne promenljive a metode main na liniji 82: Var a: Class , 0, 1 
+=======================Semanticka analiza uspesno zavrsena========================
+=============================Zavrseno generisanje koda============================

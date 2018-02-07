@@ -1,0 +1,246 @@
+INFO  21:03:40,491 - #39 program
+INFO  21:03:40,494 - #43 Program
+INFO  21:03:40,495 - #43 int
+INFO  21:03:40,524 - #43 a
+INFO  21:03:40,526 - #25 ;
+INFO  21:03:40,529 - #40 const
+INFO  21:03:40,531 - #43 int
+INFO  21:03:40,531 - #43 c
+INFO  21:03:40,532 - #22 =
+INFO  21:03:40,532 - #42 5
+INFO  21:03:40,532 - #25 ;
+INFO  21:03:40,537 - #43 int
+INFO  21:03:40,544 - #5 +
+INFO  21:03:40,545 - #21 ,
+INFO  21:03:40,546 - #43 d
+INFO  21:03:40,546 - #25 ;
+INFO  21:03:40,549 - #43 char
+ERROR 21:03:40,549 - Sintaksna greska prilikom definisanja globalne promenljive na liniji 4
+INFO  21:03:40,552 - #43 dsfg
+INFO  21:03:40,552 - #25 ;
+INFO  21:03:40,552 - #43 int
+INFO  21:03:40,553 - #43 asf
+INFO  21:03:40,553 - #25 ;
+INFO  21:03:40,555 - #40 const
+INFO  21:03:40,555 - #43 bool
+INFO  21:03:40,556 - #43 bl
+INFO  21:03:40,556 - #22 =
+INFO  21:03:40,557 - #44 true
+INFO  21:03:40,557 - #25 ;
+INFO  21:03:40,558 - #38 class
+INFO  21:03:40,558 - #43 A
+INFO  21:03:40,559 - #41 extends
+INFO  21:03:40,559 - #42 123
+INFO  21:03:40,560 - #26 {
+INFO  21:03:40,560 - #43 int
+INFO  21:03:40,561 - #43 x
+INFO  21:03:40,561 - #14 [
+ERROR 21:03:40,561 - Sintaksna greska prilikom extendovanja klase  na liniji 9
+INFO  21:03:40,569 - #15 ]
+INFO  21:03:40,569 - #21 ,
+INFO  21:03:40,574 - #43 y
+INFO  21:03:40,574 - #14 [
+INFO  21:03:40,575 - #15 ]
+INFO  21:03:40,579 - #25 ;
+INFO  21:03:40,580 - #43 int
+INFO  21:03:40,586 - #5 +
+INFO  21:03:40,586 - #21 ,
+INFO  21:03:40,586 - #43 s
+INFO  21:03:40,587 - #25 ;
+INFO  21:03:40,587 - #26 {
+ERROR 21:03:40,588 - Sintaksna greska prilikom definisanja  polja klase  na liniji 11
+INFO  21:03:40,591 - #43 int
+INFO  21:03:40,595 - #43 metoda
+INFO  21:03:40,596 - #16 (
+INFO  21:03:40,598 - #43 a
+INFO  21:03:40,599 - #17 )
+INFO  21:03:40,599 - #26 {
+INFO  21:03:40,600 - #34 return
+INFO  21:03:40,600 - #42 5
+ERROR 21:03:40,600 - Greska pri deklaraciji formalnih parametara funkcije  na liniji 13
+INFO  21:03:40,617 - #25 ;
+INFO  21:03:40,618 - #27 }
+INFO  21:03:40,620 - #27 }
+INFO  21:03:40,632 - #27 }
+INFO  21:03:40,635 - #26 {
+INFO  21:03:40,648 - #43 int
+INFO  21:03:40,648 - #43 proba
+INFO  21:03:40,649 - #16 (
+INFO  21:03:40,649 - #43 int
+INFO  21:03:40,649 - #43 nov
+INFO  21:03:40,650 - #17 )
+INFO  21:03:40,650 - #43 int
+INFO  21:03:40,652 - #43 s
+INFO  21:03:40,652 - #14 [
+INFO  21:03:40,652 - #15 ]
+INFO  21:03:40,652 - #25 ;
+INFO  21:03:40,653 - #26 {
+INFO  21:03:40,653 - #43 a
+INFO  21:03:40,653 - #22 =
+INFO  21:03:40,658 - #42 5
+INFO  21:03:40,658 - #25 ;
+INFO  21:03:40,659 - #43 nov
+INFO  21:03:40,660 - #22 =
+INFO  21:03:40,662 - #43 a
+INFO  21:03:40,663 - #25 ;
+INFO  21:03:40,675 - #43 nov
+INFO  21:03:40,676 - #23 ++
+INFO  21:03:40,678 - #25 ;
+INFO  21:03:40,679 - #28 if
+INFO  21:03:40,682 - #16 (
+INFO  21:03:40,682 - #43 a
+INFO  21:03:40,682 - #11 <
+INFO  21:03:40,683 - #42 6
+INFO  21:03:40,689 - #17 )
+INFO  21:03:40,697 - #43 s
+INFO  21:03:40,700 - #22 =
+INFO  21:03:40,700 - #18 new
+INFO  21:03:40,700 - #43 int
+INFO  21:03:40,700 - #14 [
+INFO  21:03:40,700 - #43 a
+INFO  21:03:40,701 - #15 ]
+INFO  21:03:40,701 - #25 ;
+INFO  21:03:40,701 - #32 else
+INFO  21:03:40,702 - #43 s
+INFO  21:03:40,703 - #22 =
+INFO  21:03:40,703 - #18 new
+INFO  21:03:40,703 - #43 int
+INFO  21:03:40,704 - #14 [
+INFO  21:03:40,704 - #42 6
+INFO  21:03:40,704 - #15 ]
+INFO  21:03:40,704 - #25 ;
+INFO  21:03:40,706 - #29 do
+INFO  21:03:40,707 - #26 {
+INFO  21:03:40,709 - #43 nov
+INFO  21:03:40,709 - #22 =
+INFO  21:03:40,710 - #6 -
+INFO  21:03:40,710 - #43 a
+INFO  21:03:40,710 - #5 +
+INFO  21:03:40,710 - #42 4
+INFO  21:03:40,714 - #6 -
+INFO  21:03:40,715 - #43 a
+INFO  21:03:40,716 - #2 *
+INFO  21:03:40,717 - #43 c
+INFO  21:03:40,719 - #5 +
+INFO  21:03:40,727 - #16 (
+INFO  21:03:40,729 - #43 a
+INFO  21:03:40,730 - #6 -
+INFO  21:03:40,731 - #42 3
+INFO  21:03:40,732 - #17 )
+INFO  21:03:40,732 - #25 ;
+INFO  21:03:40,733 - #28 if
+INFO  21:03:40,734 - #16 (
+INFO  21:03:40,734 - #43 nov
+INFO  21:03:40,734 - #11 <
+INFO  21:03:40,735 - #42 0
+INFO  21:03:40,737 - #17 )
+INFO  21:03:40,737 - #31 break
+INFO  21:03:40,737 - #25 ;
+INFO  21:03:40,738 - #27 }
+INFO  21:03:40,741 - #30 while
+INFO  21:03:40,742 - #16 (
+INFO  21:03:40,743 - #43 s
+INFO  21:03:40,743 - #7 ==
+INFO  21:03:40,744 - #18 new
+INFO  21:03:40,745 - #43 int
+INFO  21:03:40,745 - #14 [
+INFO  21:03:40,746 - #42 7
+INFO  21:03:40,746 - #15 ]
+INFO  21:03:40,746 - #17 )
+INFO  21:03:40,746 - #25 ;
+INFO  21:03:40,747 - #34 return
+INFO  21:03:40,748 - #43 nov
+INFO  21:03:40,748 - #25 ;
+INFO  21:03:40,749 - #27 }
+INFO  21:03:40,749 - #43 bool
+INFO  21:03:40,749 - #43 s
+INFO  21:03:40,749 - #16 (
+INFO  21:03:40,750 - #43 int
+INFO  21:03:40,750 - #43 m
+INFO  21:03:40,750 - #17 )
+INFO  21:03:40,751 - #43 int
+INFO  21:03:40,751 - #43 e
+INFO  21:03:40,751 - #14 [
+INFO  21:03:40,753 - #15 ]
+INFO  21:03:40,754 - #25 ;
+INFO  21:03:40,754 - #26 {
+INFO  21:03:40,754 - #43 e
+INFO  21:03:40,756 - #22 =
+INFO  21:03:40,757 - #18 new
+INFO  21:03:40,758 - #43 int
+INFO  21:03:40,758 - #14 [
+INFO  21:03:40,758 - #43 m
+INFO  21:03:40,758 - #15 ]
+INFO  21:03:40,759 - #25 ;
+INFO  21:03:40,759 - #34 return
+INFO  21:03:40,759 - #44 true
+INFO  21:03:40,760 - #25 ;
+INFO  21:03:40,760 - #27 }
+INFO  21:03:40,760 - #37 void
+INFO  21:03:40,761 - #43 main
+INFO  21:03:40,762 - #16 (
+INFO  21:03:40,763 - #17 )
+INFO  21:03:40,764 - #26 {
+INFO  21:03:40,764 - #43 d
+INFO  21:03:40,765 - #22 =
+INFO  21:03:40,765 - #42 4
+INFO  21:03:40,765 - #25 ;
+INFO  21:03:40,765 - #28 if
+INFO  21:03:40,765 - #16 (
+INFO  21:03:40,765 - #43 c
+INFO  21:03:40,766 - #7 ==
+INFO  21:03:40,766 - #42 3
+INFO  21:03:40,767 - #20 ||
+INFO  21:03:40,767 - #43 s
+INFO  21:03:40,769 - #16 (
+INFO  21:03:40,771 - #43 c
+INFO  21:03:40,773 - #17 )
+INFO  21:03:40,784 - #17 )
+INFO  21:03:40,786 - #43 proba
+INFO  21:03:40,787 - #16 (
+INFO  21:03:40,787 - #6 -
+INFO  21:03:40,787 - #42 1
+INFO  21:03:40,787 - #17 )
+INFO  21:03:40,790 - #25 ;
+INFO  21:03:40,790 - #32 else
+INFO  21:03:40,791 - #43 proba
+INFO  21:03:40,792 - #16 (
+INFO  21:03:40,792 - #42 1
+INFO  21:03:40,792 - #17 )
+INFO  21:03:40,793 - #25 ;
+INFO  21:03:40,793 - #35 print
+INFO  21:03:40,793 - #16 (
+INFO  21:03:40,793 - #43 d
+INFO  21:03:40,794 - #17 )
+INFO  21:03:40,796 - #25 ;
+INFO  21:03:40,796 - #27 }
+INFO  21:03:40,797 - #27 }
+INFO  21:03:40,865 - Detektovana upotreba globalne promenljive a na liniji 20: Var a: Int , 0, 0 
+INFO  21:03:40,866 - Detektovana upotreba formalnog parametra nov metode proba na liniji 21: Var nov: Int , 0, 1 
+INFO  21:03:40,866 - Detektovana upotreba globalne promenljive a na liniji 21: Var a: Int , 0, 0 
+INFO  21:03:40,866 - Detektovana upotreba formalnog parametra nov metode proba na liniji 22: Var nov: Int , 0, 1 
+INFO  21:03:40,867 - Detektovana upotreba globalne promenljive a na liniji 23: Var a: Int , 0, 0 
+INFO  21:03:40,867 - Detektovana upotreba lokalne promenljive s metode proba na liniji 24: Var s: Arr of int, 1, 1 
+INFO  21:03:40,868 - Detektovana upotreba globalne promenljive a na liniji 24: Var a: Int , 0, 0 
+INFO  21:03:40,868 - Detektovano pravljenje niza tipa int na liniji 24
+INFO  21:03:40,868 - Detektovana upotreba lokalne promenljive s metode proba na liniji 26: Var s: Arr of int, 1, 1 
+INFO  21:03:40,868 - Detektovano pravljenje niza tipa int na liniji 26
+INFO  21:03:40,869 - Detektovana upotreba formalnog parametra nov metode proba na liniji 29: Var nov: Int , 0, 1 
+INFO  21:03:40,869 - Detektovana upotreba globalne promenljive a na liniji 29: Var a: Int , 0, 0 
+INFO  21:03:40,869 - Detektovana upotreba globalne promenljive a na liniji 29: Var a: Int , 0, 0 
+INFO  21:03:40,869 - Detektovana upotreba globalne konstante c na liniji 29: Con c: Int , 5, 0 
+INFO  21:03:40,870 - Detektovana upotreba globalne promenljive a na liniji 29: Var a: Int , 0, 0 
+INFO  21:03:40,870 - Detektovana upotreba formalnog parametra nov metode proba na liniji 30: Var nov: Int , 0, 1 
+INFO  21:03:40,870 - Detektovana upotreba lokalne promenljive s metode proba na liniji 33: Var s: Arr of int, 1, 1 
+INFO  21:03:40,871 - Detektovano pravljenje niza tipa int na liniji 33
+INFO  21:03:40,871 - Detektovana upotreba formalnog parametra nov metode proba na liniji 35: Var nov: Int , 0, 1 
+INFO  21:03:40,871 - Detektovana upotreba lokalne promenljive e metode s na liniji 40: Var e: Arr of int, 1, 1 
+INFO  21:03:40,871 - Detektovana upotreba formalnog parametra m metode s na liniji 40: Var m: Int , 0, 1 
+INFO  21:03:40,872 - Detektovano pravljenje niza tipa int na liniji 40
+INFO  21:03:40,872 - Detektovana upotreba globalne promenljive d na liniji 45: Var d: Int , 1, 0 
+INFO  21:03:40,873 - Detektovana upotreba globalne konstante c na liniji 46: Con c: Int , 5, 0 
+INFO  21:03:40,873 - Detektovan poziv globalne funkcije s na liniji 46: Meth s: Bool , 0, 1 
+INFO  21:03:40,874 - Detektovana upotreba globalne konstante c na liniji 46: Con c: Int , 5, 0 
+INFO  21:03:40,874 - Detektovan poziv globalne funkcije proba na liniji 47: Meth proba: Int , 0, 1 
+INFO  21:03:40,874 - Detektovan poziv globalne funkcije proba na liniji 49: Meth proba: Int , 0, 1 
+INFO  21:03:40,875 - Detektovana upotreba globalne promenljive d na liniji 50: Var d: Int , 1, 0 

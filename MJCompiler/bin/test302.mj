@@ -3,9 +3,9 @@
 program test302
 
 
-int $^#;
+int i;
 bool ibool;
-int s;
+
 int niz[];
 {
 	
@@ -27,7 +27,7 @@ int niz[];
 		if(1!=1) print(-6);
 		else print(0);  
 
-			s = 0;
+			
 		ibool = false;
 		i = 0;
 		do
@@ -52,18 +52,14 @@ int niz[];
 		i = 0;
 		do 
 		{
-			if(i == 3 || i == 5)
+			if(i == 3)
 			{
 				i++;
 				continue;
 			}
 			if(i == 4) break;
 			i = inkrement(i);
-			do{
-			s = inkrement(s);
-			print(s);
-			}while( s < 4 || i != 2);
-		}while (i < 3 || s == 4);
+		}while (true);
 		
 		if(i == 3) print(4);
 		else print(-4);  

@@ -1,0 +1,540 @@
+INFO  23:24:50,299 - #39 program
+INFO  23:24:50,311 - #43 ParserIspravno
+INFO  23:24:50,311 - #40 const
+INFO  23:24:50,313 - #43 int
+INFO  23:24:50,313 - #43 faktor
+INFO  23:24:50,313 - #22 =
+INFO  23:24:50,313 - #42 2
+INFO  23:24:50,313 - #25 ;
+INFO  23:24:50,313 - #43 int
+INFO  23:24:50,313 - #43 tezina
+INFO  23:24:50,313 - #25 ;
+INFO  23:24:50,313 - #38 class
+INFO  23:24:50,329 - #43 Kalkulator
+INFO  23:24:50,329 - #26 {
+INFO  23:24:50,329 - #26 {
+INFO  23:24:50,329 - #43 int
+INFO  23:24:50,329 - #43 saberi
+INFO  23:24:50,329 - #16 (
+INFO  23:24:50,329 - #43 int
+INFO  23:24:50,344 - #43 a
+INFO  23:24:50,344 - #21 ,
+INFO  23:24:50,344 - #43 int
+INFO  23:24:50,344 - #43 b
+INFO  23:24:50,344 - #17 )
+INFO  23:24:50,344 - #26 {
+INFO  23:24:50,344 - #34 return
+INFO  23:24:50,344 - #43 a
+INFO  23:24:50,344 - #5 +
+INFO  23:24:50,360 - #43 b
+INFO  23:24:50,360 - #25 ;
+INFO  23:24:50,360 - #27 }
+INFO  23:24:50,360 - #43 int
+INFO  23:24:50,360 - #43 oduzmi
+INFO  23:24:50,360 - #16 (
+INFO  23:24:50,360 - #43 int
+INFO  23:24:50,360 - #43 a
+INFO  23:24:50,360 - #21 ,
+INFO  23:24:50,360 - #43 int
+INFO  23:24:50,360 - #43 b
+INFO  23:24:50,360 - #17 )
+INFO  23:24:50,360 - #26 {
+INFO  23:24:50,360 - #34 return
+INFO  23:24:50,360 - #43 a
+INFO  23:24:50,376 - #6 -
+INFO  23:24:50,376 - #43 b
+INFO  23:24:50,376 - #25 ;
+INFO  23:24:50,376 - #27 }
+INFO  23:24:50,376 - #43 int
+INFO  23:24:50,376 - #43 pomnozi
+INFO  23:24:50,376 - #16 (
+INFO  23:24:50,376 - #43 int
+INFO  23:24:50,376 - #43 a
+INFO  23:24:50,376 - #21 ,
+INFO  23:24:50,376 - #43 int
+INFO  23:24:50,376 - #43 b
+INFO  23:24:50,376 - #17 )
+INFO  23:24:50,376 - #26 {
+INFO  23:24:50,376 - #34 return
+INFO  23:24:50,376 - #43 a
+INFO  23:24:50,376 - #2 *
+INFO  23:24:50,376 - #43 b
+INFO  23:24:50,376 - #25 ;
+INFO  23:24:50,376 - #27 }
+INFO  23:24:50,376 - #43 int
+INFO  23:24:50,391 - #43 podeli
+INFO  23:24:50,391 - #16 (
+INFO  23:24:50,391 - #43 int
+INFO  23:24:50,391 - #43 a
+INFO  23:24:50,391 - #21 ,
+INFO  23:24:50,391 - #43 int
+INFO  23:24:50,391 - #43 b
+INFO  23:24:50,391 - #17 )
+INFO  23:24:50,391 - #26 {
+INFO  23:24:50,391 - #34 return
+INFO  23:24:50,391 - #43 a
+INFO  23:24:50,391 - #3 /
+INFO  23:24:50,391 - #43 b
+INFO  23:24:50,391 - #25 ;
+INFO  23:24:50,391 - #27 }
+INFO  23:24:50,391 - #27 }
+INFO  23:24:50,391 - #27 }
+INFO  23:24:50,391 - #38 class
+INFO  23:24:50,391 - #43 TezinskiKalkulator
+INFO  23:24:50,391 - #41 extends
+INFO  23:24:50,391 - #43 Kalkulator
+INFO  23:24:50,391 - #26 {
+INFO  23:24:50,391 - #26 {
+INFO  23:24:50,391 - #43 int
+INFO  23:24:50,391 - #43 pomnozi
+INFO  23:24:50,391 - #16 (
+INFO  23:24:50,391 - #43 int
+INFO  23:24:50,391 - #43 a
+INFO  23:24:50,391 - #21 ,
+INFO  23:24:50,391 - #43 int
+INFO  23:24:50,391 - #43 b
+INFO  23:24:50,391 - #17 )
+INFO  23:24:50,391 - #26 {
+INFO  23:24:50,391 - #34 return
+INFO  23:24:50,391 - #43 a
+INFO  23:24:50,391 - #2 *
+INFO  23:24:50,391 - #43 b
+INFO  23:24:50,391 - #2 *
+INFO  23:24:50,391 - #43 tezina
+INFO  23:24:50,391 - #2 *
+INFO  23:24:50,391 - #43 faktor
+INFO  23:24:50,391 - #25 ;
+INFO  23:24:50,407 - #27 }
+INFO  23:24:50,407 - #27 }
+INFO  23:24:50,407 - #27 }
+INFO  23:24:50,407 - #26 {
+INFO  23:24:50,407 - #37 void
+INFO  23:24:50,407 - #43 main
+INFO  23:24:50,407 - #16 (
+INFO  23:24:50,407 - #17 )
+INFO  23:24:50,407 - #43 Kalkulator
+INFO  23:24:50,407 - #43 k
+INFO  23:24:50,407 - #25 ;
+INFO  23:24:50,407 - #43 char
+INFO  23:24:50,407 - #43 vrsta
+INFO  23:24:50,407 - #25 ;
+INFO  23:24:50,407 - #43 int
+INFO  23:24:50,407 - #43 ulaz
+INFO  23:24:50,407 - #21 ,
+INFO  23:24:50,407 - #43 a
+INFO  23:24:50,407 - #21 ,
+INFO  23:24:50,407 - #43 b
+INFO  23:24:50,407 - #21 ,
+INFO  23:24:50,407 - #43 rezultat
+INFO  23:24:50,407 - #25 ;
+INFO  23:24:50,407 - #43 Kalkulator
+INFO  23:24:50,407 - #43 nizk
+INFO  23:24:50,407 - #14 [
+INFO  23:24:50,407 - #15 ]
+INFO  23:24:50,407 - #25 ;
+INFO  23:24:50,407 - #26 {
+INFO  23:24:50,407 - #43 nizk
+INFO  23:24:50,407 - #22 =
+INFO  23:24:50,407 - #18 new
+INFO  23:24:50,407 - #43 TezinskiKalkulator
+INFO  23:24:50,407 - #14 [
+INFO  23:24:50,407 - #42 2
+INFO  23:24:50,407 - #15 ]
+INFO  23:24:50,407 - #25 ;
+INFO  23:24:50,407 - #35 print
+INFO  23:24:50,423 - #16 (
+INFO  23:24:50,423 - #45 V
+INFO  23:24:50,423 - #17 )
+INFO  23:24:50,423 - #25 ;
+INFO  23:24:50,423 - #35 print
+INFO  23:24:50,423 - #16 (
+INFO  23:24:50,423 - #45 R
+INFO  23:24:50,423 - #17 )
+INFO  23:24:50,423 - #25 ;
+INFO  23:24:50,423 - #35 print
+INFO  23:24:50,423 - #16 (
+INFO  23:24:50,423 - #45 S
+INFO  23:24:50,423 - #17 )
+INFO  23:24:50,423 - #25 ;
+INFO  23:24:50,423 - #35 print
+INFO  23:24:50,423 - #16 (
+INFO  23:24:50,423 - #45 T
+INFO  23:24:50,423 - #17 )
+INFO  23:24:50,423 - #25 ;
+INFO  23:24:50,423 - #35 print
+INFO  23:24:50,423 - #16 (
+INFO  23:24:50,423 - #45 A
+INFO  23:24:50,423 - #17 )
+INFO  23:24:50,423 - #25 ;
+INFO  23:24:50,423 - #35 print
+INFO  23:24:50,423 - #16 (
+INFO  23:24:50,423 - #43 eol
+INFO  23:24:50,423 - #17 )
+INFO  23:24:50,423 - #25 ;
+INFO  23:24:50,423 - #36 read
+INFO  23:24:50,423 - #16 (
+INFO  23:24:50,423 - #43 vrsta
+INFO  23:24:50,423 - #17 )
+INFO  23:24:50,423 - #25 ;
+INFO  23:24:50,423 - #28 if
+INFO  23:24:50,423 - #16 (
+INFO  23:24:50,423 - #43 vrsta
+INFO  23:24:50,438 - #7 ==
+INFO  23:24:50,438 - #45 o
+INFO  23:24:50,438 - #17 )
+INFO  23:24:50,438 - #26 {
+INFO  23:24:50,438 - #43 k
+INFO  23:24:50,438 - #22 =
+INFO  23:24:50,438 - #18 new
+INFO  23:24:50,438 - #43 Kalkulator
+INFO  23:24:50,438 - #25 ;
+INFO  23:24:50,438 - #27 }
+INFO  23:24:50,438 - #32 else
+INFO  23:24:50,438 - #26 {
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 T
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 E
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 Z
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 I
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 N
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 A
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #43 eol
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #36 read
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #43 tezina
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #43 k
+INFO  23:24:50,454 - #22 =
+INFO  23:24:50,454 - #18 new
+INFO  23:24:50,454 - #43 TezinskiKalkulator
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #27 }
+INFO  23:24:50,454 - #29 do
+INFO  23:24:50,454 - #26 {
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 O
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 P
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 E
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 R
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 A
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 C
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 I
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 J
+INFO  23:24:50,454 - #17 )
+INFO  23:24:50,454 - #25 ;
+INFO  23:24:50,454 - #35 print
+INFO  23:24:50,454 - #16 (
+INFO  23:24:50,454 - #45 A
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #43 eol
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #36 read
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #43 ulaz
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #28 if
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #43 ulaz
+INFO  23:24:50,469 - #7 ==
+INFO  23:24:50,469 - #42 0
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #33 continue
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #45 O
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #45 P
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #45 E
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #45 R
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #45 A
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #45 N
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #45 D
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #45 I
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #43 eol
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #36 read
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #43 a
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #36 read
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #43 b
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #25 ;
+INFO  23:24:50,469 - #28 if
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #43 ulaz
+INFO  23:24:50,469 - #7 ==
+INFO  23:24:50,469 - #42 1
+INFO  23:24:50,469 - #17 )
+INFO  23:24:50,469 - #26 {
+INFO  23:24:50,469 - #35 print
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #43 k
+INFO  23:24:50,469 - #13 .
+INFO  23:24:50,469 - #43 saberi
+INFO  23:24:50,469 - #16 (
+INFO  23:24:50,469 - #43 a
+INFO  23:24:50,485 - #21 ,
+INFO  23:24:50,485 - #43 b
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #25 ;
+INFO  23:24:50,485 - #27 }
+INFO  23:24:50,485 - #28 if
+INFO  23:24:50,485 - #16 (
+INFO  23:24:50,485 - #43 ulaz
+INFO  23:24:50,485 - #7 ==
+INFO  23:24:50,485 - #42 2
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #26 {
+INFO  23:24:50,485 - #35 print
+INFO  23:24:50,485 - #16 (
+INFO  23:24:50,485 - #43 k
+INFO  23:24:50,485 - #13 .
+INFO  23:24:50,485 - #43 oduzmi
+INFO  23:24:50,485 - #16 (
+INFO  23:24:50,485 - #43 a
+INFO  23:24:50,485 - #21 ,
+INFO  23:24:50,485 - #43 b
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #25 ;
+INFO  23:24:50,485 - #27 }
+INFO  23:24:50,485 - #28 if
+INFO  23:24:50,485 - #16 (
+INFO  23:24:50,485 - #43 ulaz
+INFO  23:24:50,485 - #7 ==
+INFO  23:24:50,485 - #42 3
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #26 {
+INFO  23:24:50,485 - #35 print
+INFO  23:24:50,485 - #16 (
+INFO  23:24:50,485 - #43 k
+INFO  23:24:50,485 - #13 .
+INFO  23:24:50,485 - #43 pomnozi
+INFO  23:24:50,485 - #16 (
+INFO  23:24:50,485 - #43 a
+INFO  23:24:50,485 - #21 ,
+INFO  23:24:50,485 - #43 b
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #25 ;
+INFO  23:24:50,485 - #27 }
+INFO  23:24:50,485 - #28 if
+INFO  23:24:50,485 - #16 (
+INFO  23:24:50,485 - #43 ulaz
+INFO  23:24:50,485 - #7 ==
+INFO  23:24:50,485 - #42 4
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #26 {
+INFO  23:24:50,485 - #28 if
+INFO  23:24:50,485 - #16 (
+INFO  23:24:50,485 - #43 b
+INFO  23:24:50,485 - #8 !=
+INFO  23:24:50,485 - #42 0
+INFO  23:24:50,485 - #17 )
+INFO  23:24:50,485 - #26 {
+INFO  23:24:50,501 - #35 print
+INFO  23:24:50,501 - #16 (
+INFO  23:24:50,501 - #43 k
+INFO  23:24:50,501 - #13 .
+INFO  23:24:50,501 - #43 podeli
+INFO  23:24:50,501 - #16 (
+INFO  23:24:50,501 - #43 a
+INFO  23:24:50,501 - #21 ,
+INFO  23:24:50,501 - #43 b
+INFO  23:24:50,501 - #17 )
+INFO  23:24:50,501 - #17 )
+INFO  23:24:50,501 - #25 ;
+INFO  23:24:50,501 - #27 }
+INFO  23:24:50,501 - #32 else
+INFO  23:24:50,501 - #26 {
+INFO  23:24:50,501 - #31 break
+INFO  23:24:50,501 - #25 ;
+INFO  23:24:50,501 - #27 }
+INFO  23:24:50,501 - #27 }
+INFO  23:24:50,501 - #35 print
+INFO  23:24:50,501 - #16 (
+INFO  23:24:50,501 - #43 eol
+INFO  23:24:50,501 - #17 )
+INFO  23:24:50,501 - #25 ;
+INFO  23:24:50,501 - #27 }
+INFO  23:24:50,501 - #30 while
+INFO  23:24:50,501 - #16 (
+INFO  23:24:50,501 - #43 ulaz
+INFO  23:24:50,501 - #8 !=
+INFO  23:24:50,501 - #42 0
+INFO  23:24:50,501 - #17 )
+INFO  23:24:50,501 - #25 ;
+INFO  23:24:50,501 - #35 print
+INFO  23:24:50,501 - #16 (
+INFO  23:24:50,501 - #45 K
+INFO  23:24:50,501 - #17 )
+INFO  23:24:50,501 - #25 ;
+INFO  23:24:50,501 - #35 print
+INFO  23:24:50,516 - #16 (
+INFO  23:24:50,516 - #45 R
+INFO  23:24:50,516 - #17 )
+INFO  23:24:50,516 - #25 ;
+INFO  23:24:50,516 - #35 print
+INFO  23:24:50,516 - #16 (
+INFO  23:24:50,516 - #45 A
+INFO  23:24:50,516 - #17 )
+INFO  23:24:50,516 - #25 ;
+INFO  23:24:50,516 - #35 print
+INFO  23:24:50,516 - #16 (
+INFO  23:24:50,516 - #45 J
+INFO  23:24:50,516 - #17 )
+INFO  23:24:50,516 - #25 ;
+INFO  23:24:50,516 - #27 }
+INFO  23:24:50,516 - #27 }
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra a metode saberi na liniji 9: Var a: Int , 1, 1 
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra b metode saberi na liniji 9: Var b: Int , 2, 1 
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra a metode oduzmi na liniji 13: Var a: Int , 1, 1 
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra b metode oduzmi na liniji 13: Var b: Int , 2, 1 
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra a metode pomnozi na liniji 17: Var a: Int , 1, 1 
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra b metode pomnozi na liniji 17: Var b: Int , 2, 1 
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra a metode podeli na liniji 21: Var a: Int , 1, 1 
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra b metode podeli na liniji 21: Var b: Int , 2, 1 
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra a metode pomnozi na liniji 29: Var a: Int , 1, 1 
+INFO  23:24:50,563 - Detektovana upotreba formalnog parametra b metode pomnozi na liniji 29: Var b: Int , 2, 1 
+INFO  23:24:50,563 - Detektovana upotreba globalne promenljive tezina na liniji 29: Var tezina: Int , 0, 0 
+INFO  23:24:50,563 - Detektovana upotreba globalne konstante faktor na liniji 29: Con faktor: Int , 2, 0 
+INFO  23:24:50,563 - Detektovana upotreba lokalne promenljive nizk metode main na liniji 36: Var nizk: Arr of Class, 6, 1 
+INFO  23:24:50,563 - Detektovano pravljenje niza tipa TezinskiKalkulator na liniji 36
+ERROR 23:24:50,563 - Semanticka greska na liniji 36 : nekompatibilni tipovi u dodeli vrednosti 
+INFO  23:24:50,563 - Detektovana upotreba globalne konstante eol na liniji 37: Con eol: Char , 10, 0 
+INFO  23:24:50,563 - Detektovana upotreba lokalne promenljive vrsta metode main na liniji 38: Var vrsta: Char , 1, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive vrsta metode main na liniji 39: Var vrsta: Char , 1, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive k metode main na liniji 40: Var k: Class , 0, 1 
+INFO  23:24:50,579 - Detektovana upotreba unutrasnje klase Kalkulator(pravljenje objekta) na liniji 40: Type Kalkulator: Class [], 0, 0 
+INFO  23:24:50,579 - Detektovana upotreba globalne konstante eol na liniji 42: Con eol: Char , 10, 0 
+INFO  23:24:50,579 - Detektovana upotreba globalne promenljive tezina na liniji 43: Var tezina: Int , 0, 0 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive k metode main na liniji 44: Var k: Class , 0, 1 
+INFO  23:24:50,579 - Detektovana upotreba unutrasnje klase TezinskiKalkulator(pravljenje objekta) na liniji 44: Type TezinskiKalkulator: Class [], 0, 0 
+INFO  23:24:50,579 - Detektovana upotreba globalne konstante eol na liniji 48: Con eol: Char , 10, 0 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive ulaz metode main na liniji 49: Var ulaz: Int , 2, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive ulaz metode main na liniji 51: Var ulaz: Int , 2, 1 
+INFO  23:24:50,579 - Detektovana upotreba globalne konstante eol na liniji 53: Con eol: Char , 10, 0 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive a metode main na liniji 54: Var a: Int , 3, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive b metode main na liniji 55: Var b: Int , 4, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive ulaz metode main na liniji 57: Var ulaz: Int , 2, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive k metode main na liniji 58: Var k: Class , 0, 1 
+INFO  23:24:50,579 - Detektovan poziv metode saberi unutrasnje klase  na liniji 58: Meth saberi: Int , 0, 3 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive a metode main na liniji 58: Var a: Int , 3, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive b metode main na liniji 58: Var b: Int , 4, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive ulaz metode main na liniji 61: Var ulaz: Int , 2, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive k metode main na liniji 62: Var k: Class , 0, 1 
+INFO  23:24:50,579 - Detektovan poziv metode oduzmi unutrasnje klase  na liniji 62: Meth oduzmi: Int , 0, 3 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive a metode main na liniji 62: Var a: Int , 3, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive b metode main na liniji 62: Var b: Int , 4, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive ulaz metode main na liniji 65: Var ulaz: Int , 2, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive k metode main na liniji 66: Var k: Class , 0, 1 
+INFO  23:24:50,579 - Detektovan poziv metode pomnozi unutrasnje klase  na liniji 66: Meth pomnozi: Int , 0, 3 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive a metode main na liniji 66: Var a: Int , 3, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive b metode main na liniji 66: Var b: Int , 4, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive ulaz metode main na liniji 69: Var ulaz: Int , 2, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive b metode main na liniji 70: Var b: Int , 4, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive k metode main na liniji 71: Var k: Class , 0, 1 
+INFO  23:24:50,579 - Detektovan poziv metode podeli unutrasnje klase  na liniji 71: Meth podeli: Int , 0, 3 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive a metode main na liniji 71: Var a: Int , 3, 1 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive b metode main na liniji 71: Var b: Int , 4, 1 
+INFO  23:24:50,579 - Detektovana upotreba globalne konstante eol na liniji 77: Con eol: Char , 10, 0 
+INFO  23:24:50,579 - Detektovana upotreba lokalne promenljive ulaz metode main na liniji 79: Var ulaz: Int , 2, 1 

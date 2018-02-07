@@ -41,6 +41,7 @@ parser code {:
     			msg.append(" na liniji "+tokenLine);
     
         log.error(msg.toString());
+        System.err.println(msg.toString());
     }
     
     public void report_info(String message, Object info) {
@@ -48,6 +49,7 @@ parser code {:
     	if (info instanceof Symbol)
             msg.append (" na liniji ").append(((Symbol)info).left);
         log.info(msg.toString());
+        System.out.println(msg.toString());
     }
     
 :}
@@ -141,7 +143,8 @@ Brackets ::= (ArrayBracket) LBRACKET RBRACKET | (NotArray);
 
 FormParsList ::= (FormalParameterList) FormParsList COMMA Parameter | (NoFormParsList);
 
-Parameter ::= (FormalParameter) Type IDENT:formalParameterName Brackets | (ParameterError) error:e {:parser.report_error("Greska pri deklaraciji formalnih parametara funkcije ", null);:} ;
+Parameter ::= (FormalParameter) Type IDENT:formalParameterName Brackets 
+| (ParameterError) error:e {:parser.report_error("Greska pri deklaraciji formalnih parametara funkcije ", null);:} ;
 
 Type ::= (Type) IDENT:typeName ;
 

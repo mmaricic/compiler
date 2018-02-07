@@ -1,0 +1,82 @@
+program Program
+int a;
+bool a;
+const int c = 5;
+bool s;
+axss dg;
+char dsfg;
+int asf;
+const bool bl = true;
+const char slovo = 5;
+class A{ int x[],y[]; int s; 
+{
+int metoda(int a, char matrix[]){ 
+s=5;
+s = a*'c';
+}
+}
+}
+A klasaA;
+
+class B extends int {int c;
+{int metodaB(){
+	return 'c';
+	}
+}
+}
+
+{
+	int proba(int nov) int s[];
+	{
+		klasaA = new A;
+		klasaA.x = new int[5];
+		klasaA.x[2][4] = 2;
+		a = 5;
+		a.x = 2;
+		klasaA.x = klasaA.y;
+		klasaA.x[2]();
+		nov = a;
+		nov++;
+		if(a < 6)
+			s = new int[a];
+		else
+			s = new char[10];
+			
+			s = new char[bl];
+		do{
+			nov = -a + 4- a*c + (a - 3);
+			s = -bl;
+			s = 5 + 4- a*c + (a - 3);
+		if(s < klasaA.x)
+			break;
+		}
+		while(s == new char[7]);
+		break;
+		return nov;
+		klasaA = new int;
+		if(bl == true)
+			print(0);
+	}
+	
+	bool meth(int m[], char c) int e[];
+	{
+		e = 5;
+		return true;
+	}
+	void main() A nizA[]; bool g;
+	{
+		meth(new int[3], 'r');
+		nizA = new A[5];
+		nizA[bl] = new A;
+		g[2] = true;
+		
+		if(c == 5)
+			proba(-1);
+		else
+			proba();
+			proba('c');
+			proba(2,2);
+			continue;
+		neradim();
+	}
+}

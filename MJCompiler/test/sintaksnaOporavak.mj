@@ -1,0 +1,52 @@
+program Program
+int a;
+const int c = 5;
+int +,d;
+char dsfg;
+int asf;
+const bool bl = true;
+
+class A extends 123{ 
+	int x[],y[]; 
+	int +, s; 
+	{
+		int metoda(a){ return 5;}
+	}
+}
+
+{
+	int proba(int nov) int s[];
+	{
+		a = 5;
+		nov = a;
+		nov++;
+		if(a < 6)
+			s = new int[a];
+		else
+			s = new int[6];
+			
+		do{
+			nov = -a + 4- a*c + (a - 3);
+			if(nov < 0)
+				break;
+		}
+		while(s == new int[7]);
+	
+		return nov;
+	}
+	
+	bool s(int m) int e[];
+	{
+		e = new int[m];
+		return true;
+	}
+	
+	void main() {
+		d = 4;
+		if(c == 3 || s(c))
+			proba(-1);
+		else
+			proba(1);
+		print(d);
+	}
+}

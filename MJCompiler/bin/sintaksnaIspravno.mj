@@ -1,0 +1,76 @@
+program P
+class A{
+ int i;
+}
+class B{
+ A a[];
+ {
+ void ispis(int a){
+ 	print(a);
+ 	print(eol);
+ }
+ }
+}
+class C extends B{
+ B b;
+ {
+ void ispis(int c){
+ 	print(c);
+ 	print('o');
+ 	print(eol);
+ }
+
+ 
+ int mojaMetoda(){
+ 	if(b == null)
+ 		b = new B;
+ 	b.a = new A[5];
+ 	b.a[2] = new A;
+ 	read(b.a[2].i);
+ 	a = new A[7];
+ 	a[2] = new A;
+ 	a[2].i = 14;
+ 	ispis(a[2].i);
+ 	ispis(b.a[2].i);
+ 	return a[2].i;
+ }
+}
+}
+C c;
+int res, s;
+B b, b2;
+
+{
+void main(){
+	res = 5;
+	c = new C;
+	c.b = new B;
+	c.b.a = new A[5];
+	c.b.a[2] = new A;
+	c.b.a[2].i = 6;
+	
+	do{
+	if( res < 5 || res >= 8 && true || 1 == 1 || 0 != 1 && false)
+		do
+		res = res + c.b.a[2].i;
+		while(false);
+		if(1 == 0)
+			break;
+		else
+			continue;
+	}while(res < 20);
+	res = res + 2;
+	print(res);
+	
+	b = new B;
+	b.ispis(5);
+	c.ispis(5);
+	c = new C;
+	s = c.mojaMetoda();
+	print(s);
+	print(eol);
+	b2 = new C;
+	b2.ispis(3);
+	
+}
+}

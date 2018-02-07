@@ -20,6 +20,7 @@ public class CodeGenerator extends VisitorAdaptor {
 	ArrayList<ArrayList<Integer>> fixupJmps = new ArrayList<ArrayList<Integer>>();
 	ArrayList<ArrayList<Integer>> fixupCondJumps = new ArrayList<ArrayList<Integer>>();
 	ArrayList<ArrayList<Integer>> fixupContinue = new ArrayList<ArrayList<Integer>>();
+	ArrayList<ArrayList<Integer>> fixupBreak = new ArrayList<ArrayList<Integer>>();
 	int count;
 	VirtualTableGenerator vtg = new VirtualTableGenerator();
 	HashMap<String, Integer> vtadressMap = new HashMap<String, Integer>();  
@@ -30,6 +31,7 @@ public class CodeGenerator extends VisitorAdaptor {
 	public void visit(LoopBegin Do) {
 		doWhileStart.add(Code.pc);
 		fixupContinue.add(new ArrayList<Integer>());
+		fixupBreak.add(new ArrayList<Integer>());
 	}
 
 	@Override
@@ -72,8 +74,12 @@ public class CodeGenerator extends VisitorAdaptor {
 
 	@Override
 	public void visit(DoWhile doWhile) {
+		
 		int adr = doWhileStart.remove(doWhileStart.size()-1);
 		Code.putJump(adr);
+		ArrayList<Integer> cont = fixupBreak.remove(fixupBreak.size()-1);
+		while(!cont.isEmpty())
+			Code.fixup(cont.remove(0));
 		ArrayList<Integer> fixup = fixupCondJumps.remove(fixupCondJumps.size()-1);
 		while(!fixup.isEmpty())
 			Code.fixup(fixup.remove(0));
@@ -126,7 +132,7 @@ public class CodeGenerator extends VisitorAdaptor {
 
 	@Override
 	public void visit(NoAdditionalPrint NoAdditionalPrint) {
-		Code.put(Code.const_5);
+		Code.put(Code.const_3);
 	}
 
 	/*@Override
@@ -412,6 +418,6 @@ public class CodeGenerator extends VisitorAdaptor {
 	@Override
 	public void visit(Break brk){
 		Code.putJump(0);
-		fixupAdr.add(Code.pc-2);
+		fixupBreak.get(fixupBreak.size() - 1).add(Code.pc-2);
 	}
 }

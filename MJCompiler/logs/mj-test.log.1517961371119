@@ -1,0 +1,297 @@
+INFO  00:54:04,190 - #39 program
+INFO  00:54:04,190 - #43 Program
+INFO  00:54:04,190 - #43 int
+INFO  00:54:04,206 - #43 a
+INFO  00:54:04,206 - #25 ;
+INFO  00:54:04,206 - #43 bool
+INFO  00:54:04,206 - #43 a
+INFO  00:54:04,206 - #25 ;
+INFO  00:54:04,206 - #40 const
+INFO  00:54:04,206 - #43 int
+INFO  00:54:04,206 - #43 c
+INFO  00:54:04,206 - #22 =
+INFO  00:54:04,206 - #42 5
+INFO  00:54:04,206 - #25 ;
+INFO  00:54:04,222 - #43 bool
+INFO  00:54:04,222 - #5 +
+INFO  00:54:04,222 - #21 ,
+INFO  00:54:04,222 - #43 s
+INFO  00:54:04,222 - #25 ;
+INFO  00:54:04,222 - #43 char
+ERROR 00:54:04,222 - Sintaksna greska prilikom definisanja globalne promenljive na liniji 5
+INFO  00:54:04,222 - #43 dsfg
+INFO  00:54:04,222 - #25 ;
+INFO  00:54:04,222 - #43 int
+INFO  00:54:04,222 - #43 asf
+INFO  00:54:04,222 - #25 ;
+INFO  00:54:04,222 - #40 const
+INFO  00:54:04,222 - #43 bool
+INFO  00:54:04,222 - #43 bl
+INFO  00:54:04,222 - #22 =
+INFO  00:54:04,222 - #44 true
+INFO  00:54:04,222 - #25 ;
+INFO  00:54:04,222 - #43 int
+INFO  00:54:04,222 - #42 6
+INFO  00:54:04,222 - #25 ;
+INFO  00:54:04,237 - #38 class
+INFO  00:54:04,237 - #43 A
+INFO  00:54:04,237 - #41 extends
+ERROR 00:54:04,237 - Sintaksna greska prilikom definisanjaglobalne promenljive na liniji 9
+INFO  00:54:04,237 - #42 123
+INFO  00:54:04,237 - #26 {
+INFO  00:54:04,237 - #43 int
+INFO  00:54:04,237 - #43 x
+INFO  00:54:04,237 - #14 [
+ERROR 00:54:04,237 - Sintaksna greska prilikom extendovanja klase  na liniji 10
+INFO  00:54:04,237 - #15 ]
+INFO  00:54:04,237 - #21 ,
+INFO  00:54:04,237 - #43 y
+INFO  00:54:04,237 - #14 [
+INFO  00:54:04,237 - #15 ]
+INFO  00:54:04,237 - #25 ;
+INFO  00:54:04,237 - #43 int
+INFO  00:54:04,253 - #5 +
+INFO  00:54:04,253 - #21 ,
+INFO  00:54:04,253 - #43 s
+INFO  00:54:04,253 - #25 ;
+INFO  00:54:04,253 - #26 {
+ERROR 00:54:04,268 - Sintaksna greska prilikom definisanja  polja klase  na liniji 10
+INFO  00:54:04,268 - #43 int
+INFO  00:54:04,268 - #43 metoda
+INFO  00:54:04,268 - #16 (
+INFO  00:54:04,284 - #43 a
+INFO  00:54:04,284 - #17 )
+INFO  00:54:04,284 - #26 {
+INFO  00:54:04,284 - #34 return
+INFO  00:54:04,284 - #42 5
+ERROR 00:54:04,284 - Greska pri deklaraciji formalnih parametara funkcije  na liniji 12
+INFO  00:54:04,284 - #25 ;
+INFO  00:54:04,284 - #27 }
+INFO  00:54:04,284 - #27 }
+INFO  00:54:04,284 - #27 }
+INFO  00:54:04,284 - #26 {
+INFO  00:54:04,301 - #43 int
+INFO  00:54:04,301 - #43 proba
+INFO  00:54:04,301 - #16 (
+INFO  00:54:04,301 - #43 int
+INFO  00:54:04,301 - #43 nov
+INFO  00:54:04,301 - #17 )
+INFO  00:54:04,301 - #43 int
+INFO  00:54:04,301 - #43 s
+INFO  00:54:04,301 - #14 [
+INFO  00:54:04,301 - #15 ]
+INFO  00:54:04,301 - #25 ;
+INFO  00:54:04,301 - #26 {
+INFO  00:54:04,301 - #43 a
+INFO  00:54:04,301 - #22 =
+INFO  00:54:04,301 - #42 5
+INFO  00:54:04,301 - #25 ;
+INFO  00:54:04,301 - #43 nov
+INFO  00:54:04,301 - #22 =
+INFO  00:54:04,301 - #43 a
+INFO  00:54:04,301 - #25 ;
+INFO  00:54:04,301 - #43 nov
+INFO  00:54:04,301 - #23 ++
+INFO  00:54:04,301 - #25 ;
+INFO  00:54:04,301 - #28 if
+INFO  00:54:04,316 - #16 (
+INFO  00:54:04,316 - #43 a
+INFO  00:54:04,316 - #11 <
+INFO  00:54:04,316 - #42 6
+INFO  00:54:04,316 - #17 )
+INFO  00:54:04,316 - #43 s
+INFO  00:54:04,332 - #22 =
+INFO  00:54:04,332 - #18 new
+INFO  00:54:04,332 - #43 int
+INFO  00:54:04,332 - #14 [
+INFO  00:54:04,332 - #43 a
+INFO  00:54:04,332 - #15 ]
+INFO  00:54:04,332 - #25 ;
+INFO  00:54:04,332 - #32 else
+INFO  00:54:04,332 - #28 if
+INFO  00:54:04,332 - #16 (
+INFO  00:54:04,332 - #42 5
+INFO  00:54:04,332 - #17 )
+INFO  00:54:04,332 - #43 s
+INFO  00:54:04,332 - #22 =
+INFO  00:54:04,332 - #18 new
+INFO  00:54:04,332 - #43 char
+INFO  00:54:04,332 - #14 [
+INFO  00:54:04,332 - #42 10
+INFO  00:54:04,332 - #15 ]
+INFO  00:54:04,332 - #25 ;
+INFO  00:54:04,332 - #43 s
+INFO  00:54:04,332 - #22 =
+INFO  00:54:04,332 - #18 new
+INFO  00:54:04,332 - #43 char
+INFO  00:54:04,332 - #14 [
+INFO  00:54:04,332 - #43 bl
+INFO  00:54:04,332 - #15 ]
+INFO  00:54:04,332 - #25 ;
+INFO  00:54:04,332 - #29 do
+INFO  00:54:04,332 - #26 {
+INFO  00:54:04,332 - #43 nov
+INFO  00:54:04,332 - #22 =
+INFO  00:54:04,332 - #6 -
+INFO  00:54:04,332 - #43 a
+INFO  00:54:04,332 - #5 +
+INFO  00:54:04,332 - #42 4
+INFO  00:54:04,348 - #6 -
+INFO  00:54:04,348 - #43 a
+INFO  00:54:04,348 - #2 *
+INFO  00:54:04,348 - #43 c
+INFO  00:54:04,348 - #5 +
+INFO  00:54:04,348 - #16 (
+INFO  00:54:04,348 - #43 a
+INFO  00:54:04,348 - #6 -
+INFO  00:54:04,348 - #43 bl
+INFO  00:54:04,348 - #17 )
+INFO  00:54:04,348 - #25 ;
+INFO  00:54:04,348 - #43 s
+INFO  00:54:04,348 - #22 =
+INFO  00:54:04,348 - #6 -
+INFO  00:54:04,348 - #43 bl
+INFO  00:54:04,348 - #25 ;
+INFO  00:54:04,348 - #43 s
+INFO  00:54:04,348 - #22 =
+INFO  00:54:04,348 - #42 5
+INFO  00:54:04,348 - #5 +
+INFO  00:54:04,348 - #42 4
+INFO  00:54:04,348 - #6 -
+INFO  00:54:04,348 - #43 a
+INFO  00:54:04,348 - #2 *
+INFO  00:54:04,348 - #43 c
+INFO  00:54:04,348 - #5 +
+INFO  00:54:04,348 - #16 (
+INFO  00:54:04,348 - #43 a
+INFO  00:54:04,348 - #6 -
+INFO  00:54:04,348 - #42 3
+INFO  00:54:04,348 - #17 )
+INFO  00:54:04,348 - #25 ;
+INFO  00:54:04,348 - #28 if
+INFO  00:54:04,348 - #16 (
+INFO  00:54:04,348 - #43 bl
+INFO  00:54:04,348 - #17 )
+INFO  00:54:04,348 - #31 break
+INFO  00:54:04,348 - #25 ;
+INFO  00:54:04,348 - #27 }
+INFO  00:54:04,348 - #30 while
+INFO  00:54:04,348 - #16 (
+INFO  00:54:04,348 - #43 s
+INFO  00:54:04,348 - #7 ==
+INFO  00:54:04,348 - #18 new
+INFO  00:54:04,363 - #43 char
+INFO  00:54:04,363 - #14 [
+INFO  00:54:04,363 - #42 7
+INFO  00:54:04,363 - #15 ]
+INFO  00:54:04,363 - #17 )
+INFO  00:54:04,363 - #25 ;
+INFO  00:54:04,363 - #31 break
+INFO  00:54:04,363 - #25 ;
+INFO  00:54:04,363 - #34 return
+INFO  00:54:04,363 - #43 nov
+INFO  00:54:04,363 - #25 ;
+INFO  00:54:04,363 - #27 }
+INFO  00:54:04,363 - #43 bool
+INFO  00:54:04,363 - #43 s
+INFO  00:54:04,363 - #16 (
+INFO  00:54:04,363 - #43 int
+INFO  00:54:04,363 - #43 m
+INFO  00:54:04,363 - #17 )
+INFO  00:54:04,363 - #43 int
+INFO  00:54:04,363 - #43 e
+INFO  00:54:04,363 - #14 [
+INFO  00:54:04,363 - #15 ]
+INFO  00:54:04,363 - #25 ;
+INFO  00:54:04,363 - #26 {
+INFO  00:54:04,363 - #43 e
+INFO  00:54:04,363 - #22 =
+INFO  00:54:04,363 - #42 5
+INFO  00:54:04,363 - #25 ;
+INFO  00:54:04,363 - #34 return
+INFO  00:54:04,363 - #44 true
+INFO  00:54:04,363 - #25 ;
+INFO  00:54:04,363 - #27 }
+INFO  00:54:04,363 - #37 void
+INFO  00:54:04,363 - #43 main
+INFO  00:54:04,363 - #16 (
+INFO  00:54:04,363 - #17 )
+INFO  00:54:04,363 - #26 {
+INFO  00:54:04,363 - #28 if
+INFO  00:54:04,363 - #16 (
+INFO  00:54:04,363 - #43 c
+INFO  00:54:04,363 - #7 ==
+INFO  00:54:04,363 - #42 5
+INFO  00:54:04,363 - #17 )
+INFO  00:54:04,363 - #43 proba
+INFO  00:54:04,363 - #16 (
+INFO  00:54:04,363 - #6 -
+INFO  00:54:04,363 - #42 1
+INFO  00:54:04,363 - #17 )
+INFO  00:54:04,379 - #25 ;
+INFO  00:54:04,379 - #32 else
+INFO  00:54:04,379 - #43 proba
+INFO  00:54:04,379 - #16 (
+INFO  00:54:04,379 - #17 )
+INFO  00:54:04,379 - #25 ;
+INFO  00:54:04,379 - #33 continue
+INFO  00:54:04,379 - #25 ;
+INFO  00:54:04,379 - #43 neradim
+INFO  00:54:04,379 - #16 (
+INFO  00:54:04,379 - #17 )
+INFO  00:54:04,379 - #25 ;
+INFO  00:54:04,379 - #27 }
+INFO  00:54:04,379 - #27 }
+ERROR 00:54:04,402 - Semanticka greska na liniji 3: a je vec deklarisano!
+INFO  00:54:04,402 - Detektovana upotreba globalne promenljive a na liniji 18: Var a: Int , 0, 0 
+INFO  00:54:04,402 - Detektovana upotreba formalnog parametra nov metode proba na liniji 19: Var nov: Int , 0, 1 
+INFO  00:54:04,402 - Detektovana upotreba globalne promenljive a na liniji 19: Var a: Int , 0, 0 
+INFO  00:54:04,402 - Detektovana upotreba formalnog parametra nov metode proba na liniji 20: Var nov: Int , 0, 1 
+INFO  00:54:04,402 - Detektovana upotreba globalne promenljive a na liniji 21: Var a: Int , 0, 0 
+INFO  00:54:04,402 - Detektovana upotreba lokalne promenljive s metode proba na liniji 22: Var s: Arr of int, 1, 1 
+INFO  00:54:04,402 - Detektovana upotreba globalne promenljive a na liniji 22: Var a: Int , 0, 0 
+INFO  00:54:04,402 - Detektovano pravljenje niza tipa int na liniji 22
+ERROR 00:54:04,402 - Semanticka greska na liniji 23: uslov mora biti boolean tipa!
+INFO  00:54:04,418 - Detektovana upotreba lokalne promenljive s metode proba na liniji 24: Var s: Arr of int, 1, 1 
+INFO  00:54:04,418 - Detektovano pravljenje niza tipa char na liniji 24
+ERROR 00:54:04,418 - Semanticka greska na liniji 24 : nekompatibilni tipovi u dodeli vrednosti 
+INFO  00:54:04,418 - Detektovana upotreba lokalne promenljive s metode proba na liniji 26: Var s: Arr of int, 1, 1 
+INFO  00:54:04,418 - Detektovana upotreba globalne konstante bl na liniji 26: Con bl: Bool , 1, 0 
+ERROR 00:54:04,418 - Semanticka greska na liniji 26: velicina niza mora biti int!
+ERROR 00:54:04,418 - Semanticka greska na liniji 26 : nekompatibilni tipovi u dodeli vrednosti 
+INFO  00:54:04,418 - Detektovana upotreba formalnog parametra nov metode proba na liniji 28: Var nov: Int , 0, 1 
+INFO  00:54:04,418 - Detektovana upotreba globalne promenljive a na liniji 28: Var a: Int , 0, 0 
+INFO  00:54:04,418 - Detektovana upotreba globalne promenljive a na liniji 28: Var a: Int , 0, 0 
+INFO  00:54:04,418 - Detektovana upotreba globalne konstante c na liniji 28: Con c: Int , 5, 0 
+INFO  00:54:04,418 - Detektovana upotreba globalne promenljive a na liniji 28: Var a: Int , 0, 0 
+INFO  00:54:04,418 - Detektovana upotreba globalne konstante bl na liniji 28: Con bl: Bool , 1, 0 
+ERROR 00:54:04,418 - Semanticka greska na liniji 28 : nekompatibilni tipovi u izrazu za sabiranje.
+ERROR 00:54:04,418 - Semanticka greska na liniji 28 : nekompatibilni tipovi u izrazu za sabiranje.
+ERROR 00:54:04,418 - Semanticka greska na liniji 28 : nekompatibilni tipovi u dodeli vrednosti 
+INFO  00:54:04,418 - Detektovana upotreba lokalne promenljive s metode proba na liniji 29: Var s: Arr of int, 1, 1 
+INFO  00:54:04,418 - Detektovana upotreba globalne konstante bl na liniji 29: Con bl: Bool , 1, 0 
+ERROR 00:54:04,418 - Semanticka greska na liniji 29: negacija se moze primeniti samo na int!
+ERROR 00:54:04,418 - Semanticka greska na liniji 29 : nekompatibilni tipovi u dodeli vrednosti 
+INFO  00:54:04,418 - Detektovana upotreba lokalne promenljive s metode proba na liniji 30: Var s: Arr of int, 1, 1 
+INFO  00:54:04,418 - Detektovana upotreba globalne promenljive a na liniji 30: Var a: Int , 0, 0 
+INFO  00:54:04,418 - Detektovana upotreba globalne konstante c na liniji 30: Con c: Int , 5, 0 
+INFO  00:54:04,418 - Detektovana upotreba globalne promenljive a na liniji 30: Var a: Int , 0, 0 
+ERROR 00:54:04,418 - Semanticka greska na liniji 30 : nekompatibilni tipovi u dodeli vrednosti 
+INFO  00:54:04,418 - Detektovana upotreba globalne konstante bl na liniji 31: Con bl: Bool , 1, 0 
+INFO  00:54:04,418 - Detektovana upotreba lokalne promenljive s metode proba na liniji 34: Var s: Arr of int, 1, 1 
+INFO  00:54:04,418 - Detektovano pravljenje niza tipa char na liniji 34
+ERROR 00:54:04,418 - Semanticka greska na liniji 34: nije moguce porediti objekte nekompatibilnih tipova!
+ERROR 00:54:04,418 - Semanticka greska: kljucna rec BREAK se sme koristiti samo u okviru do-while petlje!
+INFO  00:54:04,418 - Detektovana upotreba formalnog parametra nov metode proba na liniji 36: Var nov: Int , 0, 1 
+ERROR 00:54:04,418 - Semanticka greska na liniji 39: ime s je vec deklarisano!
+INFO  00:54:04,418 - Detektovana upotreba lokalne promenljive e metode s na liniji 41: Var e: Arr of int, 1, 1 
+ERROR 00:54:04,418 - Semanticka greska na liniji 41 : nekompatibilni tipovi u dodeli vrednosti 
+ERROR 00:54:04,418 - Semanticka greska na liniji 42 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije s
+INFO  00:54:04,418 - Detektovana upotreba globalne konstante c na liniji 45: Con c: Int , 5, 0 
+INFO  00:54:04,418 - Detektovan poziv globalne funkcije proba na liniji 46: Meth proba: Int , 0, 1 
+INFO  00:54:04,418 - Detektovan poziv globalne funkcije proba na liniji 48: Meth proba: Int , 0, 1 
+ERROR 00:54:04,418 - Semanticka greska na liniji 48: Funkcija proba mora imati zadate stvarne argumente prilikom poziva!
+ERROR 00:54:04,418 - Semanticka greska: kljucna rec CONTINUE se sme koristiti samo u okviru do-while petlje!
+ERROR 00:54:04,418 - Semanticka greska na liniji 50 : ime neradim nije deklarisano! 
+ERROR 00:54:04,418 - Semanticka greska na liniji 50 : neradim ne predstavlja ime funkcije ili metode klase!
+ERROR 00:54:04,418 - Semanticka greska na liniji 50: Nevalidan naziv metode!

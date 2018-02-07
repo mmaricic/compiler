@@ -1,0 +1,6 @@
+Sintaksna greska prilikom definisanja  globalne promenljive na liniji 4
+Sintaksna greska prilikom extendovanja klase  na liniji 9
+Sintaksna greska prilikom definisanja  polja klase  na liniji 11
+Greska pri deklaraciji formalnih parametara funkcije  na liniji 13
+=====================Sintaksna analiza nije uspesno zavrsena======================
+=====Kod nije izgenerisan zbog gresaka u semantickoj i/ili sintaksnoj analizi=====
