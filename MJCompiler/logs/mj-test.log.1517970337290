@@ -1,0 +1,155 @@
+INFO  03:25:25,079 - #39 program
+INFO  03:25:25,082 - #43 LekserTest
+INFO  03:25:25,082 - #43 int
+INFO  03:25:25,086 - #43 a
+INFO  03:25:25,087 - #25 ;
+INFO  03:25:25,090 - #43 bool
+INFO  03:25:25,092 - #43 b
+INFO  03:25:25,092 - #25 ;
+INFO  03:25:25,093 - #40 const
+INFO  03:25:25,093 - #43 int
+INFO  03:25:25,094 - #43 c
+INFO  03:25:25,094 - #22 =
+INFO  03:25:25,094 - #42 5
+INFO  03:25:25,094 - #25 ;
+INFO  03:25:25,098 - #40 const
+INFO  03:25:25,101 - #43 bool
+INFO  03:25:25,101 - #43 valBool
+INFO  03:25:25,102 - #22 =
+INFO  03:25:25,102 - #44 true
+INFO  03:25:25,102 - #25 ;
+INFO  03:25:25,103 - #38 class
+INFO  03:25:25,103 - #43 C
+INFO  03:25:25,104 - #26 {
+INFO  03:25:25,107 - #43 int
+INFO  03:25:25,112 - #43 a
+INFO  03:25:25,114 - #25 ;
+INFO  03:25:25,114 - #43 C
+INFO  03:25:25,115 - #43 proba
+INFO  03:25:25,115 - #25 ;
+INFO  03:25:25,115 - #26 {
+INFO  03:25:25,117 - #37 void
+INFO  03:25:25,119 - #43 metoda
+INFO  03:25:25,121 - #16 (
+INFO  03:25:25,124 - #43 bool
+INFO  03:25:25,124 - #43 b
+INFO  03:25:25,124 - #17 )
+INFO  03:25:25,128 - #26 {
+INFO  03:25:25,129 - #29 do
+INFO  03:25:25,133 - #26 {
+INFO  03:25:25,134 - #43 a
+INFO  03:25:25,135 - #22 =
+INFO  03:25:25,137 - #43 a
+INFO  03:25:25,138 - #5 +
+INFO  03:25:25,141 - #42 5
+INFO  03:25:25,145 - #5 +
+INFO  03:25:25,148 - #43 c
+INFO  03:25:25,148 - #6 -
+INFO  03:25:25,149 - #16 (
+INFO  03:25:25,150 - #42 2
+INFO  03:25:25,151 - #2 *
+INFO  03:25:25,152 - #43 c
+INFO  03:25:25,155 - #17 )
+INFO  03:25:25,156 - #3 /
+INFO  03:25:25,157 - #42 3
+INFO  03:25:25,161 - #25 ;
+INFO  03:25:25,162 - #28 if
+INFO  03:25:25,163 - #16 (
+INFO  03:25:25,164 - #43 b
+INFO  03:25:25,164 - #17 )
+INFO  03:25:25,168 - #43 proba
+INFO  03:25:25,172 - #22 =
+INFO  03:25:25,172 - #18 new
+INFO  03:25:25,172 - #43 C
+INFO  03:25:25,172 - #25 ;
+INFO  03:25:25,173 - #43 proba
+INFO  03:25:25,174 - #13 .
+INFO  03:25:25,174 - #43 a
+INFO  03:25:25,174 - #22 =
+INFO  03:25:25,174 - #43 a
+INFO  03:25:25,174 - #25 ;
+INFO  03:25:25,175 - #27 }
+INFO  03:25:25,175 - #30 while
+INFO  03:25:25,176 - #16 (
+INFO  03:25:25,177 - #43 b
+INFO  03:25:25,178 - #19 &&
+INFO  03:25:25,178 - #43 a
+INFO  03:25:25,178 - #11 <
+INFO  03:25:25,178 - #42 50
+INFO  03:25:25,180 - #17 )
+INFO  03:25:25,182 - #25 ;
+INFO  03:25:25,182 - #27 }
+INFO  03:25:25,183 - #27 }
+INFO  03:25:25,186 - #27 }
+INFO  03:25:25,187 - #43 C
+INFO  03:25:25,192 - #43 mojArg
+INFO  03:25:25,192 - #25 ;
+INFO  03:25:25,193 - #26 {
+INFO  03:25:25,193 - #37 void
+INFO  03:25:25,193 - #43 main
+INFO  03:25:25,194 - #16 (
+INFO  03:25:25,194 - #17 )
+INFO  03:25:25,196 - #26 {
+INFO  03:25:25,196 - #43 mojArg
+INFO  03:25:25,197 - #22 =
+INFO  03:25:25,197 - #43 null
+INFO  03:25:25,197 - #25 ;
+INFO  03:25:25,198 - #28 if
+INFO  03:25:25,198 - #16 (
+INFO  03:25:25,198 - #43 mojArg
+INFO  03:25:25,198 - #7 ==
+INFO  03:25:25,199 - #43 null
+INFO  03:25:25,200 - #17 )
+INFO  03:25:25,201 - #43 mojArg
+INFO  03:25:25,201 - #22 =
+INFO  03:25:25,201 - #18 new
+INFO  03:25:25,202 - #43 C
+INFO  03:25:25,202 - #25 ;
+INFO  03:25:25,207 - #43 mojArg
+INFO  03:25:25,207 - #13 .
+INFO  03:25:25,207 - #43 a
+INFO  03:25:25,208 - #22 =
+INFO  03:25:25,209 - #42 6
+INFO  03:25:25,210 - #25 ;
+INFO  03:25:25,210 - #43 mojArg
+INFO  03:25:25,211 - #13 .
+INFO  03:25:25,212 - #43 metoda
+INFO  03:25:25,213 - #16 (
+INFO  03:25:25,216 - #43 valBool
+INFO  03:25:25,216 - #17 )
+INFO  03:25:25,221 - #25 ;
+INFO  03:25:25,221 - #35 print
+INFO  03:25:25,222 - #16 (
+INFO  03:25:25,223 - #43 mojArg
+INFO  03:25:25,223 - #13 .
+INFO  03:25:25,223 - #43 proba
+INFO  03:25:25,223 - #13 .
+INFO  03:25:25,224 - #43 a
+INFO  03:25:25,224 - #17 )
+INFO  03:25:25,226 - #25 ;
+INFO  03:25:25,226 - #27 }
+INFO  03:25:25,227 - #27 }
+INFO  03:25:25,239 - ========================Sintaksna analiza uspesno zavrsena========================
+INFO  03:25:25,250 - Detektovana upotreba globalne konstante c na liniji 14: Con c: Int , 5, 0 
+INFO  03:25:25,250 - Detektovana upotreba globalne konstante c na liniji 14: Con c: Int , 5, 0 
+INFO  03:25:25,250 - Detektovana upotreba formalnog parametra b metode metoda na liniji 15: Var b: Bool , 1, 1 
+INFO  03:25:25,251 - Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 15: Type C: Class [], 0, 0 
+INFO  03:25:25,251 - Detektovan pristup polju a unutrasnje klase na liniji 16: Fld a: Int , 1, 1 
+INFO  03:25:25,251 - Detektovana upotreba formalnog parametra b metode metoda na liniji 17: Var b: Bool , 1, 1 
+INFO  03:25:25,252 - Detektovana upotreba globalne promenljive mojArg na liniji 24: Var mojArg: Class , 2, 0 
+INFO  03:25:25,252 - Detektovana upotreba globalne konstante null na liniji 24: Con null: Class , 0, 0 
+INFO  03:25:25,253 - Detektovana upotreba globalne promenljive mojArg na liniji 25: Var mojArg: Class , 2, 0 
+INFO  03:25:25,253 - Detektovana upotreba globalne konstante null na liniji 25: Con null: Class , 0, 0 
+INFO  03:25:25,253 - Detektovana upotreba globalne promenljive mojArg na liniji 26: Var mojArg: Class , 2, 0 
+INFO  03:25:25,253 - Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 26: Type C: Class [], 0, 0 
+INFO  03:25:25,253 - Detektovana upotreba globalne promenljive mojArg na liniji 28: Var mojArg: Class , 2, 0 
+INFO  03:25:25,254 - Detektovan pristup polju a unutrasnje klase na liniji 28: Fld a: Int , 1, 1 
+INFO  03:25:25,254 - Detektovana upotreba globalne promenljive mojArg na liniji 29: Var mojArg: Class , 2, 0 
+INFO  03:25:25,254 - Detektovan poziv metode metoda unutrasnje klase  na liniji 29: Meth metoda: NoType , 0, 2 
+INFO  03:25:25,254 - Detektovana upotreba globalne konstante valBool na liniji 29: Con valBool: Bool , 1, 0 
+INFO  03:25:25,255 - Detektovana upotreba globalne promenljive mojArg na liniji 30: Var mojArg: Class , 2, 0 
+INFO  03:25:25,255 - Detektovan pristup polju proba unutrasnje klase na liniji 30: Fld proba: Class , 2, 1 
+INFO  03:25:25,255 - Detektovan pristup polju a unutrasnje klase na liniji 30: Fld a: Int , 1, 1 
+INFO  03:25:25,257 - =======================Semanticka analiza uspesno zavrsena========================
+INFO  03:25:25,257 - Generise se bajtkod: D:\Faks\4. godina\PP1\pp1dz_template\workspace\MJCompiler\test\lekserIspravno.obj
+INFO  03:25:25,286 - =============================Zavrseno generisanje koda============================

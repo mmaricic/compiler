@@ -1690,3 +1690,54 @@ Detektovan poziv globalne funkcije proba na liniji 74: Meth proba: Int , 0, 1
 Detektovan poziv globalne funkcije proba na liniji 76: Meth proba: Int , 0, 1 
 Detektovan poziv globalne funkcije proba na liniji 77: Meth proba: Int , 0, 1 
 Detektovan poziv globalne funkcije proba na liniji 78: Meth proba: Int , 0, 1 
+=====================SYMBOL TABLE DUMP=========================
+Type int: Int , -1, -1 
+Type char: Char , -1, -1 
+Con eol: Char , 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: Char , 0, 1 
+   Var i: Int , 0, 1 
+
+Meth ord: Int , 0, 1 
+   Var ch: Char , 0, 1 
+
+Meth len: Int , 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: Bool , -1, -1 
+Prog Program: NoType , 0, 1 
+   Var a: Int , 0, 0 
+   Con c: Int , 5, 0 
+   Var s: Bool , 1, 0 
+   Var dg: NoType , 2, 0 
+   Var dsfg: Char , 3, 0 
+   Var asf: Int , 4, 0 
+   Con bl: Bool , 1, 0 
+   Type A: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld s: Int , 3, 1 Meth metoda: Int , 0, 3 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+      Var matrix: Arr of char, 2, 1 
+], 0, 0 
+   Var klasaA: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld s: Int , 3, 1 Meth metoda: Int , 0, 3 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+      Var matrix: Arr of char, 2, 1 
+], 5, 0 
+   Type B: Class [Fld 1vft: Int , 0, 1 Fld c: Int , 1, 1 Meth metodaB: Int , 0, 1 
+      Var this: , 0, 1 
+], 0, 0 
+   Meth proba: Int , 0, 1 
+      Var nov: Int , 0, 1 
+      Var s: Arr of int, 1, 1 
+
+   Meth meth: Bool , 0, 2 
+      Var m: Arr of int, 0, 1 
+      Var c: Char , 1, 1 
+      Var e: Arr of int, 2, 1 
+
+   Meth main: NoType , 0, 0 
+      Var nizA: Arr of Class, 0, 1 
+      Var g: Bool , 1, 1 
+
+
+

@@ -520,3 +520,33 @@ Detektovan pristup polju a unutrasnje klase na liniji 28: Fld a: Int , 1, 1
 Detektovana upotreba globalne promenljive mojArg na liniji 29: Var mojArg: Class , 2, 0 
 Detektovan poziv metode metoda unutrasnje klase  na liniji 29: Meth metoda: NoType , 0, 1 
 Detektovana upotreba globalne promenljive mojArg na liniji 30: Var mojArg: Class , 2, 0 
+=====================SYMBOL TABLE DUMP=========================
+Type int: Int , -1, -1 
+Type char: Char , -1, -1 
+Con eol: Char , 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: Char , 0, 1 
+   Var i: Int , 0, 1 
+
+Meth ord: Int , 0, 1 
+   Var ch: Char , 0, 1 
+
+Meth len: Int , 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: Bool , -1, -1 
+Prog LekserTest: NoType , 0, 1 
+   Var a: Int , 0, 0 
+   Var b: Bool , 1, 0 
+   Con c: Int , 5, 0 
+   Con valBool: Bool , 1, 0 
+   Type C: Class [Fld 1vft: Int , 0, 1 Fld a: Int , 1, 1 Fld proba: , 2, 1 Meth metoda: NoType , 0, 1 
+      Var this: , 0, 1 
+], 0, 0 
+   Var mojArg: Class [Fld 1vft: Int , 0, 1 Fld a: Int , 1, 1 Fld proba: , 2, 1 Meth metoda: NoType , 0, 1 
+      Var this: , 0, 1 
+], 2, 0 
+   Meth main: NoType , 0, 0 
+
+
+

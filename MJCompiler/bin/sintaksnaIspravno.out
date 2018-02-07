@@ -1611,5 +1611,58 @@ Detektovana upotreba globalne promenljive b2 na liniji 72: Var b2: Class , 4, 0
 Detektovana upotreba unutrasnje klase C(pravljenje objekta) na liniji 72: Type C: Class [], 0, 0 
 Detektovana upotreba globalne promenljive b2 na liniji 73: Var b2: Class , 4, 0 
 Detektovan poziv metode ispis unutrasnje klase  na liniji 73: Meth ispis: NoType , 0, 2 
+=====================SYMBOL TABLE DUMP=========================
+Type int: Int , -1, -1 
+Type char: Char , -1, -1 
+Con eol: Char , 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: Char , 0, 1 
+   Var i: Int , 0, 1 
+
+Meth ord: Int , 0, 1 
+   Var ch: Char , 0, 1 
+
+Meth len: Int , 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: Bool , -1, -1 
+Prog P: NoType , 0, 1 
+   Type A: Class [Fld 1vft: Int , 0, 1 Fld i: Int , 1, 1 ], 0, 0 
+   Type B: Class [Fld 1vft: Int , 0, 1 Fld a: Arr of Class, 1, 1 Meth ispis: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+], 0, 0 
+   Type C: Class [Fld 1vft: Int , 0, 1 Fld a: Arr of Class, 1, 1 Fld b: Class [Fld 1vft: Int , 0, 1 Fld a: Arr of Class, 1, 1 Meth ispis: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+], 2, 1 Meth ispis: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var c: Int , 1, 1 
+Meth mojaMetoda: Int , 0, 1 
+      Var this: , 0, 1 
+], 0, 0 
+   Var c: Class [Fld 1vft: Int , 0, 1 Fld a: Arr of Class, 1, 1 Fld b: Class [Fld 1vft: Int , 0, 1 Fld a: Arr of Class, 1, 1 Meth ispis: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+], 2, 1 Meth ispis: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var c: Int , 1, 1 
+Meth mojaMetoda: Int , 0, 1 
+      Var this: , 0, 1 
+], 0, 0 
+   Var res: Int , 1, 0 
+   Var s: Int , 2, 0 
+   Var b: Class [Fld 1vft: Int , 0, 1 Fld a: Arr of Class, 1, 1 Meth ispis: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+], 3, 0 
+   Var b2: Class [Fld 1vft: Int , 0, 1 Fld a: Arr of Class, 1, 1 Meth ispis: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+], 4, 0 
+   Meth main: NoType , 0, 0 
+
+
+
 =======================Semanticka analiza uspesno zavrsena========================
 =============================Zavrseno generisanje koda============================

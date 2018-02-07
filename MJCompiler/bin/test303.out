@@ -2949,5 +2949,206 @@ Detektovana upotreba globalne promenljive tezinaS na liniji 122: Var tezinaS: In
 Detektovana upotreba globalne konstante eol na liniji 122: Con eol: Char , 10, 0 
 Detektovana upotreba globalne promenljive tezinaK na liniji 123: Var tezinaK: Int , 2, 0 
 Detektovana upotreba globalne konstante eol na liniji 123: Con eol: Char , 10, 0 
+=====================SYMBOL TABLE DUMP=========================
+Type int: Int , -1, -1 
+Type char: Char , -1, -1 
+Con eol: Char , 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: Char , 0, 1 
+   Var i: Int , 0, 1 
+
+Meth ord: Int , 0, 1 
+   Var ch: Char , 0, 1 
+
+Meth len: Int , 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: Bool , -1, -1 
+Prog test_303: NoType , 0, 1 
+   Con cinilac: Int , 4, 0 
+   Con delilac: Int , 3, 0 
+   Type Predmet: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Meth postaviTezinu: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+      Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+      Var this: , 0, 1 
+Meth Q: Int , 0, 1 
+      Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var vrsta: Char , 1, 1 
+], 0, 0 
+   Type Sfera: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Fld r: Int , 3, 1 Meth postaviTezinu: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+      Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+      Var this: , 0, 1 
+      Var z: Int , 1, 1 
+Meth Q: Int , 0, 1 
+      Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var vrsta: Char , 1, 1 
+Meth postaviPoluprecnik: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var r: Int , 1, 1 
+], 0, 0 
+   Type Kvadar: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Fld a: Int , 3, 1 Fld b: Int , 4, 1 Fld c: Int , 5, 1 Meth postaviTezinu: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+      Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+      Var this: , 0, 1 
+      Var z: Int , 1, 1 
+Meth Q: Int , 0, 1 
+      Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var vrsta: Char , 1, 1 
+Meth postaviStranice: NoType , 0, 4 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+      Var b: Int , 2, 1 
+      Var c: Int , 3, 1 
+], 0, 0 
+   Var zapreminaK: Int , 0, 0 
+   Var zapreminaS: Int , 1, 0 
+   Var tezinaK: Int , 2, 0 
+   Var tezinaS: Int , 3, 0 
+   Meth ispis: NoType , 0, 1 
+      Var p: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Meth postaviTezinu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+         Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+         Var this: , 0, 1 
+Meth Q: Int , 0, 1 
+         Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var vrsta: Char , 1, 1 
+], 0, 1 
+
+   Meth main: NoType , 0, 0 
+      Var predmeti: Arr of Class, 0, 1 
+      Var i: Int , 1, 1 
+      Var s1: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Fld r: Int , 3, 1 Meth postaviTezinu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+         Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+         Var this: , 0, 1 
+         Var z: Int , 1, 1 
+Meth Q: Int , 0, 1 
+         Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var vrsta: Char , 1, 1 
+Meth postaviPoluprecnik: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var r: Int , 1, 1 
+], 2, 1 
+      Var s2: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Fld r: Int , 3, 1 Meth postaviTezinu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+         Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+         Var this: , 0, 1 
+         Var z: Int , 1, 1 
+Meth Q: Int , 0, 1 
+         Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var vrsta: Char , 1, 1 
+Meth postaviPoluprecnik: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var r: Int , 1, 1 
+], 3, 1 
+      Var s3: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Fld r: Int , 3, 1 Meth postaviTezinu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+         Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+         Var this: , 0, 1 
+         Var z: Int , 1, 1 
+Meth Q: Int , 0, 1 
+         Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var vrsta: Char , 1, 1 
+Meth postaviPoluprecnik: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var r: Int , 1, 1 
+], 4, 1 
+      Var k1: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Fld a: Int , 3, 1 Fld b: Int , 4, 1 Fld c: Int , 5, 1 Meth postaviTezinu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+         Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+         Var this: , 0, 1 
+         Var z: Int , 1, 1 
+Meth Q: Int , 0, 1 
+         Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var vrsta: Char , 1, 1 
+Meth postaviStranice: NoType , 0, 4 
+         Var this: , 0, 1 
+         Var a: Int , 1, 1 
+         Var b: Int , 2, 1 
+         Var c: Int , 3, 1 
+], 5, 1 
+      Var k2: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Fld a: Int , 3, 1 Fld b: Int , 4, 1 Fld c: Int , 5, 1 Meth postaviTezinu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+         Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+         Var this: , 0, 1 
+         Var z: Int , 1, 1 
+Meth Q: Int , 0, 1 
+         Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var vrsta: Char , 1, 1 
+Meth postaviStranice: NoType , 0, 4 
+         Var this: , 0, 1 
+         Var a: Int , 1, 1 
+         Var b: Int , 2, 1 
+         Var c: Int , 3, 1 
+], 6, 1 
+      Var k3: Class [Fld 1vft: Int , 0, 1 Fld tezina: Int , 1, 1 Fld vrsta: Char , 2, 1 Fld a: Int , 3, 1 Fld b: Int , 4, 1 Fld c: Int , 5, 1 Meth postaviTezinu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var tezina: Int , 1, 1 
+Meth ucitajTezinu: NoType , 0, 1 
+         Var this: , 0, 1 
+Meth zapremina: Int , 0, 1 
+         Var this: , 0, 1 
+         Var z: Int , 1, 1 
+Meth Q: Int , 0, 1 
+         Var this: , 0, 1 
+Meth postaviVrstu: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var vrsta: Char , 1, 1 
+Meth postaviStranice: NoType , 0, 4 
+         Var this: , 0, 1 
+         Var a: Int , 1, 1 
+         Var b: Int , 2, 1 
+         Var c: Int , 3, 1 
+], 7, 1 
+      Var t: Int , 8, 1 
+
+
+
 =======================Semanticka analiza uspesno zavrsena========================
 =============================Zavrseno generisanje koda============================

@@ -64,7 +64,7 @@ public class Compiler {
 			Tab.init(); // Universe scope
 			SemanticAnalyzer semanticCheck = new SemanticAnalyzer();
 			prog.traverseBottomUp(semanticCheck);
-			//tsdump();
+			tsdump();
 
 			if(semanticCheck.passed()) {
 				System.out.println("=======================Semanticka analiza uspesno zavrsena========================");

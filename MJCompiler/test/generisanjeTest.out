@@ -3888,5 +3888,86 @@ Detektovana upotreba lokalne promenljive con metode main na liniji 164: Var con:
 Detektovana upotreba lokalne promenljive con metode main na liniji 165: Var con: Char , 6, 1 
 Detektovana upotreba globalne konstante eol na liniji 166: Con eol: Char , 10, 0 
 Detektovana upotreba lokalne promenljive con metode main na liniji 169: Var con: Char , 6, 1 
+=====================SYMBOL TABLE DUMP=========================
+Type int: Int , -1, -1 
+Type char: Char , -1, -1 
+Con eol: Char , 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: Char , 0, 1 
+   Var i: Int , 0, 1 
+
+Meth ord: Int , 0, 1 
+   Var ch: Char , 0, 1 
+
+Meth len: Int , 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: Bool , -1, -1 
+Prog kod_gen: NoType , 0, 1 
+   Var array: Arr of int, 0, 0 
+   Type Search: Class [Fld 1vft: Int , 0, 1 Meth search: Int , 0, 5 
+      Var this: , 0, 1 
+      Var array: Arr of int, 1, 1 
+      Var l: Int , 2, 1 
+      Var r: Int , 3, 1 
+      Var x: Int , 4, 1 
+], 0, 0 
+   Type RecursiveBinarySearch: Class [Fld 1vft: Int , 0, 1 Meth search: Int , 0, 5 
+      Var this: , 0, 1 
+      Var array: Arr of int, 1, 1 
+      Var l: Int , 2, 1 
+      Var r: Int , 3, 1 
+      Var x: Int , 4, 1 
+      Var mid: Int , 5, 1 
+], 0, 0 
+   Type BinarySearch: Class [Fld 1vft: Int , 0, 1 Meth search: Int , 0, 5 
+      Var this: , 0, 1 
+      Var array: Arr of int, 1, 1 
+      Var l: Int , 2, 1 
+      Var r: Int , 3, 1 
+      Var x: Int , 4, 1 
+      Var m: Int , 5, 1 
+], 0, 0 
+   Type Helper: Class [Fld 1vft: Int , 0, 1 Meth generateArray: NoType , 0, 2 
+      Var this: , 0, 1 
+      Var size: Int , 1, 1 
+      Var i: Int , 2, 1 
+Meth sortArray: NoType , 0, 1 
+      Var this: , 0, 1 
+      Var n: Int , 1, 1 
+      Var i: Int , 2, 1 
+      Var key: Int , 3, 1 
+      Var j: Int , 4, 1 
+], 0, 0 
+   Meth printSearchResult: NoType , 0, 1 
+      Var res: Int , 0, 1 
+
+   Meth main: NoType , 0, 0 
+      Var h: Class [Fld 1vft: Int , 0, 1 Meth generateArray: NoType , 0, 2 
+         Var this: , 0, 1 
+         Var size: Int , 1, 1 
+         Var i: Int , 2, 1 
+Meth sortArray: NoType , 0, 1 
+         Var this: , 0, 1 
+         Var n: Int , 1, 1 
+         Var i: Int , 2, 1 
+         Var key: Int , 3, 1 
+         Var j: Int , 4, 1 
+], 0, 1 
+      Var size: Int , 1, 1 
+      Var loop: Bool , 2, 1 
+      Var s: Class [Fld 1vft: Int , 0, 1 Meth search: Int , 0, 5 
+         Var this: , 0, 1 
+         Var array: Arr of int, 1, 1 
+         Var l: Int , 2, 1 
+         Var r: Int , 3, 1 
+         Var x: Int , 4, 1 
+], 3, 1 
+      Var res: Int , 4, 1 
+      Var elem: Int , 5, 1 
+      Var con: Char , 6, 1 
+
+
+
 =======================Semanticka analiza uspesno zavrsena========================
 =============================Zavrseno generisanje koda============================

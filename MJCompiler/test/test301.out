@@ -942,5 +942,30 @@ Detektovana upotreba lokalne promenljive bodovi metode main na liniji 44: Var bo
 Detektovana upotreba lokalne promenljive bodovi metode main na liniji 45: Var bodovi: Int , 0, 1 
 Detektovana upotreba lokalne promenljive bodovi metode main na liniji 45: Var bodovi: Int , 0, 1 
 Detektovana upotreba lokalne promenljive bodovi metode main na liniji 46: Var bodovi: Int , 0, 1 
+=====================SYMBOL TABLE DUMP=========================
+Type int: Int , -1, -1 
+Type char: Char , -1, -1 
+Con eol: Char , 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: Char , 0, 1 
+   Var i: Int , 0, 1 
+
+Meth ord: Int , 0, 1 
+   Var ch: Char , 0, 1 
+
+Meth len: Int , 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: Bool , -1, -1 
+Prog test301: NoType , 0, 1 
+   Con jedan: Int , 1, 0 
+   Con pet: Int , 5, 0 
+   Var niz: Arr of int, 0, 0 
+   Var nizch: Arr of char, 1, 0 
+   Meth main: NoType , 0, 0 
+      Var bodovi: Int , 0, 1 
+
+
+
 =======================Semanticka analiza uspesno zavrsena========================
 =============================Zavrseno generisanje koda============================

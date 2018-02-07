@@ -773,3 +773,36 @@ Detektovano pravljenje niza tipa char na liniji 33
 Detektovana upotreba formalnog parametra nov metode proba na liniji 35: Var nov: Int , 0, 1 
 Detektovana upotreba lokalne promenljive e metode s na liniji 40: Var e: Arr of int, 1, 1 
 Detektovan poziv globalne funkcije proba na liniji 45: Meth proba: Int , 0, 1 
+=====================SYMBOL TABLE DUMP=========================
+Type int: Int , -1, -1 
+Type char: Char , -1, -1 
+Con eol: Char , 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: Char , 0, 1 
+   Var i: Int , 0, 1 
+
+Meth ord: Int , 0, 1 
+   Var ch: Char , 0, 1 
+
+Meth len: Int , 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: Bool , -1, -1 
+Prog Program: NoType , 0, 1 
+   Var a: Int , 0, 0 
+   Con c: Int , 5, 0 
+   Var s: Bool , 1, 0 
+   Var dsfg: Char , 2, 0 
+   Var asf: Int , 3, 0 
+   Con bl: Bool , 1, 0 
+   Type A: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld s: Int , 3, 1 Meth metoda: Int , 0, 1 
+      Var this: , 0, 1 
+], 0, 0 
+   Meth proba: Int , 0, 1 
+      Var nov: Int , 0, 1 
+      Var s: Arr of int, 1, 1 
+
+   Meth main: NoType , 0, 0 
+
+
+

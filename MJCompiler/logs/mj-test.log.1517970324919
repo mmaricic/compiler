@@ -1,0 +1,1063 @@
+INFO  03:24:58,388 - #39 program
+INFO  03:24:58,391 - #43 kod_gen
+INFO  03:24:58,391 - #43 int
+INFO  03:24:58,396 - #43 array
+INFO  03:24:58,398 - #14 [
+INFO  03:24:58,398 - #15 ]
+INFO  03:24:58,398 - #25 ;
+INFO  03:24:58,402 - #38 class
+INFO  03:24:58,403 - #43 Search
+INFO  03:24:58,404 - #26 {
+INFO  03:24:58,409 - #26 {
+INFO  03:24:58,413 - #43 int
+INFO  03:24:58,414 - #43 search
+INFO  03:24:58,415 - #16 (
+INFO  03:24:58,418 - #43 int
+INFO  03:24:58,419 - #43 array
+INFO  03:24:58,419 - #14 [
+INFO  03:24:58,420 - #15 ]
+INFO  03:24:58,420 - #21 ,
+INFO  03:24:58,422 - #43 int
+INFO  03:24:58,423 - #43 l
+INFO  03:24:58,423 - #21 ,
+INFO  03:24:58,425 - #43 int
+INFO  03:24:58,425 - #43 r
+INFO  03:24:58,426 - #21 ,
+INFO  03:24:58,426 - #43 int
+INFO  03:24:58,426 - #43 x
+INFO  03:24:58,427 - #17 )
+INFO  03:24:58,430 - #26 {
+INFO  03:24:58,430 - #28 if
+INFO  03:24:58,434 - #16 (
+INFO  03:24:58,434 - #43 l
+INFO  03:24:58,434 - #9 >
+INFO  03:24:58,438 - #43 r
+INFO  03:24:58,441 - #17 )
+INFO  03:24:58,445 - #34 return
+INFO  03:24:58,446 - #6 -
+INFO  03:24:58,447 - #42 1
+INFO  03:24:58,447 - #25 ;
+INFO  03:24:58,447 - #29 do
+INFO  03:24:58,448 - #26 {
+INFO  03:24:58,450 - #28 if
+INFO  03:24:58,450 - #16 (
+INFO  03:24:58,451 - #43 array
+INFO  03:24:58,451 - #14 [
+INFO  03:24:58,451 - #43 l
+INFO  03:24:58,452 - #15 ]
+INFO  03:24:58,452 - #7 ==
+INFO  03:24:58,454 - #43 x
+INFO  03:24:58,458 - #17 )
+INFO  03:24:58,459 - #26 {
+INFO  03:24:58,459 - #34 return
+INFO  03:24:58,459 - #43 l
+INFO  03:24:58,459 - #25 ;
+INFO  03:24:58,460 - #27 }
+INFO  03:24:58,460 - #32 else
+INFO  03:24:58,461 - #43 l
+INFO  03:24:58,463 - #23 ++
+INFO  03:24:58,465 - #25 ;
+INFO  03:24:58,466 - #27 }
+INFO  03:24:58,476 - #30 while
+INFO  03:24:58,476 - #16 (
+INFO  03:24:58,479 - #43 l
+INFO  03:24:58,479 - #12 <=
+INFO  03:24:58,483 - #43 r
+INFO  03:24:58,485 - #17 )
+INFO  03:24:58,485 - #25 ;
+INFO  03:24:58,486 - #34 return
+INFO  03:24:58,487 - #6 -
+INFO  03:24:58,488 - #42 1
+INFO  03:24:58,489 - #25 ;
+INFO  03:24:58,490 - #27 }
+INFO  03:24:58,490 - #27 }
+INFO  03:24:58,493 - #27 }
+INFO  03:24:58,494 - #38 class
+INFO  03:24:58,497 - #43 RecursiveBinarySearch
+INFO  03:24:58,497 - #41 extends
+INFO  03:24:58,498 - #43 Search
+INFO  03:24:58,498 - #26 {
+INFO  03:24:58,499 - #26 {
+INFO  03:24:58,499 - #43 int
+INFO  03:24:58,500 - #43 search
+INFO  03:24:58,500 - #16 (
+INFO  03:24:58,502 - #43 int
+INFO  03:24:58,502 - #43 array
+INFO  03:24:58,502 - #14 [
+INFO  03:24:58,503 - #15 ]
+INFO  03:24:58,503 - #21 ,
+INFO  03:24:58,503 - #43 int
+INFO  03:24:58,503 - #43 l
+INFO  03:24:58,504 - #21 ,
+INFO  03:24:58,504 - #43 int
+INFO  03:24:58,504 - #43 r
+INFO  03:24:58,505 - #21 ,
+INFO  03:24:58,505 - #43 int
+INFO  03:24:58,505 - #43 x
+INFO  03:24:58,506 - #17 )
+INFO  03:24:58,506 - #43 int
+INFO  03:24:58,506 - #43 mid
+INFO  03:24:58,507 - #25 ;
+INFO  03:24:58,507 - #26 {
+INFO  03:24:58,508 - #28 if
+INFO  03:24:58,508 - #16 (
+INFO  03:24:58,508 - #43 r
+INFO  03:24:58,509 - #10 >=
+INFO  03:24:58,509 - #43 l
+INFO  03:24:58,511 - #17 )
+INFO  03:24:58,511 - #26 {
+INFO  03:24:58,512 - #43 mid
+INFO  03:24:58,512 - #22 =
+INFO  03:24:58,514 - #43 l
+INFO  03:24:58,514 - #5 +
+INFO  03:24:58,514 - #16 (
+INFO  03:24:58,516 - #43 r
+INFO  03:24:58,517 - #6 -
+INFO  03:24:58,517 - #43 l
+INFO  03:24:58,519 - #17 )
+INFO  03:24:58,519 - #3 /
+INFO  03:24:58,520 - #42 2
+INFO  03:24:58,522 - #25 ;
+INFO  03:24:58,522 - #28 if
+INFO  03:24:58,523 - #16 (
+INFO  03:24:58,523 - #43 array
+INFO  03:24:58,524 - #14 [
+INFO  03:24:58,524 - #43 mid
+INFO  03:24:58,524 - #15 ]
+INFO  03:24:58,525 - #7 ==
+INFO  03:24:58,525 - #43 x
+INFO  03:24:58,527 - #17 )
+INFO  03:24:58,527 - #34 return
+INFO  03:24:58,527 - #43 mid
+INFO  03:24:58,527 - #25 ;
+INFO  03:24:58,527 - #28 if
+INFO  03:24:58,529 - #16 (
+INFO  03:24:58,529 - #43 array
+INFO  03:24:58,529 - #14 [
+INFO  03:24:58,529 - #43 mid
+INFO  03:24:58,530 - #15 ]
+INFO  03:24:58,530 - #9 >
+INFO  03:24:58,530 - #43 x
+INFO  03:24:58,531 - #17 )
+INFO  03:24:58,531 - #34 return
+INFO  03:24:58,531 - #43 search
+INFO  03:24:58,532 - #16 (
+INFO  03:24:58,534 - #43 array
+INFO  03:24:58,534 - #21 ,
+INFO  03:24:58,534 - #43 l
+INFO  03:24:58,534 - #21 ,
+INFO  03:24:58,535 - #43 mid
+INFO  03:24:58,535 - #6 -
+INFO  03:24:58,535 - #42 1
+INFO  03:24:58,536 - #21 ,
+INFO  03:24:58,537 - #43 x
+INFO  03:24:58,537 - #17 )
+INFO  03:24:58,540 - #25 ;
+INFO  03:24:58,541 - #34 return
+INFO  03:24:58,541 - #43 search
+INFO  03:24:58,542 - #16 (
+INFO  03:24:58,542 - #43 array
+INFO  03:24:58,542 - #21 ,
+INFO  03:24:58,542 - #43 mid
+INFO  03:24:58,542 - #5 +
+INFO  03:24:58,542 - #42 1
+INFO  03:24:58,542 - #21 ,
+INFO  03:24:58,543 - #43 r
+INFO  03:24:58,543 - #21 ,
+INFO  03:24:58,543 - #43 x
+INFO  03:24:58,543 - #17 )
+INFO  03:24:58,543 - #25 ;
+INFO  03:24:58,543 - #27 }
+INFO  03:24:58,543 - #34 return
+INFO  03:24:58,544 - #6 -
+INFO  03:24:58,544 - #42 1
+INFO  03:24:58,544 - #25 ;
+INFO  03:24:58,544 - #27 }
+INFO  03:24:58,544 - #27 }
+INFO  03:24:58,544 - #27 }
+INFO  03:24:58,545 - #38 class
+INFO  03:24:58,545 - #43 BinarySearch
+INFO  03:24:58,545 - #41 extends
+INFO  03:24:58,545 - #43 Search
+INFO  03:24:58,545 - #26 {
+INFO  03:24:58,546 - #26 {
+INFO  03:24:58,546 - #43 int
+INFO  03:24:58,546 - #43 search
+INFO  03:24:58,546 - #16 (
+INFO  03:24:58,546 - #43 int
+INFO  03:24:58,546 - #43 array
+INFO  03:24:58,546 - #14 [
+INFO  03:24:58,546 - #15 ]
+INFO  03:24:58,547 - #21 ,
+INFO  03:24:58,547 - #43 int
+INFO  03:24:58,547 - #43 l
+INFO  03:24:58,547 - #21 ,
+INFO  03:24:58,547 - #43 int
+INFO  03:24:58,547 - #43 r
+INFO  03:24:58,547 - #21 ,
+INFO  03:24:58,548 - #43 int
+INFO  03:24:58,548 - #43 x
+INFO  03:24:58,548 - #17 )
+INFO  03:24:58,548 - #43 int
+INFO  03:24:58,548 - #43 m
+INFO  03:24:58,549 - #25 ;
+INFO  03:24:58,549 - #26 {
+INFO  03:24:58,549 - #43 l
+INFO  03:24:58,549 - #22 =
+INFO  03:24:58,549 - #42 0
+INFO  03:24:58,549 - #25 ;
+INFO  03:24:58,549 - #43 r
+INFO  03:24:58,550 - #22 =
+INFO  03:24:58,550 - #43 len
+INFO  03:24:58,550 - #16 (
+INFO  03:24:58,550 - #43 array
+INFO  03:24:58,550 - #17 )
+INFO  03:24:58,550 - #6 -
+INFO  03:24:58,551 - #42 1
+INFO  03:24:58,551 - #25 ;
+INFO  03:24:58,551 - #29 do
+INFO  03:24:58,551 - #26 {
+INFO  03:24:58,551 - #43 m
+INFO  03:24:58,551 - #22 =
+INFO  03:24:58,551 - #43 l
+INFO  03:24:58,552 - #5 +
+INFO  03:24:58,552 - #16 (
+INFO  03:24:58,552 - #43 r
+INFO  03:24:58,552 - #6 -
+INFO  03:24:58,552 - #43 l
+INFO  03:24:58,552 - #17 )
+INFO  03:24:58,552 - #3 /
+INFO  03:24:58,553 - #42 2
+INFO  03:24:58,553 - #25 ;
+INFO  03:24:58,553 - #28 if
+INFO  03:24:58,553 - #16 (
+INFO  03:24:58,553 - #43 array
+INFO  03:24:58,553 - #14 [
+INFO  03:24:58,553 - #43 m
+INFO  03:24:58,554 - #15 ]
+INFO  03:24:58,554 - #7 ==
+INFO  03:24:58,554 - #43 x
+INFO  03:24:58,554 - #17 )
+INFO  03:24:58,554 - #34 return
+INFO  03:24:58,554 - #43 m
+INFO  03:24:58,554 - #25 ;
+INFO  03:24:58,555 - #28 if
+INFO  03:24:58,555 - #16 (
+INFO  03:24:58,555 - #43 array
+INFO  03:24:58,555 - #14 [
+INFO  03:24:58,555 - #43 m
+INFO  03:24:58,555 - #15 ]
+INFO  03:24:58,556 - #11 <
+INFO  03:24:58,556 - #43 x
+INFO  03:24:58,557 - #17 )
+INFO  03:24:58,558 - #43 l
+INFO  03:24:58,558 - #22 =
+INFO  03:24:58,558 - #43 m
+INFO  03:24:58,559 - #5 +
+INFO  03:24:58,560 - #42 1
+INFO  03:24:58,560 - #25 ;
+INFO  03:24:58,560 - #32 else
+INFO  03:24:58,560 - #43 r
+INFO  03:24:58,560 - #22 =
+INFO  03:24:58,561 - #43 m
+INFO  03:24:58,561 - #6 -
+INFO  03:24:58,561 - #42 1
+INFO  03:24:58,561 - #25 ;
+INFO  03:24:58,561 - #27 }
+INFO  03:24:58,561 - #30 while
+INFO  03:24:58,561 - #16 (
+INFO  03:24:58,561 - #43 l
+INFO  03:24:58,561 - #12 <=
+INFO  03:24:58,562 - #43 r
+INFO  03:24:58,562 - #17 )
+INFO  03:24:58,562 - #25 ;
+INFO  03:24:58,562 - #34 return
+INFO  03:24:58,562 - #6 -
+INFO  03:24:58,562 - #42 1
+INFO  03:24:58,562 - #25 ;
+INFO  03:24:58,563 - #27 }
+INFO  03:24:58,563 - #27 }
+INFO  03:24:58,563 - #27 }
+INFO  03:24:58,563 - #38 class
+INFO  03:24:58,563 - #43 Helper
+INFO  03:24:58,563 - #26 {
+INFO  03:24:58,563 - #26 {
+INFO  03:24:58,564 - #37 void
+INFO  03:24:58,564 - #43 generateArray
+INFO  03:24:58,565 - #16 (
+INFO  03:24:58,565 - #43 int
+INFO  03:24:58,565 - #43 size
+INFO  03:24:58,565 - #17 )
+INFO  03:24:58,565 - #43 int
+INFO  03:24:58,565 - #43 i
+INFO  03:24:58,565 - #25 ;
+INFO  03:24:58,565 - #26 {
+INFO  03:24:58,566 - #35 print
+INFO  03:24:58,566 - #16 (
+INFO  03:24:58,566 - #45 e
+INFO  03:24:58,566 - #17 )
+INFO  03:24:58,567 - #25 ;
+INFO  03:24:58,567 - #35 print
+INFO  03:24:58,568 - #16 (
+INFO  03:24:58,568 - #45 l
+INFO  03:24:58,568 - #17 )
+INFO  03:24:58,568 - #25 ;
+INFO  03:24:58,569 - #35 print
+INFO  03:24:58,569 - #16 (
+INFO  03:24:58,569 - #45 e
+INFO  03:24:58,569 - #17 )
+INFO  03:24:58,569 - #25 ;
+INFO  03:24:58,569 - #35 print
+INFO  03:24:58,570 - #16 (
+INFO  03:24:58,570 - #45 m
+INFO  03:24:58,570 - #17 )
+INFO  03:24:58,570 - #25 ;
+INFO  03:24:58,570 - #35 print
+INFO  03:24:58,570 - #16 (
+INFO  03:24:58,571 - #45 s
+INFO  03:24:58,571 - #17 )
+INFO  03:24:58,571 - #25 ;
+INFO  03:24:58,571 - #43 i
+INFO  03:24:58,571 - #22 =
+INFO  03:24:58,572 - #42 0
+INFO  03:24:58,572 - #25 ;
+INFO  03:24:58,572 - #29 do
+INFO  03:24:58,572 - #26 {
+INFO  03:24:58,572 - #36 read
+INFO  03:24:58,572 - #16 (
+INFO  03:24:58,572 - #43 array
+INFO  03:24:58,573 - #14 [
+INFO  03:24:58,573 - #43 i
+INFO  03:24:58,573 - #15 ]
+INFO  03:24:58,574 - #17 )
+INFO  03:24:58,574 - #25 ;
+INFO  03:24:58,574 - #43 i
+INFO  03:24:58,575 - #23 ++
+INFO  03:24:58,575 - #25 ;
+INFO  03:24:58,575 - #27 }
+INFO  03:24:58,575 - #30 while
+INFO  03:24:58,576 - #16 (
+INFO  03:24:58,576 - #43 i
+INFO  03:24:58,576 - #11 <
+INFO  03:24:58,577 - #43 size
+INFO  03:24:58,577 - #17 )
+INFO  03:24:58,577 - #25 ;
+INFO  03:24:58,577 - #27 }
+INFO  03:24:58,578 - #37 void
+INFO  03:24:58,578 - #43 sortArray
+INFO  03:24:58,578 - #16 (
+INFO  03:24:58,578 - #17 )
+INFO  03:24:58,580 - #43 int
+INFO  03:24:58,580 - #43 n
+INFO  03:24:58,580 - #25 ;
+INFO  03:24:58,580 - #43 int
+INFO  03:24:58,581 - #43 i
+INFO  03:24:58,581 - #25 ;
+INFO  03:24:58,581 - #43 int
+INFO  03:24:58,581 - #43 key
+INFO  03:24:58,582 - #25 ;
+INFO  03:24:58,582 - #43 int
+INFO  03:24:58,582 - #43 j
+INFO  03:24:58,582 - #25 ;
+INFO  03:24:58,583 - #26 {
+INFO  03:24:58,583 - #43 n
+INFO  03:24:58,583 - #22 =
+INFO  03:24:58,583 - #43 len
+INFO  03:24:58,584 - #16 (
+INFO  03:24:58,584 - #43 array
+INFO  03:24:58,584 - #17 )
+INFO  03:24:58,584 - #25 ;
+INFO  03:24:58,585 - #28 if
+INFO  03:24:58,585 - #16 (
+INFO  03:24:58,585 - #43 n
+INFO  03:24:58,585 - #11 <
+INFO  03:24:58,586 - #42 2
+INFO  03:24:58,586 - #17 )
+INFO  03:24:58,587 - #34 return
+INFO  03:24:58,587 - #25 ;
+INFO  03:24:58,587 - #43 i
+INFO  03:24:58,589 - #22 =
+INFO  03:24:58,589 - #42 1
+INFO  03:24:58,589 - #25 ;
+INFO  03:24:58,590 - #29 do
+INFO  03:24:58,590 - #26 {
+INFO  03:24:58,590 - #43 key
+INFO  03:24:58,591 - #22 =
+INFO  03:24:58,591 - #43 array
+INFO  03:24:58,591 - #14 [
+INFO  03:24:58,592 - #43 i
+INFO  03:24:58,592 - #15 ]
+INFO  03:24:58,592 - #25 ;
+INFO  03:24:58,592 - #43 j
+INFO  03:24:58,592 - #22 =
+INFO  03:24:58,592 - #43 i
+INFO  03:24:58,593 - #6 -
+INFO  03:24:58,593 - #42 1
+INFO  03:24:58,593 - #25 ;
+INFO  03:24:58,593 - #28 if
+INFO  03:24:58,594 - #16 (
+INFO  03:24:58,594 - #43 j
+INFO  03:24:58,594 - #10 >=
+INFO  03:24:58,594 - #42 0
+INFO  03:24:58,595 - #19 &&
+INFO  03:24:58,595 - #43 array
+INFO  03:24:58,595 - #14 [
+INFO  03:24:58,595 - #43 j
+INFO  03:24:58,596 - #15 ]
+INFO  03:24:58,596 - #9 >
+INFO  03:24:58,596 - #43 key
+INFO  03:24:58,596 - #17 )
+INFO  03:24:58,597 - #29 do
+INFO  03:24:58,597 - #26 {
+INFO  03:24:58,597 - #43 array
+INFO  03:24:58,597 - #14 [
+INFO  03:24:58,598 - #43 j
+INFO  03:24:58,598 - #5 +
+INFO  03:24:58,598 - #42 1
+INFO  03:24:58,598 - #15 ]
+INFO  03:24:58,599 - #22 =
+INFO  03:24:58,599 - #43 array
+INFO  03:24:58,599 - #14 [
+INFO  03:24:58,599 - #43 j
+INFO  03:24:58,600 - #15 ]
+INFO  03:24:58,600 - #25 ;
+INFO  03:24:58,600 - #43 j
+INFO  03:24:58,601 - #22 =
+INFO  03:24:58,601 - #43 j
+INFO  03:24:58,601 - #6 -
+INFO  03:24:58,601 - #42 1
+INFO  03:24:58,601 - #25 ;
+INFO  03:24:58,602 - #27 }
+INFO  03:24:58,602 - #30 while
+INFO  03:24:58,602 - #16 (
+INFO  03:24:58,602 - #43 j
+INFO  03:24:58,603 - #10 >=
+INFO  03:24:58,603 - #42 0
+INFO  03:24:58,603 - #19 &&
+INFO  03:24:58,604 - #43 array
+INFO  03:24:58,604 - #14 [
+INFO  03:24:58,604 - #43 j
+INFO  03:24:58,605 - #15 ]
+INFO  03:24:58,619 - #9 >
+INFO  03:24:58,620 - #43 key
+INFO  03:24:58,620 - #17 )
+INFO  03:24:58,621 - #25 ;
+INFO  03:24:58,621 - #43 i
+INFO  03:24:58,621 - #23 ++
+INFO  03:24:58,622 - #25 ;
+INFO  03:24:58,622 - #43 array
+INFO  03:24:58,622 - #14 [
+INFO  03:24:58,623 - #43 j
+INFO  03:24:58,623 - #5 +
+INFO  03:24:58,623 - #42 1
+INFO  03:24:58,623 - #15 ]
+INFO  03:24:58,623 - #22 =
+INFO  03:24:58,624 - #43 key
+INFO  03:24:58,624 - #25 ;
+INFO  03:24:58,624 - #27 }
+INFO  03:24:58,625 - #30 while
+INFO  03:24:58,625 - #16 (
+INFO  03:24:58,625 - #43 i
+INFO  03:24:58,626 - #11 <
+INFO  03:24:58,626 - #43 n
+INFO  03:24:58,626 - #17 )
+INFO  03:24:58,626 - #25 ;
+INFO  03:24:58,626 - #27 }
+INFO  03:24:58,626 - #27 }
+INFO  03:24:58,627 - #27 }
+INFO  03:24:58,627 - #26 {
+INFO  03:24:58,627 - #37 void
+INFO  03:24:58,628 - #43 printSearchResult
+INFO  03:24:58,628 - #16 (
+INFO  03:24:58,628 - #43 int
+INFO  03:24:58,628 - #43 res
+INFO  03:24:58,628 - #17 )
+INFO  03:24:58,628 - #26 {
+INFO  03:24:58,628 - #28 if
+INFO  03:24:58,629 - #16 (
+INFO  03:24:58,629 - #43 res
+INFO  03:24:58,629 - #8 !=
+INFO  03:24:58,629 - #6 -
+INFO  03:24:58,631 - #42 1
+INFO  03:24:58,631 - #17 )
+INFO  03:24:58,632 - #26 {
+INFO  03:24:58,632 - #35 print
+INFO  03:24:58,632 - #16 (
+INFO  03:24:58,633 - #45 f
+INFO  03:24:58,633 - #17 )
+INFO  03:24:58,633 - #25 ;
+INFO  03:24:58,633 - #35 print
+INFO  03:24:58,633 - #16 (
+INFO  03:24:58,634 - #45 o
+INFO  03:24:58,634 - #17 )
+INFO  03:24:58,634 - #25 ;
+INFO  03:24:58,634 - #35 print
+INFO  03:24:58,635 - #16 (
+INFO  03:24:58,635 - #45 u
+INFO  03:24:58,636 - #17 )
+INFO  03:24:58,636 - #25 ;
+INFO  03:24:58,636 - #35 print
+INFO  03:24:58,636 - #16 (
+INFO  03:24:58,637 - #45 n
+INFO  03:24:58,637 - #17 )
+INFO  03:24:58,637 - #25 ;
+INFO  03:24:58,637 - #35 print
+INFO  03:24:58,638 - #16 (
+INFO  03:24:58,638 - #45 d
+INFO  03:24:58,639 - #17 )
+INFO  03:24:58,639 - #25 ;
+INFO  03:24:58,639 - #35 print
+INFO  03:24:58,639 - #16 (
+INFO  03:24:58,640 - #45  
+INFO  03:24:58,640 - #17 )
+INFO  03:24:58,642 - #25 ;
+INFO  03:24:58,643 - #35 print
+INFO  03:24:58,643 - #16 (
+INFO  03:24:58,643 - #45 a
+INFO  03:24:58,644 - #17 )
+INFO  03:24:58,644 - #25 ;
+INFO  03:24:58,644 - #35 print
+INFO  03:24:58,645 - #16 (
+INFO  03:24:58,645 - #45 t
+INFO  03:24:58,645 - #17 )
+INFO  03:24:58,645 - #25 ;
+INFO  03:24:58,646 - #35 print
+INFO  03:24:58,646 - #16 (
+INFO  03:24:58,647 - #45  
+INFO  03:24:58,647 - #17 )
+INFO  03:24:58,647 - #25 ;
+INFO  03:24:58,648 - #35 print
+INFO  03:24:58,648 - #16 (
+INFO  03:24:58,648 - #43 res
+INFO  03:24:58,648 - #17 )
+INFO  03:24:58,648 - #25 ;
+INFO  03:24:58,649 - #27 }
+INFO  03:24:58,649 - #32 else
+INFO  03:24:58,649 - #26 {
+INFO  03:24:58,649 - #35 print
+INFO  03:24:58,650 - #16 (
+INFO  03:24:58,650 - #45 n
+INFO  03:24:58,650 - #17 )
+INFO  03:24:58,650 - #25 ;
+INFO  03:24:58,650 - #35 print
+INFO  03:24:58,651 - #16 (
+INFO  03:24:58,651 - #45 o
+INFO  03:24:58,651 - #17 )
+INFO  03:24:58,651 - #25 ;
+INFO  03:24:58,652 - #35 print
+INFO  03:24:58,652 - #16 (
+INFO  03:24:58,652 - #45 t
+INFO  03:24:58,652 - #17 )
+INFO  03:24:58,652 - #25 ;
+INFO  03:24:58,653 - #35 print
+INFO  03:24:58,653 - #16 (
+INFO  03:24:58,653 - #45  
+INFO  03:24:58,653 - #17 )
+INFO  03:24:58,653 - #25 ;
+INFO  03:24:58,653 - #35 print
+INFO  03:24:58,653 - #16 (
+INFO  03:24:58,654 - #45 f
+INFO  03:24:58,654 - #17 )
+INFO  03:24:58,654 - #25 ;
+INFO  03:24:58,654 - #35 print
+INFO  03:24:58,654 - #16 (
+INFO  03:24:58,654 - #45 o
+INFO  03:24:58,655 - #17 )
+INFO  03:24:58,655 - #25 ;
+INFO  03:24:58,655 - #35 print
+INFO  03:24:58,655 - #16 (
+INFO  03:24:58,655 - #45 u
+INFO  03:24:58,656 - #17 )
+INFO  03:24:58,656 - #25 ;
+INFO  03:24:58,656 - #35 print
+INFO  03:24:58,656 - #16 (
+INFO  03:24:58,656 - #45 n
+INFO  03:24:58,656 - #17 )
+INFO  03:24:58,656 - #25 ;
+INFO  03:24:58,656 - #35 print
+INFO  03:24:58,656 - #16 (
+INFO  03:24:58,657 - #45 d
+INFO  03:24:58,657 - #17 )
+INFO  03:24:58,657 - #25 ;
+INFO  03:24:58,657 - #35 print
+INFO  03:24:58,657 - #16 (
+INFO  03:24:58,658 - #43 eol
+INFO  03:24:58,658 - #17 )
+INFO  03:24:58,658 - #25 ;
+INFO  03:24:58,658 - #27 }
+INFO  03:24:58,658 - #27 }
+INFO  03:24:58,659 - #37 void
+INFO  03:24:58,659 - #43 main
+INFO  03:24:58,659 - #16 (
+INFO  03:24:58,659 - #17 )
+INFO  03:24:58,659 - #43 Helper
+INFO  03:24:58,659 - #43 h
+INFO  03:24:58,659 - #25 ;
+INFO  03:24:58,659 - #43 int
+INFO  03:24:58,660 - #43 size
+INFO  03:24:58,660 - #25 ;
+INFO  03:24:58,660 - #43 bool
+INFO  03:24:58,660 - #43 loop
+INFO  03:24:58,660 - #25 ;
+INFO  03:24:58,660 - #43 Search
+INFO  03:24:58,660 - #43 s
+INFO  03:24:58,661 - #25 ;
+INFO  03:24:58,661 - #43 int
+INFO  03:24:58,661 - #43 res
+INFO  03:24:58,661 - #25 ;
+INFO  03:24:58,661 - #43 int
+INFO  03:24:58,661 - #43 elem
+INFO  03:24:58,661 - #25 ;
+INFO  03:24:58,661 - #43 char
+INFO  03:24:58,662 - #43 con
+INFO  03:24:58,662 - #25 ;
+INFO  03:24:58,662 - #26 {
+INFO  03:24:58,662 - #43 loop
+INFO  03:24:58,662 - #22 =
+INFO  03:24:58,662 - #44 true
+INFO  03:24:58,662 - #25 ;
+INFO  03:24:58,663 - #43 con
+INFO  03:24:58,663 - #22 =
+INFO  03:24:58,663 - #45 y
+INFO  03:24:58,663 - #25 ;
+INFO  03:24:58,663 - #29 do
+INFO  03:24:58,664 - #26 {
+INFO  03:24:58,664 - #29 do
+INFO  03:24:58,664 - #26 {
+INFO  03:24:58,664 - #35 print
+INFO  03:24:58,664 - #16 (
+INFO  03:24:58,664 - #45 s
+INFO  03:24:58,664 - #17 )
+INFO  03:24:58,664 - #25 ;
+INFO  03:24:58,664 - #35 print
+INFO  03:24:58,664 - #16 (
+INFO  03:24:58,665 - #45 i
+INFO  03:24:58,665 - #17 )
+INFO  03:24:58,665 - #25 ;
+INFO  03:24:58,665 - #35 print
+INFO  03:24:58,665 - #16 (
+INFO  03:24:58,665 - #45 z
+INFO  03:24:58,665 - #17 )
+INFO  03:24:58,666 - #25 ;
+INFO  03:24:58,666 - #35 print
+INFO  03:24:58,666 - #16 (
+INFO  03:24:58,666 - #45 e
+INFO  03:24:58,666 - #17 )
+INFO  03:24:58,666 - #25 ;
+INFO  03:24:58,666 - #36 read
+INFO  03:24:58,666 - #16 (
+INFO  03:24:58,667 - #43 size
+INFO  03:24:58,667 - #17 )
+INFO  03:24:58,667 - #25 ;
+INFO  03:24:58,667 - #28 if
+INFO  03:24:58,667 - #16 (
+INFO  03:24:58,667 - #43 size
+INFO  03:24:58,667 - #12 <=
+INFO  03:24:58,668 - #42 0
+INFO  03:24:58,668 - #17 )
+INFO  03:24:58,668 - #26 {
+INFO  03:24:58,668 - #35 print
+INFO  03:24:58,669 - #16 (
+INFO  03:24:58,669 - #45 s
+INFO  03:24:58,669 - #17 )
+INFO  03:24:58,669 - #25 ;
+INFO  03:24:58,669 - #35 print
+INFO  03:24:58,670 - #16 (
+INFO  03:24:58,670 - #45 i
+INFO  03:24:58,670 - #17 )
+INFO  03:24:58,670 - #25 ;
+INFO  03:24:58,670 - #35 print
+INFO  03:24:58,670 - #16 (
+INFO  03:24:58,671 - #45 z
+INFO  03:24:58,671 - #17 )
+INFO  03:24:58,671 - #25 ;
+INFO  03:24:58,671 - #35 print
+INFO  03:24:58,671 - #16 (
+INFO  03:24:58,671 - #45 e
+INFO  03:24:58,671 - #17 )
+INFO  03:24:58,671 - #25 ;
+INFO  03:24:58,672 - #35 print
+INFO  03:24:58,672 - #16 (
+INFO  03:24:58,672 - #45 e
+INFO  03:24:58,672 - #17 )
+INFO  03:24:58,672 - #25 ;
+INFO  03:24:58,672 - #35 print
+INFO  03:24:58,672 - #16 (
+INFO  03:24:58,672 - #45 r
+INFO  03:24:58,672 - #17 )
+INFO  03:24:58,672 - #25 ;
+INFO  03:24:58,673 - #35 print
+INFO  03:24:58,673 - #16 (
+INFO  03:24:58,673 - #45 r
+INFO  03:24:58,673 - #17 )
+INFO  03:24:58,673 - #25 ;
+INFO  03:24:58,673 - #35 print
+INFO  03:24:58,674 - #16 (
+INFO  03:24:58,674 - #45 o
+INFO  03:24:58,674 - #17 )
+INFO  03:24:58,674 - #25 ;
+INFO  03:24:58,674 - #35 print
+INFO  03:24:58,675 - #16 (
+INFO  03:24:58,675 - #45 r
+INFO  03:24:58,675 - #17 )
+INFO  03:24:58,675 - #25 ;
+INFO  03:24:58,675 - #35 print
+INFO  03:24:58,676 - #16 (
+INFO  03:24:58,676 - #43 eol
+INFO  03:24:58,676 - #17 )
+INFO  03:24:58,676 - #25 ;
+INFO  03:24:58,676 - #33 continue
+INFO  03:24:58,676 - #25 ;
+INFO  03:24:58,676 - #27 }
+INFO  03:24:58,677 - #43 array
+INFO  03:24:58,677 - #22 =
+INFO  03:24:58,678 - #18 new
+INFO  03:24:58,678 - #43 int
+INFO  03:24:58,678 - #14 [
+INFO  03:24:58,678 - #43 size
+INFO  03:24:58,678 - #15 ]
+INFO  03:24:58,678 - #25 ;
+INFO  03:24:58,678 - #43 h
+INFO  03:24:58,678 - #22 =
+INFO  03:24:58,678 - #18 new
+INFO  03:24:58,678 - #43 Helper
+INFO  03:24:58,678 - #25 ;
+INFO  03:24:58,679 - #43 h
+INFO  03:24:58,679 - #13 .
+INFO  03:24:58,679 - #43 generateArray
+INFO  03:24:58,679 - #16 (
+INFO  03:24:58,679 - #43 size
+INFO  03:24:58,679 - #17 )
+INFO  03:24:58,679 - #25 ;
+INFO  03:24:58,679 - #43 h
+INFO  03:24:58,680 - #13 .
+INFO  03:24:58,680 - #43 sortArray
+INFO  03:24:58,680 - #16 (
+INFO  03:24:58,680 - #17 )
+INFO  03:24:58,681 - #25 ;
+INFO  03:24:58,681 - #43 loop
+INFO  03:24:58,681 - #22 =
+INFO  03:24:58,681 - #44 false
+INFO  03:24:58,681 - #25 ;
+INFO  03:24:58,681 - #27 }
+INFO  03:24:58,681 - #30 while
+INFO  03:24:58,681 - #16 (
+INFO  03:24:58,681 - #43 loop
+INFO  03:24:58,681 - #17 )
+INFO  03:24:58,681 - #25 ;
+INFO  03:24:58,681 - #43 s
+INFO  03:24:58,682 - #22 =
+INFO  03:24:58,682 - #18 new
+INFO  03:24:58,682 - #43 Search
+INFO  03:24:58,682 - #25 ;
+INFO  03:24:58,682 - #35 print
+INFO  03:24:58,682 - #16 (
+INFO  03:24:58,682 - #45 x
+INFO  03:24:58,682 - #17 )
+INFO  03:24:58,682 - #25 ;
+INFO  03:24:58,682 - #36 read
+INFO  03:24:58,682 - #16 (
+INFO  03:24:58,682 - #43 elem
+INFO  03:24:58,682 - #17 )
+INFO  03:24:58,682 - #25 ;
+INFO  03:24:58,682 - #43 res
+INFO  03:24:58,682 - #22 =
+INFO  03:24:58,683 - #43 s
+INFO  03:24:58,683 - #13 .
+INFO  03:24:58,683 - #43 search
+INFO  03:24:58,683 - #16 (
+INFO  03:24:58,683 - #43 array
+INFO  03:24:58,683 - #21 ,
+INFO  03:24:58,683 - #42 0
+INFO  03:24:58,683 - #21 ,
+INFO  03:24:58,683 - #43 size
+INFO  03:24:58,683 - #6 -
+INFO  03:24:58,683 - #42 1
+INFO  03:24:58,683 - #21 ,
+INFO  03:24:58,683 - #43 elem
+INFO  03:24:58,683 - #17 )
+INFO  03:24:58,684 - #25 ;
+INFO  03:24:58,684 - #43 printSearchResult
+INFO  03:24:58,684 - #16 (
+INFO  03:24:58,684 - #43 res
+INFO  03:24:58,684 - #17 )
+INFO  03:24:58,684 - #25 ;
+INFO  03:24:58,684 - #43 s
+INFO  03:24:58,684 - #22 =
+INFO  03:24:58,684 - #18 new
+INFO  03:24:58,684 - #43 BinarySearch
+INFO  03:24:58,684 - #25 ;
+INFO  03:24:58,684 - #43 res
+INFO  03:24:58,684 - #22 =
+INFO  03:24:58,684 - #43 s
+INFO  03:24:58,684 - #13 .
+INFO  03:24:58,684 - #43 search
+INFO  03:24:58,684 - #16 (
+INFO  03:24:58,684 - #43 array
+INFO  03:24:58,684 - #21 ,
+INFO  03:24:58,685 - #42 0
+INFO  03:24:58,685 - #21 ,
+INFO  03:24:58,685 - #43 size
+INFO  03:24:58,685 - #6 -
+INFO  03:24:58,685 - #42 1
+INFO  03:24:58,685 - #21 ,
+INFO  03:24:58,685 - #43 elem
+INFO  03:24:58,685 - #17 )
+INFO  03:24:58,685 - #25 ;
+INFO  03:24:58,685 - #43 printSearchResult
+INFO  03:24:58,685 - #16 (
+INFO  03:24:58,685 - #43 res
+INFO  03:24:58,685 - #17 )
+INFO  03:24:58,685 - #25 ;
+INFO  03:24:58,685 - #43 s
+INFO  03:24:58,685 - #22 =
+INFO  03:24:58,685 - #18 new
+INFO  03:24:58,685 - #43 RecursiveBinarySearch
+INFO  03:24:58,685 - #25 ;
+INFO  03:24:58,686 - #43 res
+INFO  03:24:58,686 - #22 =
+INFO  03:24:58,686 - #43 s
+INFO  03:24:58,686 - #13 .
+INFO  03:24:58,686 - #43 search
+INFO  03:24:58,686 - #16 (
+INFO  03:24:58,686 - #43 array
+INFO  03:24:58,686 - #21 ,
+INFO  03:24:58,686 - #42 0
+INFO  03:24:58,686 - #21 ,
+INFO  03:24:58,686 - #43 size
+INFO  03:24:58,686 - #6 -
+INFO  03:24:58,686 - #42 1
+INFO  03:24:58,686 - #21 ,
+INFO  03:24:58,686 - #43 elem
+INFO  03:24:58,686 - #17 )
+INFO  03:24:58,686 - #25 ;
+INFO  03:24:58,686 - #43 printSearchResult
+INFO  03:24:58,687 - #16 (
+INFO  03:24:58,687 - #43 res
+INFO  03:24:58,687 - #17 )
+INFO  03:24:58,687 - #25 ;
+INFO  03:24:58,687 - #35 print
+INFO  03:24:58,687 - #16 (
+INFO  03:24:58,687 - #45 m
+INFO  03:24:58,687 - #17 )
+INFO  03:24:58,687 - #25 ;
+INFO  03:24:58,687 - #35 print
+INFO  03:24:58,687 - #16 (
+INFO  03:24:58,687 - #45 o
+INFO  03:24:58,687 - #17 )
+INFO  03:24:58,687 - #25 ;
+INFO  03:24:58,687 - #35 print
+INFO  03:24:58,687 - #16 (
+INFO  03:24:58,687 - #45 r
+INFO  03:24:58,688 - #17 )
+INFO  03:24:58,688 - #25 ;
+INFO  03:24:58,688 - #35 print
+INFO  03:24:58,688 - #16 (
+INFO  03:24:58,688 - #45 e
+INFO  03:24:58,688 - #17 )
+INFO  03:24:58,688 - #25 ;
+INFO  03:24:58,688 - #35 print
+INFO  03:24:58,689 - #16 (
+INFO  03:24:58,689 - #45 ?
+INFO  03:24:58,689 - #17 )
+INFO  03:24:58,689 - #25 ;
+INFO  03:24:58,689 - #35 print
+INFO  03:24:58,689 - #16 (
+INFO  03:24:58,689 - #45 y
+INFO  03:24:58,689 - #17 )
+INFO  03:24:58,689 - #25 ;
+INFO  03:24:58,689 - #35 print
+INFO  03:24:58,689 - #16 (
+INFO  03:24:58,689 - #45 /
+INFO  03:24:58,690 - #17 )
+INFO  03:24:58,690 - #25 ;
+INFO  03:24:58,690 - #35 print
+INFO  03:24:58,690 - #16 (
+INFO  03:24:58,690 - #45 n
+INFO  03:24:58,690 - #17 )
+INFO  03:24:58,690 - #25 ;
+INFO  03:24:58,690 - #36 read
+INFO  03:24:58,690 - #16 (
+INFO  03:24:58,690 - #43 con
+INFO  03:24:58,691 - #17 )
+INFO  03:24:58,691 - #25 ;
+INFO  03:24:58,691 - #36 read
+INFO  03:24:58,691 - #16 (
+INFO  03:24:58,691 - #43 con
+INFO  03:24:58,691 - #17 )
+INFO  03:24:58,691 - #25 ;
+INFO  03:24:58,691 - #35 print
+INFO  03:24:58,691 - #16 (
+INFO  03:24:58,691 - #43 eol
+INFO  03:24:58,691 - #17 )
+INFO  03:24:58,691 - #25 ;
+INFO  03:24:58,691 - #27 }
+INFO  03:24:58,691 - #30 while
+INFO  03:24:58,691 - #16 (
+INFO  03:24:58,691 - #43 con
+INFO  03:24:58,692 - #7 ==
+INFO  03:24:58,692 - #45 y
+INFO  03:24:58,692 - #17 )
+INFO  03:24:58,692 - #25 ;
+INFO  03:24:58,692 - #27 }
+INFO  03:24:58,692 - #27 }
+INFO  03:24:58,787 - ========================Sintaksna analiza uspesno zavrsena========================
+INFO  03:24:58,837 - Detektovana upotreba formalnog parametra l metode search na liniji 5: Var l: Int , 2, 1 
+INFO  03:24:58,837 - Detektovana upotreba formalnog parametra r metode search na liniji 5: Var r: Int , 3, 1 
+INFO  03:24:58,838 - Detektovana upotreba formalnog parametra array metode search na liniji 8: Var array: Arr of int, 1, 1 
+INFO  03:24:58,838 - Detektovana upotreba formalnog parametra l metode search na liniji 8: Var l: Int , 2, 1 
+INFO  03:24:58,838 - Detektovan pristup elementu niza array na liniji 8: array: Int , -1, -1 
+INFO  03:24:58,838 - Detektovana upotreba formalnog parametra x metode search na liniji 8: Var x: Int , 4, 1 
+INFO  03:24:58,839 - Detektovana upotreba formalnog parametra l metode search na liniji 10: Var l: Int , 2, 1 
+INFO  03:24:58,839 - Detektovana upotreba formalnog parametra l metode search na liniji 13: Var l: Int , 2, 1 
+INFO  03:24:58,839 - Detektovana upotreba formalnog parametra l metode search na liniji 14: Var l: Int , 2, 1 
+INFO  03:24:58,839 - Detektovana upotreba formalnog parametra r metode search na liniji 14: Var r: Int , 3, 1 
+INFO  03:24:58,840 - Detektovana upotreba formalnog parametra r metode search na liniji 29: Var r: Int , 3, 1 
+INFO  03:24:58,840 - Detektovana upotreba formalnog parametra l metode search na liniji 29: Var l: Int , 2, 1 
+INFO  03:24:58,840 - Detektovana upotreba lokalne promenljive mid metode search na liniji 31: Var mid: Int , 5, 1 
+INFO  03:24:58,841 - Detektovana upotreba formalnog parametra l metode search na liniji 31: Var l: Int , 2, 1 
+INFO  03:24:58,841 - Detektovana upotreba formalnog parametra r metode search na liniji 31: Var r: Int , 3, 1 
+INFO  03:24:58,841 - Detektovana upotreba formalnog parametra l metode search na liniji 31: Var l: Int , 2, 1 
+INFO  03:24:58,842 - Detektovana upotreba formalnog parametra array metode search na liniji 35: Var array: Arr of int, 1, 1 
+INFO  03:24:58,842 - Detektovana upotreba lokalne promenljive mid metode search na liniji 35: Var mid: Int , 5, 1 
+INFO  03:24:58,842 - Detektovan pristup elementu niza array na liniji 35: array: Int , -1, -1 
+INFO  03:24:58,842 - Detektovana upotreba formalnog parametra x metode search na liniji 35: Var x: Int , 4, 1 
+INFO  03:24:58,842 - Detektovana upotreba lokalne promenljive mid metode search na liniji 36: Var mid: Int , 5, 1 
+INFO  03:24:58,842 - Detektovana upotreba formalnog parametra array metode search na liniji 40: Var array: Arr of int, 1, 1 
+INFO  03:24:58,842 - Detektovana upotreba lokalne promenljive mid metode search na liniji 40: Var mid: Int , 5, 1 
+INFO  03:24:58,843 - Detektovan pristup elementu niza array na liniji 40: array: Int , -1, -1 
+INFO  03:24:58,843 - Detektovana upotreba formalnog parametra x metode search na liniji 40: Var x: Int , 4, 1 
+INFO  03:24:58,843 - Detektovan poziv metode search unutrasnje klase  na liniji 41: Meth search: Int , 0, 5 
+INFO  03:24:58,843 - Detektovana upotreba formalnog parametra array metode search na liniji 41: Var array: Arr of int, 1, 1 
+INFO  03:24:58,843 - Detektovana upotreba formalnog parametra l metode search na liniji 41: Var l: Int , 2, 1 
+INFO  03:24:58,844 - Detektovana upotreba lokalne promenljive mid metode search na liniji 41: Var mid: Int , 5, 1 
+INFO  03:24:58,844 - Detektovana upotreba formalnog parametra x metode search na liniji 41: Var x: Int , 4, 1 
+INFO  03:24:58,844 - Detektovan poziv metode search unutrasnje klase  na liniji 45: Meth search: Int , 0, 5 
+INFO  03:24:58,844 - Detektovana upotreba formalnog parametra array metode search na liniji 45: Var array: Arr of int, 1, 1 
+INFO  03:24:58,844 - Detektovana upotreba lokalne promenljive mid metode search na liniji 45: Var mid: Int , 5, 1 
+INFO  03:24:58,845 - Detektovana upotreba formalnog parametra r metode search na liniji 45: Var r: Int , 3, 1 
+INFO  03:24:58,845 - Detektovana upotreba formalnog parametra x metode search na liniji 45: Var x: Int , 4, 1 
+INFO  03:24:58,846 - Detektovana upotreba formalnog parametra l metode search na liniji 63: Var l: Int , 2, 1 
+INFO  03:24:58,846 - Detektovana upotreba formalnog parametra r metode search na liniji 64: Var r: Int , 3, 1 
+INFO  03:24:58,846 - Detektovan poziv globalne funkcije len na liniji 64: Meth len: Int , 0, 1 
+INFO  03:24:58,846 - Detektovana upotreba formalnog parametra array metode search na liniji 64: Var array: Arr of int, 1, 1 
+INFO  03:24:58,846 - Detektovana upotreba lokalne promenljive m metode search na liniji 67: Var m: Int , 5, 1 
+INFO  03:24:58,847 - Detektovana upotreba formalnog parametra l metode search na liniji 67: Var l: Int , 2, 1 
+INFO  03:24:58,847 - Detektovana upotreba formalnog parametra r metode search na liniji 67: Var r: Int , 3, 1 
+INFO  03:24:58,847 - Detektovana upotreba formalnog parametra l metode search na liniji 67: Var l: Int , 2, 1 
+INFO  03:24:58,847 - Detektovana upotreba formalnog parametra array metode search na liniji 70: Var array: Arr of int, 1, 1 
+INFO  03:24:58,847 - Detektovana upotreba lokalne promenljive m metode search na liniji 70: Var m: Int , 5, 1 
+INFO  03:24:58,848 - Detektovan pristup elementu niza array na liniji 70: array: Int , -1, -1 
+INFO  03:24:58,848 - Detektovana upotreba formalnog parametra x metode search na liniji 70: Var x: Int , 4, 1 
+INFO  03:24:58,848 - Detektovana upotreba lokalne promenljive m metode search na liniji 71: Var m: Int , 5, 1 
+INFO  03:24:58,848 - Detektovana upotreba formalnog parametra array metode search na liniji 74: Var array: Arr of int, 1, 1 
+INFO  03:24:58,848 - Detektovana upotreba lokalne promenljive m metode search na liniji 74: Var m: Int , 5, 1 
+INFO  03:24:58,848 - Detektovan pristup elementu niza array na liniji 74: array: Int , -1, -1 
+INFO  03:24:58,849 - Detektovana upotreba formalnog parametra x metode search na liniji 74: Var x: Int , 4, 1 
+INFO  03:24:58,849 - Detektovana upotreba formalnog parametra l metode search na liniji 75: Var l: Int , 2, 1 
+INFO  03:24:58,849 - Detektovana upotreba lokalne promenljive m metode search na liniji 75: Var m: Int , 5, 1 
+INFO  03:24:58,849 - Detektovana upotreba formalnog parametra r metode search na liniji 79: Var r: Int , 3, 1 
+INFO  03:24:58,850 - Detektovana upotreba lokalne promenljive m metode search na liniji 79: Var m: Int , 5, 1 
+INFO  03:24:58,850 - Detektovana upotreba formalnog parametra l metode search na liniji 80: Var l: Int , 2, 1 
+INFO  03:24:58,850 - Detektovana upotreba formalnog parametra r metode search na liniji 80: Var r: Int , 3, 1 
+INFO  03:24:58,851 - Detektovana upotreba lokalne promenljive i metode generateArray na liniji 93: Var i: Int , 2, 1 
+INFO  03:24:58,851 - Detektovana upotreba globalne promenljive array na liniji 95: Var array: Arr of int, 0, 0 
+INFO  03:24:58,851 - Detektovana upotreba lokalne promenljive i metode generateArray na liniji 95: Var i: Int , 2, 1 
+INFO  03:24:58,851 - Detektovan pristup elementu niza array na liniji 95: array: Int , -1, -1 
+INFO  03:24:58,852 - Detektovana upotreba lokalne promenljive i metode generateArray na liniji 96: Var i: Int , 2, 1 
+INFO  03:24:58,852 - Detektovana upotreba lokalne promenljive i metode generateArray na liniji 97: Var i: Int , 2, 1 
+INFO  03:24:58,852 - Detektovana upotreba formalnog parametra size metode generateArray na liniji 97: Var size: Int , 1, 1 
+INFO  03:24:58,853 - Detektovana upotreba lokalne promenljive n metode sortArray na liniji 101: Var n: Int , 1, 1 
+INFO  03:24:58,853 - Detektovan poziv globalne funkcije len na liniji 101: Meth len: Int , 0, 1 
+INFO  03:24:58,853 - Detektovana upotreba globalne promenljive array na liniji 101: Var array: Arr of int, 0, 0 
+INFO  03:24:58,853 - Detektovana upotreba lokalne promenljive n metode sortArray na liniji 102: Var n: Int , 1, 1 
+INFO  03:24:58,853 - Detektovana upotreba lokalne promenljive i metode sortArray na liniji 104: Var i: Int , 2, 1 
+INFO  03:24:58,854 - Detektovana upotreba lokalne promenljive key metode sortArray na liniji 108: Var key: Int , 3, 1 
+INFO  03:24:58,854 - Detektovana upotreba globalne promenljive array na liniji 108: Var array: Arr of int, 0, 0 
+INFO  03:24:58,854 - Detektovana upotreba lokalne promenljive i metode sortArray na liniji 108: Var i: Int , 2, 1 
+INFO  03:24:58,854 - Detektovan pristup elementu niza array na liniji 108: array: Int , -1, -1 
+INFO  03:24:58,854 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 109: Var j: Int , 4, 1 
+INFO  03:24:58,854 - Detektovana upotreba lokalne promenljive i metode sortArray na liniji 109: Var i: Int , 2, 1 
+INFO  03:24:58,855 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 111: Var j: Int , 4, 1 
+INFO  03:24:58,855 - Detektovana upotreba globalne promenljive array na liniji 111: Var array: Arr of int, 0, 0 
+INFO  03:24:58,855 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 111: Var j: Int , 4, 1 
+INFO  03:24:58,855 - Detektovan pristup elementu niza array na liniji 111: array: Int , -1, -1 
+INFO  03:24:58,855 - Detektovana upotreba lokalne promenljive key metode sortArray na liniji 111: Var key: Int , 3, 1 
+INFO  03:24:58,856 - Detektovana upotreba globalne promenljive array na liniji 114: Var array: Arr of int, 0, 0 
+INFO  03:24:58,856 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 114: Var j: Int , 4, 1 
+INFO  03:24:58,856 - Detektovan pristup elementu niza array na liniji 114: array: Int , -1, -1 
+INFO  03:24:58,856 - Detektovana upotreba globalne promenljive array na liniji 114: Var array: Arr of int, 0, 0 
+INFO  03:24:58,856 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 114: Var j: Int , 4, 1 
+INFO  03:24:58,857 - Detektovan pristup elementu niza array na liniji 114: array: Int , -1, -1 
+INFO  03:24:58,857 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 115: Var j: Int , 4, 1 
+INFO  03:24:58,857 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 115: Var j: Int , 4, 1 
+INFO  03:24:58,857 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 116: Var j: Int , 4, 1 
+INFO  03:24:58,857 - Detektovana upotreba globalne promenljive array na liniji 116: Var array: Arr of int, 0, 0 
+INFO  03:24:58,857 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 116: Var j: Int , 4, 1 
+INFO  03:24:58,858 - Detektovan pristup elementu niza array na liniji 116: array: Int , -1, -1 
+INFO  03:24:58,858 - Detektovana upotreba lokalne promenljive key metode sortArray na liniji 116: Var key: Int , 3, 1 
+INFO  03:24:58,858 - Detektovana upotreba lokalne promenljive i metode sortArray na liniji 117: Var i: Int , 2, 1 
+INFO  03:24:58,858 - Detektovana upotreba globalne promenljive array na liniji 118: Var array: Arr of int, 0, 0 
+INFO  03:24:58,858 - Detektovana upotreba lokalne promenljive j metode sortArray na liniji 118: Var j: Int , 4, 1 
+INFO  03:24:58,859 - Detektovan pristup elementu niza array na liniji 118: array: Int , -1, -1 
+INFO  03:24:58,859 - Detektovana upotreba lokalne promenljive key metode sortArray na liniji 118: Var key: Int , 3, 1 
+INFO  03:24:58,859 - Detektovana upotreba lokalne promenljive i metode sortArray na liniji 119: Var i: Int , 2, 1 
+INFO  03:24:58,859 - Detektovana upotreba lokalne promenljive n metode sortArray na liniji 119: Var n: Int , 1, 1 
+INFO  03:24:58,859 - Detektovana upotreba formalnog parametra res metode printSearchResult na liniji 125: Var res: Int , 0, 1 
+INFO  03:24:58,860 - Detektovana upotreba formalnog parametra res metode printSearchResult na liniji 127: Var res: Int , 0, 1 
+INFO  03:24:58,860 - Detektovana upotreba globalne konstante eol na liniji 130: Con eol: Char , 10, 0 
+INFO  03:24:58,860 - Detektovana upotreba lokalne promenljive loop metode main na liniji 135: Var loop: Bool , 2, 1 
+INFO  03:24:58,861 - Detektovana upotreba lokalne promenljive con metode main na liniji 136: Var con: Char , 6, 1 
+INFO  03:24:58,861 - Detektovana upotreba lokalne promenljive size metode main na liniji 140: Var size: Int , 1, 1 
+INFO  03:24:58,861 - Detektovana upotreba lokalne promenljive size metode main na liniji 141: Var size: Int , 1, 1 
+INFO  03:24:58,861 - Detektovana upotreba globalne konstante eol na liniji 143: Con eol: Char , 10, 0 
+INFO  03:24:58,861 - Detektovana upotreba globalne promenljive array na liniji 146: Var array: Arr of int, 0, 0 
+INFO  03:24:58,862 - Detektovana upotreba lokalne promenljive size metode main na liniji 146: Var size: Int , 1, 1 
+INFO  03:24:58,862 - Detektovano pravljenje niza tipa int na liniji 146
+INFO  03:24:58,862 - Detektovana upotreba lokalne promenljive h metode main na liniji 147: Var h: Class , 0, 1 
+INFO  03:24:58,862 - Detektovana upotreba unutrasnje klase Helper(pravljenje objekta) na liniji 147: Type Helper: Class [], 0, 0 
+INFO  03:24:58,862 - Detektovana upotreba lokalne promenljive h metode main na liniji 148: Var h: Class , 0, 1 
+INFO  03:24:58,863 - Detektovan poziv metode generateArray unutrasnje klase  na liniji 148: Meth generateArray: NoType , 0, 2 
+INFO  03:24:58,863 - Detektovana upotreba lokalne promenljive size metode main na liniji 148: Var size: Int , 1, 1 
+INFO  03:24:58,863 - Detektovana upotreba lokalne promenljive h metode main na liniji 149: Var h: Class , 0, 1 
+INFO  03:24:58,863 - Detektovan poziv metode sortArray unutrasnje klase  na liniji 149: Meth sortArray: NoType , 0, 1 
+INFO  03:24:58,863 - Detektovana upotreba lokalne promenljive loop metode main na liniji 150: Var loop: Bool , 2, 1 
+INFO  03:24:58,864 - Detektovana upotreba lokalne promenljive loop metode main na liniji 151: Var loop: Bool , 2, 1 
+INFO  03:24:58,864 - Detektovana upotreba lokalne promenljive s metode main na liniji 152: Var s: Class , 3, 1 
+INFO  03:24:58,865 - Detektovana upotreba unutrasnje klase Search(pravljenje objekta) na liniji 152: Type Search: Class [], 0, 0 
+INFO  03:24:58,865 - Detektovana upotreba lokalne promenljive elem metode main na liniji 154: Var elem: Int , 5, 1 
+INFO  03:24:58,865 - Detektovana upotreba lokalne promenljive res metode main na liniji 155: Var res: Int , 4, 1 
+INFO  03:24:58,865 - Detektovana upotreba lokalne promenljive s metode main na liniji 155: Var s: Class , 3, 1 
+INFO  03:24:58,865 - Detektovan poziv metode search unutrasnje klase  na liniji 155: Meth search: Int , 0, 5 
+INFO  03:24:58,866 - Detektovana upotreba globalne promenljive array na liniji 155: Var array: Arr of int, 0, 0 
+INFO  03:24:58,866 - Detektovana upotreba lokalne promenljive size metode main na liniji 155: Var size: Int , 1, 1 
+INFO  03:24:58,866 - Detektovana upotreba lokalne promenljive elem metode main na liniji 155: Var elem: Int , 5, 1 
+INFO  03:24:58,867 - Detektovan poziv globalne funkcije printSearchResult na liniji 156: Meth printSearchResult: NoType , 0, 1 
+INFO  03:24:58,867 - Detektovana upotreba lokalne promenljive res metode main na liniji 156: Var res: Int , 4, 1 
+INFO  03:24:58,868 - Detektovana upotreba lokalne promenljive s metode main na liniji 157: Var s: Class , 3, 1 
+INFO  03:24:58,868 - Detektovana upotreba unutrasnje klase BinarySearch(pravljenje objekta) na liniji 157: Type BinarySearch: Class [], 0, 0 
+INFO  03:24:58,868 - Detektovana upotreba lokalne promenljive res metode main na liniji 158: Var res: Int , 4, 1 
+INFO  03:24:58,868 - Detektovana upotreba lokalne promenljive s metode main na liniji 158: Var s: Class , 3, 1 
+INFO  03:24:58,869 - Detektovan poziv metode search unutrasnje klase  na liniji 158: Meth search: Int , 0, 5 
+INFO  03:24:58,869 - Detektovana upotreba globalne promenljive array na liniji 158: Var array: Arr of int, 0, 0 
+INFO  03:24:58,869 - Detektovana upotreba lokalne promenljive size metode main na liniji 158: Var size: Int , 1, 1 
+INFO  03:24:58,870 - Detektovana upotreba lokalne promenljive elem metode main na liniji 158: Var elem: Int , 5, 1 
+INFO  03:24:58,870 - Detektovan poziv globalne funkcije printSearchResult na liniji 159: Meth printSearchResult: NoType , 0, 1 
+INFO  03:24:58,870 - Detektovana upotreba lokalne promenljive res metode main na liniji 159: Var res: Int , 4, 1 
+INFO  03:24:58,870 - Detektovana upotreba lokalne promenljive s metode main na liniji 160: Var s: Class , 3, 1 
+INFO  03:24:58,870 - Detektovana upotreba unutrasnje klase RecursiveBinarySearch(pravljenje objekta) na liniji 160: Type RecursiveBinarySearch: Class [], 0, 0 
+INFO  03:24:58,871 - Detektovana upotreba lokalne promenljive res metode main na liniji 161: Var res: Int , 4, 1 
+INFO  03:24:58,871 - Detektovana upotreba lokalne promenljive s metode main na liniji 161: Var s: Class , 3, 1 
+INFO  03:24:58,871 - Detektovan poziv metode search unutrasnje klase  na liniji 161: Meth search: Int , 0, 5 
+INFO  03:24:58,872 - Detektovana upotreba globalne promenljive array na liniji 161: Var array: Arr of int, 0, 0 
+INFO  03:24:58,872 - Detektovana upotreba lokalne promenljive size metode main na liniji 161: Var size: Int , 1, 1 
+INFO  03:24:58,872 - Detektovana upotreba lokalne promenljive elem metode main na liniji 161: Var elem: Int , 5, 1 
+INFO  03:24:58,872 - Detektovan poziv globalne funkcije printSearchResult na liniji 162: Meth printSearchResult: NoType , 0, 1 
+INFO  03:24:58,872 - Detektovana upotreba lokalne promenljive res metode main na liniji 162: Var res: Int , 4, 1 
+INFO  03:24:58,873 - Detektovana upotreba lokalne promenljive con metode main na liniji 164: Var con: Char , 6, 1 
+INFO  03:24:58,873 - Detektovana upotreba lokalne promenljive con metode main na liniji 165: Var con: Char , 6, 1 
+INFO  03:24:58,873 - Detektovana upotreba globalne konstante eol na liniji 166: Con eol: Char , 10, 0 
+INFO  03:24:58,873 - Detektovana upotreba lokalne promenljive con metode main na liniji 169: Var con: Char , 6, 1 
+INFO  03:24:58,876 - =======================Semanticka analiza uspesno zavrsena========================
+INFO  03:24:58,876 - Generise se bajtkod: D:\Faks\4. godina\PP1\pp1dz_template\workspace\MJCompiler\test\generisanjeTest.obj
+INFO  03:24:58,902 - =============================Zavrseno generisanje koda============================

@@ -1747,5 +1747,95 @@ Detektovana upotreba lokalne promenljive a metode main na liniji 81: Var a: Clas
 Detektovana upotreba lokalne promenljive a metode main na liniji 82: Var a: Class , 0, 1 
 Detektovan poziv metode metoda unutrasnje klase  na liniji 82: Meth metoda: Int , 0, 2 
 Detektovana upotreba lokalne promenljive a metode main na liniji 82: Var a: Class , 0, 1 
+=====================SYMBOL TABLE DUMP=========================
+Type int: Int , -1, -1 
+Type char: Char , -1, -1 
+Con eol: Char , 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: Char , 0, 1 
+   Var i: Int , 0, 1 
+
+Meth ord: Int , 0, 1 
+   Var ch: Char , 0, 1 
+
+Meth len: Int , 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: Bool , -1, -1 
+Prog Program: NoType , 0, 1 
+   Type A: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+      Var this: , 0, 1 
+      Var a: , 1, 1 
+], 0, 0 
+   Con pi: Int , 3, 0 
+   Con e: Int , 2, 0 
+   Type B: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Fld i: Int , 4, 1 Meth metoda: Int , 0, 2 
+      Var this: , 0, 1 
+      Var a: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+         Var this: , 0, 1 
+         Var a: , 1, 1 
+], 1, 1 
+Meth metoda2: Int , 0, 2 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+      Var b: Int , 2, 1 
+      Var c: Bool , 3, 1 
+      Var proba: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+         Var this: , 0, 1 
+         Var a: , 1, 1 
+], 4, 1 
+], 0, 0 
+   Type C: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Fld i: Int , 4, 1 Fld theA: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+      Var this: , 0, 1 
+      Var a: , 1, 1 
+], 5, 1 Meth metoda: Int , 0, 2 
+      Var this: , 0, 1 
+      Var a: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+         Var this: , 0, 1 
+         Var a: , 1, 1 
+], 1, 1 
+Meth metoda2: Int , 0, 2 
+      Var this: , 0, 1 
+      Var a: Int , 1, 1 
+      Var b: Int , 2, 1 
+      Var c: Bool , 3, 1 
+      Var proba: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+         Var this: , 0, 1 
+         Var a: , 1, 1 
+], 4, 1 
+], 0, 0 
+   Meth proba: NoType , 0, 1 
+      Var s: Int , 0, 1 
+
+   Meth main: NoType , 0, 0 
+      Var a: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+         Var this: , 0, 1 
+         Var a: , 1, 1 
+], 0, 1 
+      Var c: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Fld i: Int , 4, 1 Fld theA: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+         Var this: , 0, 1 
+         Var a: , 1, 1 
+], 5, 1 Meth metoda: Int , 0, 2 
+         Var this: , 0, 1 
+         Var a: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+            Var this: , 0, 1 
+            Var a: , 1, 1 
+], 1, 1 
+Meth metoda2: Int , 0, 2 
+         Var this: , 0, 1 
+         Var a: Int , 1, 1 
+         Var b: Int , 2, 1 
+         Var c: Bool , 3, 1 
+         Var proba: Class [Fld 1vft: Int , 0, 1 Fld x: Arr of int, 1, 1 Fld y: Arr of int, 2, 1 Fld b: Int , 3, 1 Meth metoda: Int , 0, 2 
+            Var this: , 0, 1 
+            Var a: , 1, 1 
+], 4, 1 
+], 1, 1 
+      Var i: Int , 2, 1 
+      Var x: Arr of int, 3, 1 
+      Var g: Char , 4, 1 
+
+
+
 =======================Semanticka analiza uspesno zavrsena========================
 =============================Zavrseno generisanje koda============================
